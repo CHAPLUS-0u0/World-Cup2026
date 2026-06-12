@@ -31,6 +31,8 @@ const FLAG_CODE = {
   'Myanmar':'mm','Vietnam':'vn','Laos':'la','Cambodia':'kh',
   'Philippines':'ph','Malaysia':'my','Singapore':'sg',
   'Puerto Rico':'pr','Suriname':'sr','Guyana':'gy',
+  'Curaçao':'cw','Curaçao':'cw','Sweden':'se','Cape Verde Islands':'cv','Cape Verde':'cv',
+  'Congo':'cg','Guinea-Bissau':'gw','Sierra Leone':'sl','Togo':'tg','Burkina Faso':'bf',
   'Kosovo':'xk','North Macedonia':'mk','Albania':'al',
   'Montenegro':'me','Bosnia':'ba','Georgia':'ge','Armenia':'am',
   'Azerbaijan':'az','Moldova':'md','Belarus':'by','Lithuania':'lt',
@@ -66,6 +68,9 @@ const JA_NAME = {
   'Syria':'シリア','Palestine':'パレスチナ','Jordan':'ヨルダン',
   'Vietnam':'ベトナム','Philippines':'フィリピン','Malaysia':'マレーシア',
   'Puerto Rico':'プエルトリコ','Suriname':'スリナム','Guyana':'ガイアナ',
+  'Curaçao':'キュラソー','Sweden':'スウェーデン','Cape Verde Islands':'カーボベルデ',
+  'Congo':'コンゴ共和国','Guinea-Bissau':'ギニアビサウ','Sierra Leone':'シエラレオネ',
+  'Togo':'トーゴ','Burkina Faso':'ブルキナファソ',
   'Kosovo':'コソボ','North Macedonia':'北マケドニア','Albania':'アルバニア',
   'Montenegro':'モンテネグロ','Georgia':'ジョージア','Armenia':'アルメニア',
   'Azerbaijan':'アゼルバイジャン','Moldova':'モルドバ','Belarus':'ベラルーシ',
@@ -225,13 +230,13 @@ function renderStandings(standings) {
       <div class="group-header">${name}</div>
       <table style="table-layout:fixed;width:100%">
         <colgroup>
-          <col style="width:24px">
-          <col>
-          <col style="width:24px">
-          <col style="width:24px">
-          <col style="width:24px">
-          <col style="width:24px">
-          <col style="width:32px">
+          <col style="width:22px">
+          <col style="width:auto;max-width:120px">
+          <col style="width:22px">
+          <col style="width:22px">
+          <col style="width:22px">
+          <col style="width:22px">
+          <col style="width:30px">
         </colgroup>
         <tr>
           <td style="color:var(--muted);font-size:0.68rem">#</td>
