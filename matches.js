@@ -284,7 +284,14 @@ function formatDateLabel(dateStr) {
 
 function formatTime(utcStr) {
   const d = new Date(utcStr);
-  return d.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Tokyo' }) + ' JST';
+  const todayJST = new Date().toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo' });
+  const matchDayJST = d.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo' });
+  const timeStr = d.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Tokyo' });
+  if (matchDayJST !== todayJST) {
+    const m = d.toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric', timeZone: 'Asia/Tokyo' });
+    return `${m} ${timeStr} JST`;
+  }
+  return timeStr + ' JST';
 }
 
 function stageLabel(stage) {
