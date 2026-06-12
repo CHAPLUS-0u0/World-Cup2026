@@ -243,7 +243,7 @@ function renderStandings(standings) {
       const gd = (row.goalsFor - row.goalsAgainst > 0 ? '+' : '') + (row.goalsFor - row.goalsAgainst);
       html += `<tr>
         <td class="rank">${row.position}</td>
-        <td style="overflow:hidden"><div class="g-team">${getFlag(name)}<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${getJaName(name)}</span></div></td>
+        <td><div class="g-team">${getFlag(name)}<br><span>${getJaName(name)}</span></div></td>
         <td style="text-align:center">${row.playedGames}</td>
         <td style="text-align:center;font-size:0.72rem;color:var(--muted)">${gd}</td>
         <td class="g-pts" style="text-align:center">${row.points}</td>
