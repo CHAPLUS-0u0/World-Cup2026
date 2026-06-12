@@ -59,23 +59,17 @@ let allMatches = [];
 let currentFilter = 'all';
 
 async function apiFetch(path) {
-  const url = `${CONFIG.BASE_URL}${path}`;
-  const headers = { 'X-Auth-Token': CONFIG.API_KEY };
-  const proxies = [
-    // 直接アクセス
-    () => fetch(url, { headers }),
-    // corsproxy.io（ヘッダー転送あり）
-    () => fetch(`https://corsproxy.io/?url=${encodeURIComponent(url)}`, { headers }),
-    // proxy.cors.sh
-    () => fetch(`https://proxy.cors.sh/${url}`, { headers: { ...headers, 'x-cors-api-key': 'temp_demo' } }),
-  ];
-  for (const attempt of proxies) {
-    try {
-      const res = await attempt();
-      if (res.ok) return res.json();
-    } catch {}
+  // GitHub Actionsが生成したローカルJSONを読む（CORSなし）
+  const fileMap = {
+    '/competitions/WC/matches': 'data/matches.json',
+    '/competitions/WC/standings': 'data/standings.json',
+  };
+  const key = Object.keys(fileMap).find(k => path.startsWith(k));
+  if (key) {
+    const res = await fetch(fileMap[key] + '?t=' + Date.now());
+    if (res.ok) return res.json();
   }
-  throw new Error('全プロキシで取得失敗');
+  throw new Error('データファイルが見つかりません');
 }
 
 async function fetchMatches() {
