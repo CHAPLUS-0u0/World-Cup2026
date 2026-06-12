@@ -141,6 +141,14 @@ function renderMatches(filter) {
     filtered = allMatches.filter(m =>
       m.homeTeam.name === 'Japan' || m.awayTeam.name === 'Japan'
     );
+  } else if (filter.startsWith('country:')) {
+    const q = filter.slice(8).toLowerCase();
+    filtered = allMatches.filter(m => {
+      const h = m.homeTeam.name || '';
+      const a = m.awayTeam.name || '';
+      return h.toLowerCase().includes(q) || a.toLowerCase().includes(q) ||
+             getJaName(h).includes(q) || getJaName(a).includes(q);
+    });
   }
 
   if (filtered.length === 0) {
@@ -271,6 +279,59 @@ function stageLabel(stage) {
     'FINAL': '決勝',
   };
   return map[stage] || stage;
+}
+
+// ── 国検索 ──
+function getTeamsInMatches() {
+  const teams = new Set();
+  allMatches.forEach(m => {
+    if (m.homeTeam.name) teams.add(m.homeTeam.name);
+    if (m.awayTeam.name) teams.add(m.awayTeam.name);
+  });
+  return Array.from(teams).sort((a, b) => getJaName(a).localeCompare(getJaName(b), 'ja'));
+}
+
+function onSearchInput(val) {
+  document.querySelectorAll('#matchFilterTabs .tab-btn').forEach(b => b.classList.remove('active'));
+  if (!val.trim()) { filterMatches('all'); showSuggestions(); return; }
+  const teams = getTeamsInMatches().filter(t =>
+    getJaName(t).includes(val) || t.toLowerCase().includes(val.toLowerCase())
+  );
+  renderSuggestions(teams);
+  document.getElementById('countrySuggestions').style.display = 'block';
+  // 入力中もリアルタイムで絞り込み
+  currentFilter = 'country:' + val;
+  renderMatches('country:' + val);
+}
+
+function showSuggestions() {
+  const val = document.getElementById('countrySearch').value;
+  const teams = val ? getTeamsInMatches().filter(t =>
+    getJaName(t).includes(val) || t.toLowerCase().includes(val.toLowerCase())
+  ) : getTeamsInMatches();
+  renderSuggestions(teams);
+  document.getElementById('countrySuggestions').style.display = 'block';
+}
+
+function hideSuggestions() {
+  document.getElementById('countrySuggestions').style.display = 'none';
+}
+
+function renderSuggestions(teams) {
+  const el = document.getElementById('countrySuggestions');
+  if (teams.length === 0) { el.innerHTML = '<div style="padding:10px 14px;color:#999;font-size:0.83rem">見つかりません</div>'; return; }
+  el.innerHTML = teams.map(t => `
+    <div onclick="selectCountry('${t}')" style="padding:8px 14px;cursor:pointer;font-size:0.85rem;display:flex;align-items:center;gap:8px;transition:background .1s"
+      onmouseover="this.style.background='#f0f4ff'" onmouseout="this.style.background=''">
+      ${getFlag(t)} ${getJaName(t)}
+    </div>`).join('');
+}
+
+function selectCountry(name) {
+  document.getElementById('countrySearch').value = getJaName(name);
+  document.getElementById('countrySuggestions').style.display = 'none';
+  currentFilter = 'country:' + name;
+  renderMatches('country:' + name);
 }
 
 // 初回取得 + 1分ごとに自動更新
