@@ -19,9 +19,22 @@ const FLAG_CODE = {
   'Cuba':'cu','Jamaica':'jm','Trinidad and Tobago':'tt',
   'Kenya':'ke','Tanzania':'tz','Zambia':'zm','Zimbabwe':'zw',
   'Libya':'ly','Sudan':'sd','Ethiopia':'et',
-  'El Salvador':'sv','Nicaragua':'ni','Cuba':'cu',
+  'El Salvador':'sv','Nicaragua':'ni',
   'United Arab Emirates':'ae','Bahrain':'bh','Kuwait':'kw','Oman':'om',
   'New Caledonia':'nc','Fiji':'fj','Vanuatu':'vu',
+  'Bosnia and Herzegovina':'ba','Bosnia-Herzegovina':'ba',
+  'Haiti':'ht','Benin':'bj','Comoros':'km','Tanzania':'tz',
+  'Namibia':'na','Rwanda':'rw','Equatorial Guinea':'gq',
+  'Cape Verde':'cv','Mauritania':'mr','Guinea':'gn',
+  'Kyrgyzstan':'kg','Tajikistan':'tj','Lebanon':'lb','Syria':'sy',
+  'Palestine':'ps','Jordan':'jo','Yemen':'ye',
+  'Myanmar':'mm','Vietnam':'vn','Laos':'la','Cambodia':'kh',
+  'Philippines':'ph','Malaysia':'my','Singapore':'sg',
+  'Puerto Rico':'pr','Suriname':'sr','Guyana':'gy',
+  'Kosovo':'xk','North Macedonia':'mk','Albania':'al',
+  'Montenegro':'me','Bosnia':'ba','Georgia':'ge','Armenia':'am',
+  'Azerbaijan':'az','Moldova':'md','Belarus':'by','Lithuania':'lt',
+  'Latvia':'lv','Estonia':'ee',
 };
 
 // 日本語チーム名
@@ -45,6 +58,18 @@ const JA_NAME = {
   'Austria':'オーストリア','Hungary':'ハンガリー','Scotland':'スコットランド',
   'Iraq':'イラク','Uzbekistan':'ウズベキスタン','Thailand':'タイ','China PR':'中国',
   'Cuba':'キューバ','Jamaica':'ジャマイカ','Trinidad and Tobago':'T&T',
+  'Bosnia and Herzegovina':'ボスニア','Bosnia-Herzegovina':'ボスニア',
+  'Haiti':'ハイチ','Benin':'ベナン','Comoros':'コモロ','Namibia':'ナミビア',
+  'Rwanda':'ルワンダ','Equatorial Guinea':'赤道ギニア','Cape Verde':'カーボベルデ',
+  'Mauritania':'モーリタニア','Guinea':'ギニア',
+  'Kyrgyzstan':'キルギス','Tajikistan':'タジキスタン','Lebanon':'レバノン',
+  'Syria':'シリア','Palestine':'パレスチナ','Jordan':'ヨルダン',
+  'Vietnam':'ベトナム','Philippines':'フィリピン','Malaysia':'マレーシア',
+  'Puerto Rico':'プエルトリコ','Suriname':'スリナム','Guyana':'ガイアナ',
+  'Kosovo':'コソボ','North Macedonia':'北マケドニア','Albania':'アルバニア',
+  'Montenegro':'モンテネグロ','Georgia':'ジョージア','Armenia':'アルメニア',
+  'Azerbaijan':'アゼルバイジャン','Moldova':'モルドバ','Belarus':'ベラルーシ',
+  'Lithuania':'リトアニア','Latvia':'ラトビア','Estonia':'エストニア',
 };
 
 function getFlag(name) {
