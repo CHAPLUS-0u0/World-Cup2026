@@ -267,12 +267,15 @@ nav {
   white-space: nowrap;
 }
 
+.group-card .g-team {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
 .group-card .g-team span {
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 80px;
-  display: inline-block;
 }
 
 .group-card tr:last-child td { border-bottom: none; }
