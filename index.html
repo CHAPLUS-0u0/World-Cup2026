@@ -58,11 +58,19 @@
 
   <!-- MATCHES TAB -->
   <div id="tab-matches">
-    <div class="tabs" id="matchFilterTabs">
-      <button class="tab-btn active" onclick="filterMatches('all')">全試合</button>
-      <button class="tab-btn" onclick="filterMatches('LIVE')">LIVE</button>
-      <button class="tab-btn" onclick="filterMatches('today')">今日</button>
-      <button class="tab-btn" onclick="filterMatches('japan')">日本</button>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:18px">
+      <div class="tabs" id="matchFilterTabs" style="margin-bottom:0">
+        <button class="tab-btn active" onclick="filterMatches('all')">全試合</button>
+        <button class="tab-btn" onclick="filterMatches('LIVE')">LIVE</button>
+        <button class="tab-btn" onclick="filterMatches('today')">今日</button>
+        <button class="tab-btn" onclick="filterMatches('japan')">🇯🇵 日本</button>
+      </div>
+      <div style="position:relative">
+        <input id="countrySearch" type="text" placeholder="🔍 国を検索..." oninput="onSearchInput(this.value)" onfocus="showSuggestions()" onblur="setTimeout(hideSuggestions,200)"
+          style="border:1.5px solid var(--card-border);border-radius:7px;padding:7px 14px;font-size:0.83rem;font-family:inherit;color:var(--text);background:#fff;outline:none;width:160px;transition:border-color .15s"
+          onfocusin="this.style.borderColor='var(--primary)'" onfocusout="this.style.borderColor='var(--card-border)'">
+        <div id="countrySuggestions" style="display:none;position:absolute;top:100%;left:0;background:#fff;border:1.5px solid var(--card-border);border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.1);z-index:50;min-width:200px;max-height:240px;overflow-y:auto;margin-top:4px"></div>
+      </div>
     </div>
     <div id="matchesContainer">
       <div class="loading"><div class="spinner"></div>試合データ取得中...</div>
