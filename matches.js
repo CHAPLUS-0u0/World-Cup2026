@@ -58,23 +58,24 @@ function getJaName(name) { return JA_NAME[name] || name; }
 let allMatches = [];
 let currentFilter = 'all';
 
-function apiUrl(path) {
-  const target = encodeURIComponent(`${CONFIG.BASE_URL}${path}`);
-  return `https://corsproxy.io/?url=${target}&headers=${encodeURIComponent(JSON.stringify({'X-Auth-Token': CONFIG.API_KEY}))}`;
-}
-
 async function apiFetch(path) {
   const url = `${CONFIG.BASE_URL}${path}`;
-  // まず直接試みる（GitHub Pages等では動く場合がある）
-  try {
-    const res = await fetch(url, { headers: { 'X-Auth-Token': CONFIG.API_KEY } });
-    if (res.ok) return res.json();
-  } catch {}
-  // フォールバック: corsproxy.io経由（ヘッダーも転送してくれる）
-  const proxied = `https://corsproxy.io/?url=${encodeURIComponent(url)}`;
-  const res = await fetch(proxied, { headers: { 'X-Auth-Token': CONFIG.API_KEY } });
-  if (!res.ok) throw new Error(`API error: ${res.status}`);
-  return res.json();
+  const headers = { 'X-Auth-Token': CONFIG.API_KEY };
+  const proxies = [
+    // 直接アクセス
+    () => fetch(url, { headers }),
+    // corsproxy.io（ヘッダー転送あり）
+    () => fetch(`https://corsproxy.io/?url=${encodeURIComponent(url)}`, { headers }),
+    // proxy.cors.sh
+    () => fetch(`https://proxy.cors.sh/${url}`, { headers: { ...headers, 'x-cors-api-key': 'temp_demo' } }),
+  ];
+  for (const attempt of proxies) {
+    try {
+      const res = await attempt();
+      if (res.ok) return res.json();
+    } catch {}
+  }
+  throw new Error('全プロキシで取得失敗');
 }
 
 async function fetchMatches() {
