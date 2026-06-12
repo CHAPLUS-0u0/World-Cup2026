@@ -233,6 +233,70 @@ nav {
 .match-time { font-size: 0.74rem; color: var(--muted); margin-top: 3px; }
 .match-info { font-size: 0.69rem; color: var(--muted); margin-top: 2px; }
 
+.match-card.expandable { cursor: pointer; }
+.match-card.expandable:hover { border-color: #93b4fd; }
+.match-card.expanded { border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-bottom-color: transparent; }
+
+.detail-hint {
+  font-size: 0.64rem;
+  color: var(--primary);
+  margin-top: 5px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.match-detail {
+  background: #f8faff;
+  border: 1.5px solid #93b4fd;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 8px;
+  animation: slideDown 0.15s ease;
+}
+
+@keyframes slideDown { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+
+.match-detail-inner { padding: 12px 18px 14px; }
+
+.detail-section { margin-bottom: 10px; }
+.detail-section:last-child { margin-bottom: 0; }
+
+.detail-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.detail-goals {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 0 12px;
+}
+
+.detail-goals-mid { background: var(--card-border); }
+
+.detail-goals-col { display: flex; flex-direction: column; gap: 3px; }
+.detail-goals-away { align-items: flex-end; }
+
+.goal-row {
+  font-size: 0.78rem;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.detail-goals-away .goal-row { flex-direction: row-reverse; }
+
+.scorer-name { font-weight: 600; }
+.goal-min { color: var(--muted); font-size: 0.71rem; }
+.assist-name { color: var(--muted); font-size: 0.71rem; }
+.no-event { color: var(--muted); font-size: 0.75rem; }
+
 /* ── STANDINGS ── */
 .group-grid {
   display: grid;
