@@ -182,6 +182,9 @@ function renderMatches(filter) {
   document.getElementById('matchesContainer').innerHTML = html;
 }
 
+// 試合詳細データ保持用
+const matchDataMap = {};
+
 function matchCardHTML(m) {
   const home = m.homeTeam.name || m.homeTeam.shortName || '?';
   const away = m.awayTeam.name || m.awayTeam.shortName || '?';
@@ -200,8 +203,11 @@ function matchCardHTML(m) {
   const stage = m.stage ? stageLabel(m.stage) : '';
   const group = m.group ? ` | ${m.group.replace('GROUP_', 'グループ ')}` : '';
 
+  const hasDetails = (isFinished || isLive) && (m.goals?.length > 0 || m.bookings?.length > 0);
+  matchDataMap[m.id] = m;
+
   return `
-    <div class="match-card ${isLive ? 'live' : ''}">
+    <div class="match-card ${isLive ? 'live' : ''} ${hasDetails ? 'expandable' : ''}" ${hasDetails ? `onclick="toggleMatchDetail(${m.id})"` : ''} id="card-${m.id}">
       <div class="team home">
         <span class="team-name">${getJaName(home)}</span>
         <span class="team-flag">${getFlag(home)}</span>
@@ -210,12 +216,98 @@ function matchCardHTML(m) {
         <div class="match-score">${score}</div>
         <span class="match-status ${statusClass}">${statusLabel}</span>
         <div class="match-info">${stage}${group}</div>
+        ${hasDetails ? '<div class="detail-hint">▼ 詳細</div>' : ''}
       </div>
       <div class="team away">
         <span class="team-flag">${getFlag(away)}</span>
         <span class="team-name">${getJaName(away)}</span>
       </div>
+    </div>
+    <div class="match-detail" id="detail-${m.id}" style="display:none"></div>`;
+}
+
+function toggleMatchDetail(id) {
+  const detail = document.getElementById(`detail-${id}`);
+  const card = document.getElementById(`card-${id}`);
+  const hint = card.querySelector('.detail-hint');
+  if (detail.style.display === 'none') {
+    detail.innerHTML = buildDetailHTML(matchDataMap[id]);
+    detail.style.display = 'block';
+    if (hint) hint.textContent = '▲ 閉じる';
+    card.classList.add('expanded');
+  } else {
+    detail.style.display = 'none';
+    if (hint) hint.textContent = '▼ 詳細';
+    card.classList.remove('expanded');
+  }
+}
+
+function buildDetailHTML(m) {
+  const home = m.homeTeam.name;
+  const away = m.awayTeam.name;
+  const goals = m.goals || [];
+  const bookings = m.bookings || [];
+
+  // ゴール記録
+  const homeGoals = goals.filter(g => g.team?.name === home);
+  const awayGoals = goals.filter(g => g.team?.name === away);
+
+  let goalsHTML = '';
+  if (goals.length > 0) {
+    goalsHTML = `<div class="detail-section">
+      <div class="detail-label">⚽ ゴール</div>
+      <div class="detail-goals">
+        <div class="detail-goals-col">
+          ${homeGoals.map(g => goalRow(g)).join('') || '<span class="no-event">-</span>'}
+        </div>
+        <div class="detail-goals-mid"></div>
+        <div class="detail-goals-col detail-goals-away">
+          ${awayGoals.map(g => goalRow(g)).join('') || '<span class="no-event">-</span>'}
+        </div>
+      </div>
     </div>`;
+  } else {
+    goalsHTML = `<div class="detail-section"><div class="detail-label">⚽ ゴール</div><div style="color:var(--muted);font-size:0.78rem;padding:4px 0">得点なし</div></div>`;
+  }
+
+  // カード記録
+  let bookingsHTML = '';
+  if (bookings.length > 0) {
+    const homeCards = bookings.filter(b => b.team?.name === home);
+    const awayCards = bookings.filter(b => b.team?.name === away);
+    if (homeCards.length > 0 || awayCards.length > 0) {
+      bookingsHTML = `<div class="detail-section">
+        <div class="detail-label">🟨 カード</div>
+        <div class="detail-goals">
+          <div class="detail-goals-col">${homeCards.map(b => bookingRow(b)).join('') || ''}</div>
+          <div class="detail-goals-mid"></div>
+          <div class="detail-goals-col detail-goals-away">${awayCards.map(b => bookingRow(b)).join('') || ''}</div>
+        </div>
+      </div>`;
+    }
+  }
+
+  // 前半スコア
+  const htHome = m.score?.halfTime?.home;
+  const htAway = m.score?.halfTime?.away;
+  const htHTML = (htHome !== null && htHome !== undefined) ?
+    `<div class="detail-section"><div class="detail-label">前半スコア</div><div style="font-size:0.83rem;font-weight:700;color:var(--text)">${htHome} - ${htAway}</div></div>` : '';
+
+  return `<div class="match-detail-inner">${goalsHTML}${bookingsHTML}${htHTML}</div>`;
+}
+
+function goalRow(g) {
+  const min = g.minute ? `${g.minute}'` : '';
+  const inj = g.injuryTime ? `+${g.injuryTime}` : '';
+  const typeIcon = g.type === 'OWN' ? '🔴' : g.type === 'PENALTY' ? '🎯' : '⚽';
+  const assist = g.assist?.name ? `<span class="assist-name">🅰 ${g.assist.name}</span>` : '';
+  return `<div class="goal-row">${typeIcon} <span class="scorer-name">${g.scorer?.name || '?'}</span> <span class="goal-min">${min}${inj}</span>${assist}</div>`;
+}
+
+function bookingRow(b) {
+  const icon = b.card === 'RED_CARD' ? '🟥' : b.card === 'YELLOW_RED_CARD' ? '🟥' : '🟨';
+  const min = b.minute ? `${b.minute}'` : '';
+  return `<div class="goal-row">${icon} <span class="scorer-name">${b.player?.name || '?'}</span> <span class="goal-min">${min}</span></div>`;
 }
 
 function renderStandings(standings) {
