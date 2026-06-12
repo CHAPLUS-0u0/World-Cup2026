@@ -225,27 +225,32 @@ function renderStandings(standings) {
       <div class="group-header">${name}</div>
       <table style="table-layout:fixed;width:100%">
         <colgroup>
-          <col style="width:28px">
+          <col style="width:24px">
           <col>
-          <col style="width:28px">
-          <col style="width:28px">
-          <col style="width:36px">
+          <col style="width:24px">
+          <col style="width:24px">
+          <col style="width:24px">
+          <col style="width:24px">
+          <col style="width:32px">
         </colgroup>
         <tr>
-          <td style="color:var(--muted);font-size:0.7rem">#</td>
-          <td style="color:var(--muted);font-size:0.7rem">チーム</td>
-          <td style="color:var(--muted);font-size:0.7rem;text-align:center">試</td>
-          <td style="color:var(--muted);font-size:0.7rem;text-align:center">得失</td>
-          <td style="color:var(--muted);font-size:0.7rem;text-align:center">勝点</td>
+          <td style="color:var(--muted);font-size:0.68rem">#</td>
+          <td style="color:var(--muted);font-size:0.68rem">チーム</td>
+          <td style="color:var(--muted);font-size:0.68rem;text-align:center">試</td>
+          <td style="color:var(--muted);font-size:0.68rem;text-align:center">勝</td>
+          <td style="color:var(--muted);font-size:0.68rem;text-align:center">分</td>
+          <td style="color:var(--muted);font-size:0.68rem;text-align:center">負</td>
+          <td style="color:var(--muted);font-size:0.68rem;text-align:center">勝点</td>
         </tr>`;
     group.table.forEach(row => {
       const name = row.team.name;
-      const gd = (row.goalsFor - row.goalsAgainst > 0 ? '+' : '') + (row.goalsFor - row.goalsAgainst);
       html += `<tr>
         <td class="rank">${row.position}</td>
-        <td><div class="g-team">${getFlag(name)}<br><span>${getJaName(name)}</span></div></td>
-        <td style="text-align:center">${row.playedGames}</td>
-        <td style="text-align:center;font-size:0.72rem;color:var(--muted)">${gd}</td>
+        <td><div class="g-team">${getFlag(name)}<span>${getJaName(name)}</span></div></td>
+        <td style="text-align:center;font-size:0.8rem">${row.playedGames}</td>
+        <td style="text-align:center;font-size:0.8rem">${row.won}</td>
+        <td style="text-align:center;font-size:0.8rem">${row.draw}</td>
+        <td style="text-align:center;font-size:0.8rem">${row.lost}</td>
         <td class="g-pts" style="text-align:center">${row.points}</td>
       </tr>`;
     });
