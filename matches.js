@@ -246,7 +246,7 @@ function renderStandings(standings) {
       const name = row.team.name;
       html += `<tr>
         <td class="rank">${row.position}</td>
-        <td><div class="g-team">${getFlag(name)}<span>${getJaName(name)}</span></div></td>
+        <td><div class="g-team">${getFlag(name)}<br><span>${getJaName(name)}</span></div></td>
         <td style="text-align:center;font-size:0.8rem">${row.playedGames}</td>
         <td style="text-align:center;font-size:0.8rem">${row.won}</td>
         <td style="text-align:center;font-size:0.8rem">${row.draw}</td>
