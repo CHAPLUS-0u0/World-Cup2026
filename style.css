@@ -260,10 +260,19 @@ nav {
 .group-card table { width: 100%; border-collapse: collapse; }
 
 .group-card td {
-  padding: 7px 10px;
+  padding: 6px 8px;
   font-size: 0.78rem;
   border-bottom: 1px solid #f1f5f9;
   color: var(--text);
+  white-space: nowrap;
+}
+
+.group-card .g-team span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80px;
+  display: inline-block;
 }
 
 .group-card tr:last-child td { border-bottom: none; }
