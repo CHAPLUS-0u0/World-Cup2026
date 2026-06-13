@@ -353,7 +353,6 @@ nav {
 
 .group-card tr:last-child td { border-bottom: none; }
 .group-card .g-pts { font-weight: 800; color: var(--accent); }
-.group-card .g-team { display: flex; align-items: center; gap: 7px; }
 .rank { color: var(--muted); font-weight: 700; }
 
 /* ── NEWS ── */
