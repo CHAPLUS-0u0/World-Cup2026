@@ -341,6 +341,7 @@ function renderStandings(standings) {
     const name = group.group ? group.group.replace('GROUP_', 'グループ ') : group.stage;
     html += `<div class="group-card">
       <div class="group-header">${name}</div>
+      <div style="padding: 0 10px">
       <table style="table-layout:fixed;width:100%">
         <colgroup>
           <col style="width:22px">
@@ -364,7 +365,7 @@ function renderStandings(standings) {
       const name = row.team.name;
       html += `<tr>
         <td class="rank">${row.position}</td>
-        <td><div class="g-team">${getFlag(name)}<br><span>${getJaName(name)}</span></div></td>
+        <td><div class="g-team">${getFlag(name)}<span>${getJaName(name)}</span></div></td>
         <td style="text-align:center;font-size:0.8rem">${row.playedGames}</td>
         <td style="text-align:center;font-size:0.8rem">${row.won}</td>
         <td style="text-align:center;font-size:0.8rem">${row.draw}</td>
@@ -372,7 +373,7 @@ function renderStandings(standings) {
         <td class="g-pts" style="text-align:center">${row.points}</td>
       </tr>`;
     });
-    html += '</table></div>';
+    html += '</table></div></div>';
   });
   html += '</div>';
   document.getElementById('standingsContainer').innerHTML = html;
