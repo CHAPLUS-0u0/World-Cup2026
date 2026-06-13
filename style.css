@@ -333,22 +333,24 @@ nav {
 
 .group-card .g-team {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 3px;
-  text-align: center;
+  gap: 7px;
 }
 
 .group-card .g-team img {
-  width: 28px;
-  height: 21px;
+  width: 24px;
+  height: 18px;
   border-radius: 2px;
+  flex-shrink: 0;
 }
 
 .group-card .g-team span {
   font-size: 0.78rem;
   font-weight: 600;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .group-card tr:last-child td { border-bottom: none; }
