@@ -79,13 +79,32 @@ const JA_NAME = {
   'Lithuania':'リトアニア','Latvia':'ラトビア','Estonia':'エストニア',
 };
 
+// 正規化済みルックアップテーブル（特殊文字・大小文字の違いを吸収）
+function _buildNorm(map) {
+  const n = {};
+  Object.entries(map).forEach(([k, v]) => {
+    n[k.toLowerCase().normalize('NFC')] = v;
+    n[k.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')] = v;
+  });
+  return n;
+}
+const _FLAG_NORM = _buildNorm(FLAG_CODE);
+const _JA_NORM   = _buildNorm(JA_NAME);
+
 function getFlag(name) {
-  const code = FLAG_CODE[name];
+  const code = FLAG_CODE[name]
+    || _FLAG_NORM[name.toLowerCase().normalize('NFC')]
+    || _FLAG_NORM[name.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')];
   if (!code) return `<span style="font-size:1.1rem">🏳</span>`;
   return `<img src="https://flagcdn.com/32x24/${code}.png" width="32" height="24" style="border-radius:2px;object-fit:cover;vertical-align:middle" alt="${name}">`;
 }
 
-function getJaName(name) { return JA_NAME[name] || name; }
+function getJaName(name) {
+  return JA_NAME[name]
+    || _JA_NORM[name.toLowerCase().normalize('NFC')]
+    || _JA_NORM[name.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')]
+    || name;
+}
 
 let allMatches = [];
 let currentFilter = 'all';
