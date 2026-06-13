@@ -17,18 +17,18 @@
 </nav>
 
 <div class="hero">
-  <h1>ワールドカップ ニュース</h1>
+  <h1>ワールドカップ <span>ニュース</span></h1>
   <p>日本代表・強豪国の最新情報を集約</p>
 </div>
 
 <div class="container">
-  <div class="tabs">
-    <button class="tab-btn active" onclick="loadNews('japan')">🇯🇵 日本代表</button>
-    <button class="tab-btn" onclick="loadNews('brazil')">🇧🇷 ブラジル</button>
-    <button class="tab-btn" onclick="loadNews('france')">🇫🇷 フランス</button>
-    <button class="tab-btn" onclick="loadNews('germany')">🇩🇪 ドイツ</button>
-    <button class="tab-btn" onclick="loadNews('spain')">🇪🇸 スペイン</button>
-    <button class="tab-btn" onclick="loadNews('worldcup')">🌍 W杯全般</button>
+  <div class="tabs" id="newsTabs">
+    <button class="tab-btn active" onclick="showTeam('japan', this)">🇯🇵 日本代表</button>
+    <button class="tab-btn" onclick="showTeam('brazil', this)">🇧🇷 ブラジル</button>
+    <button class="tab-btn" onclick="showTeam('france', this)">🇫🇷 フランス</button>
+    <button class="tab-btn" onclick="showTeam('germany', this)">🇩🇪 ドイツ</button>
+    <button class="tab-btn" onclick="showTeam('spain', this)">🇪🇸 スペイン</button>
+    <button class="tab-btn" onclick="showTeam('worldcup', this)">🌍 W杯全般</button>
   </div>
 
   <div id="newsContainer">
@@ -38,139 +38,68 @@
 </div>
 
 <script>
-const NEWS_SOURCES = {
-  japan: [
-    {
-      name: 'NHK スポーツ',
-      url: 'https://www3.nhk.or.jp/rss/news/cat7.xml',
-      keyword: '日本代表|サッカー日本|ワールドカップ'
-    },
-    {
-      name: 'スポニチ サッカー',
-      url: 'https://rss.sponichi.co.jp/news/soccer/rss.xml',
-      keyword: '日本代表|W杯'
-    }
-  ],
-  worldcup: [
-    {
-      name: 'BBC Sport Football',
-      url: 'https://feeds.bbci.co.uk/sport/football/rss.xml',
-      keyword: 'World Cup|FIFA'
-    },
-    {
-      name: 'Goal.com',
-      url: 'https://www.goal.com/feeds/en/news',
-      keyword: 'World Cup'
-    }
-  ],
-  brazil: [{ name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/football/rss.xml', keyword: 'Brazil' }],
-  france: [{ name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/football/rss.xml', keyword: 'France' }],
-  germany: [{ name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/football/rss.xml', keyword: 'Germany' }],
-  spain: [{ name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/football/rss.xml', keyword: 'Spain' }],
-};
+let newsData = null;
 
-// CORSを回避するためRSSをGoogleのAPIで取得
-const RSS_PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=';
+async function loadNewsData() {
+  if (newsData) return newsData;
+  const res = await fetch('data/news.json?t=' + Date.now());
+  if (!res.ok) throw new Error('news.json が見つかりません');
+  newsData = await res.json();
+  return newsData;
+}
 
-let currentTeam = 'japan';
-
-async function loadNews(team) {
-  currentTeam = team;
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+async function showTeam(team, btn) {
+  document.querySelectorAll('#newsTabs .tab-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
 
   document.getElementById('newsContainer').innerHTML =
     '<div class="loading"><div class="spinner"></div>ニュース取得中...</div>';
 
-  const sources = NEWS_SOURCES[team] || [];
-  const results = await Promise.allSettled(sources.map(s => fetchRSS(s)));
+  try {
+    const data = await loadNewsData();
+    const articles = data[team] || [];
 
-  let articles = [];
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled') {
-      const src = sources[i];
-      const filtered = r.value.filter(a => {
-        const kws = src.keyword.split('|');
-        return kws.some(k => (a.title + ' ' + (a.description||'')).includes(k));
-      });
-      filtered.forEach(a => { a._source = src.name; });
-      articles = articles.concat(filtered.slice(0, 8));
+    if (articles.length === 0) {
+      document.getElementById('newsContainer').innerHTML =
+        `<div class="error-box">現在ニュースがありません。しばらくしてから再度お試しください。</div>`;
+      return;
     }
-  });
 
-  articles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    let html = '<div class="news-grid">';
+    articles.forEach(a => {
+      const date = a.pubDate ? new Date(a.pubDate).toLocaleString('ja-JP') : '';
+      html += `
+        <a class="news-card" href="${escapeHtml(a.link)}" target="_blank" rel="noopener">
+          <div class="news-source">${escapeHtml(a.source)}</div>
+          <div class="news-body">
+            <div class="news-title">${escapeHtml(a.title)}</div>
+            <div class="news-date">${date}</div>
+          </div>
+        </a>`;
+    });
+    html += '</div>';
 
-  if (articles.length === 0) {
+    document.getElementById('newsContainer').innerHTML = html;
+    document.getElementById('newsLastUpdated').textContent =
+      '最終更新: ' + new Date().toLocaleString('ja-JP');
+
+  } catch(e) {
     document.getElementById('newsContainer').innerHTML =
       `<div class="error-box">
-        ニュースを取得できませんでした。<br>
-        RSSフィードはCORS制限により直接取得できない場合があります。<br>
-        下記の公式サイトで最新情報をご確認ください。
-      </div>
-      ${fallbackLinks(team)}`;
-    return;
+        ニュースデータを取得できませんでした。<br>
+        GitHub Actions がまだ実行されていない可能性があります。<br>
+        しばらくしてから再度お試しください。
+      </div>`;
   }
-
-  let html = '<div class="news-grid">';
-  articles.forEach(a => {
-    const date = a.pubDate ? new Date(a.pubDate).toLocaleString('ja-JP') : '';
-    html += `
-      <a class="news-card" href="${a.link}" target="_blank" rel="noopener">
-        <div class="news-source">${a._source}</div>
-        <div class="news-body">
-          <div class="news-title">${escapeHtml(a.title)}</div>
-          <div class="news-date">${date}</div>
-        </div>
-      </a>`;
-  });
-  html += '</div>';
-
-  document.getElementById('newsContainer').innerHTML = html;
-  document.getElementById('newsLastUpdated').textContent =
-    '最終更新: ' + new Date().toLocaleString('ja-JP');
-}
-
-async function fetchRSS(source) {
-  const res = await fetch(RSS_PROXY + encodeURIComponent(source.url));
-  const data = await res.json();
-  return data.items || [];
-}
-
-function fallbackLinks(team) {
-  const links = {
-    japan: [
-      { name: 'NHKスポーツ', url: 'https://www3.nhk.or.jp/sports/kind/soccer/' },
-      { name: 'スポニチ', url: 'https://www.sponichi.co.jp/soccer/' },
-      { name: 'Goal.com 日本', url: 'https://www.goal.com/jp' },
-    ],
-    worldcup: [
-      { name: 'FIFA公式', url: 'https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026' },
-      { name: 'BBC Sport', url: 'https://www.bbc.com/sport/football/world-cup' },
-    ],
-    brazil: [{ name: 'BBC Sport', url: 'https://www.bbc.com/sport/football/world-cup' }],
-    france: [{ name: 'BBC Sport', url: 'https://www.bbc.com/sport/football/world-cup' }],
-    germany: [{ name: 'Kicker', url: 'https://www.kicker.de' }],
-    spain: [{ name: 'Marca', url: 'https://www.marca.com' }],
-  };
-  const items = links[team] || links.worldcup;
-  return `<div style="margin-top:16px">
-    <div class="section-title">公式・主要サイト</div>
-    <div class="news-grid">
-    ${items.map(l => `
-      <a class="news-card" href="${l.url}" target="_blank" rel="noopener">
-        <div class="news-source">外部リンク</div>
-        <div class="news-body"><div class="news-title">${l.name}</div></div>
-      </a>`).join('')}
-    </div>
-  </div>`;
 }
 
 function escapeHtml(str) {
-  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  return String(str)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-// 初回ロード
-loadNews('japan');
+showTeam('japan', null);
 </script>
 </body>
 </html>
