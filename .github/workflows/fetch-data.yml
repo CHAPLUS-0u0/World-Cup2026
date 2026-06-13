@@ -2,7 +2,7 @@ name: Fetch WC Data
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,10 +29,73 @@ jobs:
             "https://api.football-data.org/v4/competitions/WC/standings" \
             > data/standings.json
 
+      - name: Fetch news
+        run: |
+          pip install feedparser --quiet
+          python3 << 'PYEOF'
+          import feedparser, json
+
+          SOURCES = {
+            'japan': [
+              {'url': 'https://www3.nhk.or.jp/rss/news/cat7.xml',          'name': 'NHK スポーツ',  'kw': ['サッカー','日本代表','ワールドカップ','W杯']},
+              {'url': 'https://rss.sponichi.co.jp/news/soccer/rss.xml',     'name': 'スポニチ',      'kw': ['日本','W杯','ワールドカップ']},
+              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Japan']},
+            ],
+            'brazil': [
+              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Brazil']},
+            ],
+            'france': [
+              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['France']},
+            ],
+            'germany': [
+              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Germany']},
+            ],
+            'spain': [
+              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Spain']},
+            ],
+            'worldcup': [
+              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['World Cup','FIFA','2026']},
+              {'url': 'https://www3.nhk.or.jp/rss/news/cat7.xml',          'name': 'NHK スポーツ',  'kw': ['ワールドカップ','W杯','FIFA']},
+            ],
+          }
+
+          result = {}
+          for team, sources in SOURCES.items():
+            articles = []
+            for s in sources:
+              try:
+                feed = feedparser.parse(s['url'])
+                for entry in feed.entries[:30]:
+                  title = entry.get('title', '')
+                  summary = entry.get('summary', '')
+                  text = title + ' ' + summary
+                  if any(k.lower() in text.lower() for k in s['kw']):
+                    articles.append({
+                      'title': title,
+                      'link': entry.get('link', ''),
+                      'pubDate': entry.get('published', ''),
+                      'source': s['name'],
+                    })
+              except Exception as e:
+                print(f"Error {s['url']}: {e}")
+            seen = set()
+            unique = []
+            for a in articles:
+              if a['title'] not in seen:
+                seen.add(a['title'])
+                unique.append(a)
+            unique.sort(key=lambda x: x.get('pubDate', ''), reverse=True)
+            result[team] = unique[:12]
+
+          with open('data/news.json', 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+          print("News fetched OK")
+          PYEOF
+
       - name: Commit data
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "Update match data"
+          git diff --cached --quiet || git commit -m "Update match/news data"
           git push
