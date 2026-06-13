@@ -34,58 +34,44 @@ jobs:
           pip install feedparser --quiet
           python3 << 'PYEOF'
           import feedparser, json
+          from urllib.parse import quote
 
-          SOURCES = {
-            'japan': [
-              {'url': 'https://www3.nhk.or.jp/rss/news/cat7.xml',          'name': 'NHK スポーツ',  'kw': ['サッカー','日本代表','ワールドカップ','W杯']},
-              {'url': 'https://rss.sponichi.co.jp/news/soccer/rss.xml',     'name': 'スポニチ',      'kw': ['日本','W杯','ワールドカップ']},
-              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Japan']},
-            ],
-            'brazil': [
-              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Brazil']},
-            ],
-            'france': [
-              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['France']},
-            ],
-            'germany': [
-              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Germany']},
-            ],
-            'spain': [
-              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['Spain']},
-            ],
-            'worldcup': [
-              {'url': 'https://feeds.bbci.co.uk/sport/football/rss.xml',   'name': 'BBC Sport',    'kw': ['World Cup','FIFA','2026']},
-              {'url': 'https://www3.nhk.or.jp/rss/news/cat7.xml',          'name': 'NHK スポーツ',  'kw': ['ワールドカップ','W杯','FIFA']},
-            ],
+          def gnews(q):
+            return f"https://news.google.com/rss/search?q={quote(q)}&hl=ja&gl=JP&ceid=JP:ja"
+
+          QUERIES = {
+            'japan':    [gnews('ワールドカップ 日本代表'), gnews('サッカー日本代表 W杯2026')],
+            'brazil':   [gnews('ワールドカップ ブラジル'), gnews('Brazil FIFA World Cup 2026')],
+            'france':   [gnews('ワールドカップ フランス'), gnews('France FIFA World Cup 2026')],
+            'germany':  [gnews('ワールドカップ ドイツ'),   gnews('Germany FIFA World Cup 2026')],
+            'spain':    [gnews('ワールドカップ スペイン'), gnews('Spain FIFA World Cup 2026')],
+            'worldcup': [gnews('FIFA ワールドカップ 2026'), gnews('FIFA World Cup 2026')],
           }
 
           result = {}
-          for team, sources in SOURCES.items():
+          for team, urls in QUERIES.items():
             articles = []
-            for s in sources:
+            seen = set()
+            for url in urls:
               try:
-                feed = feedparser.parse(s['url'])
-                for entry in feed.entries[:30]:
+                feed = feedparser.parse(url)
+                for entry in feed.entries[:15]:
                   title = entry.get('title', '')
-                  summary = entry.get('summary', '')
-                  text = title + ' ' + summary
-                  if any(k.lower() in text.lower() for k in s['kw']):
+                  if title and title not in seen:
+                    seen.add(title)
+                    # Google Newsのソース名を取得（"- NHK" 形式）
+                    source = title.rsplit(' - ', 1)[-1] if ' - ' in title else 'Google News'
+                    clean_title = title.rsplit(' - ', 1)[0] if ' - ' in title else title
                     articles.append({
-                      'title': title,
+                      'title': clean_title,
                       'link': entry.get('link', ''),
                       'pubDate': entry.get('published', ''),
-                      'source': s['name'],
+                      'source': source,
                     })
               except Exception as e:
-                print(f"Error {s['url']}: {e}")
-            seen = set()
-            unique = []
-            for a in articles:
-              if a['title'] not in seen:
-                seen.add(a['title'])
-                unique.append(a)
-            unique.sort(key=lambda x: x.get('pubDate', ''), reverse=True)
-            result[team] = unique[:12]
+                print(f"Error {url}: {e}")
+            articles.sort(key=lambda x: x.get('pubDate', ''), reverse=True)
+            result[team] = articles[:15]
 
           with open('data/news.json', 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
