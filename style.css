@@ -339,6 +339,8 @@ nav {
   white-space: nowrap;
 }
 
+.group-card td:last-child { padding-right: 14px; }
+
 .group-card .g-team {
   display: flex;
   flex-direction: row;
