@@ -339,7 +339,8 @@ nav {
   white-space: nowrap;
 }
 
-.group-card td:last-child { padding-right: 14px; }
+.group-card td:last-child { padding-right: 16px; }
+.group-card table { width: 100%; border-collapse: collapse; padding-right: 0; }
 
 .group-card .g-team {
   display: flex;
