@@ -29,6 +29,41 @@ jobs:
             "https://api.football-data.org/v4/competitions/WC/standings" \
             > data/standings.json
 
+      - name: Fetch match details
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, time
+
+          token = "${{ secrets.FOOTBALL_API_KEY }}"
+
+          with open('data/matches.json') as f:
+            data = json.load(f)
+
+          details = {}
+          for m in data.get('matches', []):
+            if m['status'] in ('FINISHED', 'IN_PLAY', 'PAUSED'):
+              mid = m['id']
+              try:
+                req = urllib.request.Request(
+                  f"https://api.football-data.org/v4/matches/{mid}",
+                  headers={"X-Auth-Token": token}
+                )
+                with urllib.request.urlopen(req) as res:
+                  detail = json.loads(res.read())
+                  details[str(mid)] = {
+                    'goals': detail.get('goals', []),
+                    'bookings': detail.get('bookings', []),
+                    'substitutions': detail.get('substitutions', []),
+                  }
+                time.sleep(0.5)
+              except Exception as e:
+                print(f"Error {mid}: {e}")
+
+          with open('data/match_details.json', 'w', encoding='utf-8') as f:
+            json.dump(details, f, ensure_ascii=False, indent=2)
+          print(f"Fetched details for {len(details)} matches")
+          PYEOF
+
       - name: Fetch news
         run: |
           pip install feedparser --quiet
