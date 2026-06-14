@@ -165,14 +165,18 @@ function filterMatches(filter) {
   renderMatches(filter);
 }
 
+function toJSTDate(utcStr) {
+  return new Date(utcStr).toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' }); // "YYYY-MM-DD"
+}
+
 function renderMatches(filter) {
-  const today = new Date().toISOString().slice(0, 10);
+  const today = toJSTDate(new Date().toISOString());
   let filtered = allMatches;
 
   if (filter === 'LIVE') {
     filtered = allMatches.filter(m => m.status === 'IN_PLAY' || m.status === 'PAUSED');
   } else if (filter === 'today') {
-    filtered = allMatches.filter(m => m.utcDate.slice(0, 10) === today);
+    filtered = allMatches.filter(m => toJSTDate(m.utcDate) === today);
   } else if (filter === 'japan') {
     filtered = allMatches.filter(m =>
       m.homeTeam.name === 'Japan' || m.awayTeam.name === 'Japan'
@@ -196,7 +200,7 @@ function renderMatches(filter) {
   // Group by date
   const byDate = {};
   filtered.forEach(m => {
-    const d = m.utcDate.slice(0, 10);
+    const d = toJSTDate(m.utcDate);
     if (!byDate[d]) byDate[d] = [];
     byDate[d].push(m);
   });
