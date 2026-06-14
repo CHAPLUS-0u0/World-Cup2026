@@ -387,6 +387,19 @@ nav {
 .sh:nth-child(2) { text-align: left; }
 .sc { text-align: center; font-size: 0.78rem; }
 
+.g-team-link {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 2px 4px;
+  margin: -2px -4px;
+  transition: background 0.15s;
+}
+.g-team-link:hover { background: #eff4ff; }
+
+/* カード展開 */
+.match-card.expandable { cursor: pointer; }
+.match-card.expandable .detail-hint { pointer-events: none; }
+
 /* ── NEWS ── */
 .news-grid {
   display: grid;
