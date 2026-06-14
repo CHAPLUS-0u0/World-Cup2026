@@ -60,10 +60,10 @@
   <div id="tab-matches">
     <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:18px">
       <div class="tabs" id="matchFilterTabs" style="margin-bottom:0">
-        <button class="tab-btn active" onclick="filterMatches('all')">全試合</button>
-        <button class="tab-btn" onclick="filterMatches('LIVE')">LIVE</button>
-        <button class="tab-btn" onclick="filterMatches('today')">今日</button>
-        <button class="tab-btn" onclick="filterMatches('japan')">🇯🇵 日本</button>
+        <button class="tab-btn active" onclick="filterMatches('all',this)">全試合</button>
+        <button class="tab-btn" onclick="filterMatches('LIVE',this)">LIVE</button>
+        <button class="tab-btn" onclick="filterMatches('today',this)">今日</button>
+        <button class="tab-btn" onclick="filterMatches('japan',this)">🇯🇵 日本</button>
       </div>
       <div style="position:relative">
         <input id="countrySearch" type="text" placeholder="🔍 国を検索..." oninput="onSearchInput(this.value)" onfocus="showSuggestions()" onblur="setTimeout(hideSuggestions,200)"
