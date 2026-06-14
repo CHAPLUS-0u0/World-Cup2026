@@ -201,14 +201,24 @@ function renderMatches(filter) {
     byDate[d].push(m);
   });
 
+  const todayUTC = new Date().toISOString().slice(0, 10);
   let html = '';
   Object.keys(byDate).sort().forEach(date => {
     const label = formatDateLabel(date);
-    html += `<div class="section-title">📅 ${label}</div>`;
+    const isToday = date === todayUTC;
+    html += `<div class="section-title" ${isToday ? 'id="today-section"' : ''}>📅 ${label}${isToday ? ' <span style="background:var(--primary);color:#fff;font-size:0.65rem;padding:2px 7px;border-radius:4px;margin-left:6px;font-weight:700">TODAY</span>' : ''}</div>`;
     byDate[date].forEach(m => { html += matchCardHTML(m); });
   });
 
   document.getElementById('matchesContainer').innerHTML = html;
+
+  // 全試合表示の時だけ今日にスクロール
+  if (filter === 'all') {
+    requestAnimationFrame(() => {
+      const el = document.getElementById('today-section');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
 }
 
 // 試合詳細データ保持用
