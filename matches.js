@@ -158,11 +158,22 @@ async function fetchStandings() {
   }
 }
 
-function filterMatches(filter) {
+function filterMatches(filter, btn) {
   currentFilter = filter;
   document.querySelectorAll('#matchFilterTabs .tab-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+  if (btn) btn.classList.add('active');
   renderMatches(filter);
+}
+
+function filterByTeam(name) {
+  // 順位表→試合タブに切り替えてその国の試合を表示
+  showTab('matches');
+  document.querySelectorAll('#matchFilterTabs .tab-btn').forEach(b => b.classList.remove('active'));
+  currentFilter = 'country:' + name;
+  document.getElementById('countrySearch').value = getJaName(name);
+  renderMatches('country:' + name);
+  // ページ上部にスクロール
+  document.getElementById('tab-matches').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function toJSTDate(utcStr) {
@@ -374,9 +385,7 @@ function renderStandings(standings) {
           <col style="width:20px">
           <col style="width:20px">
           <col style="width:20px">
-          <col style="width:26px">
-          <col style="width:26px">
-          <col style="width:30px">
+          <col style="width:36px">
           <col style="width:32px">
         </colgroup>
         <tr>
@@ -386,25 +395,24 @@ function renderStandings(standings) {
           <td class="sh" style="text-align:center">勝</td>
           <td class="sh" style="text-align:center">分</td>
           <td class="sh" style="text-align:center">負</td>
-          <td class="sh" style="text-align:center">得</td>
-          <td class="sh" style="text-align:center">失</td>
-          <td class="sh" style="text-align:center">差</td>
+          <td class="sh" style="text-align:center">得失点</td>
           <td class="sh" style="text-align:center">勝点</td>
         </tr>`;
     group.table.forEach(row => {
       const name = row.team.name;
-      const gd = row.goalDifference > 0 ? `+${row.goalDifference}` : row.goalDifference;
-      const gdColor = row.goalDifference > 0 ? 'color:#16a34a' : row.goalDifference < 0 ? 'color:var(--live)' : 'color:var(--muted)';
+      const gd = row.goalDifference > 0 ? `+${row.goalDifference}` : String(row.goalDifference);
+      const gdColor = row.goalDifference > 0 ? '#16a34a' : row.goalDifference < 0 ? 'var(--live)' : 'var(--muted)';
+      const gdStr = `${row.goalsFor}-${row.goalsAgainst} <span style="color:${gdColor};font-weight:700">(${gd})</span>`;
       html += `<tr>
         <td class="rank">${row.position}</td>
-        <td><div class="g-team">${getFlag(name)}<span>${getJaName(name)}</span></div></td>
+        <td><div class="g-team g-team-link" onclick="filterByTeam('${name.replace(/'/g,"\\'")}')">
+          ${getFlag(name)}<span>${getJaName(name)}</span>
+        </div></td>
         <td class="sc">${row.playedGames}</td>
         <td class="sc">${row.won}</td>
         <td class="sc">${row.draw}</td>
         <td class="sc">${row.lost}</td>
-        <td class="sc">${row.goalsFor}</td>
-        <td class="sc">${row.goalsAgainst}</td>
-        <td class="sc" style="${gdColor};font-weight:700">${gd}</td>
+        <td class="sc">${gdStr}</td>
         <td class="g-pts" style="text-align:center">${row.points}</td>
       </tr>`;
     });
