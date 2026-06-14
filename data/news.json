@@ -1,8 +1,554 @@
 {
-  "japan": [],
-  "brazil": [],
-  "france": [],
-  "germany": [],
-  "spain": [],
-  "worldcup": []
+  "japan": [
+    {
+      "title": "【随時更新】サッカーＷ杯 1次リーグ グループF 全日程 日本は",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CeGNqU01hMnlWbWpMSlp5YnhYSlBXLTJLdEMzTWZKXzhMa2ZLRVZtazVOYTQ5TzE2aC1yUUtUb0JsdHF1YWs3bDBycmI5MUp2WnBIV3RrUWUxcWtmSFlF?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 18:03:16 GMT",
+      "source": "NHKニュース"
+    },
+    {
+      "title": "FIFAワールドカップ2026開幕、どこで見られる？ 日本代表はいつ出場？",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zT05YbFFsa3M2VG5fOUtkT1FVZWYtd0hfdHFoR0xnaWpubThJUURTTmFST19sN2taT3dLUkNTSU11VjV1Rnc3aE4yZDNycWN5M3pTdmVPUE15SjVKZm5FbmVKdVg2ZGc?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 15:00:00 GMT",
+      "source": "ケータイ Watch"
+    },
+    {
+      "title": "FIFAワールドカップ2026はサッカー日本代表戦含む全試合をDAZN（ダゾーン）でライブ配信！お得に視聴する方法は？",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPblhRcGQ1LS1DMkhPVURJUDlIbTRYZF94bmpUYXJ0U2RpTV9XMGtmUmRSTlBXNVFvR2h2OF8walRnby1KcFFtSTJ4M01yTFk2MTBYM0ZmSFRWR1dKT0lHN0wybEF0SDhYcF82OEFTX0tWTi1qZTJyWHp5ckRSVE9JWkEyRHVSdFN2a3ZuZkpoblBfc1p0Zkx5MGJtdFR6eFdBemZhRnVGbUJRUS1mZzZfbUtoNGROeGhDYXlPMlhWQXltbVFmckhYZ09VRUY4TkF6WkxKaFowM1RfblotN3plM1F6eDZ4ZFU?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 03:20:50 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "【6/15】日本代表対オランダ代表は地上波放送あり？テレビ中継予定・ネットライブ配信予定｜FIFAW杯2026 グループF第1戦",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNGVDX3F3TXRtZHBDc2FPN0RDOEhLMWVXUHFMckFoWnVqVF9TQmpOR1hRMHZQeW1DQmw3OXpMZzlhVjh0NTNEeEVoVnhWbGtwdDFXU05hb0dubm5WNHJzeS1OU2Z4QW44Nl9sV1E1TUMtQjZhTC1DWTdCWWZTNWE5VkRXOFJPeGJqdTBYVDhKVE0ybU1zb3BPYzJLWjZqcVZkMUJSeGpmeDViZkdmQUZzVHdvUGU3NHFGcU4tTUJyMnBnckYyUllZYm9kUkFVZElMN1hLY0g2d3hrZFk?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:57:09 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "「W杯ではやりたくない。負けそう」日本代表の久保建英も恐れたモロッコ代表の強さは本物。W杯初戦で示した完成度【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11WUp0TG0wdXlkU0lwZDdSbTd5ek1ady0yLW5nU0tNSUxLQWdHRS1wbjFoRnI5LVU4WktDT3djb0xiMzNFcWlHSFhzdzhrSE9GNndWdWRIUVRfQktTNXl2RGVkRQ?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:36:45 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "ワールドカップ日本代表初戦、ダラス周辺は雨予報 試合は屋内で影響ない見込み",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PWkxPOVM5dVRFS1V1NmkzZkZWQjZLdlU1TlhRcWY2emYzZG9WdnUyeWN0elIxa3pEdk9RSnotU3k2WW5BRl9UYnhsWlFHaFFiWU8yNUg1ZVR3MU11TTViNEttd1k4dThSLWRuS2VJcE5IaW5OVmw5M1BETQ?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:30:00 GMT",
+      "source": "au Webポータル"
+    },
+    {
+      "title": "【独占】「サッカー日本代表はどこまでいける？」W杯戦士と人気サッカー漫画原作者が初対談",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GdzZMckVtblB3aFJQd3JYZVlhM2Q0Q3IxTEx1U2l5NXBnRHZfX25tc0xXckZDTEZQdks0eEhJRWcySkcwdTFpQkxORXhwN1M1djQxYkdaS3ZkQkhQblBWMTVyR2J0S0Z4WVRmSDVLWjU?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:05:00 GMT",
+      "source": "テレ朝NEWS"
+    },
+    {
+      "title": "日本代表はどんなチーム？ 8大会連続8回目の出場。世界最速で突破したアジア予選を振り返る【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KWDFvS0dsZ0s3X1NsUG9ReFVyTjQtVlg1OHFaY3F3NjN5ZjBmU2QtT2pkVThtOFItTWU0VWdlMHloamVpbEZYNnc2TG94cGxYSWVZdHdrc0pyYW5VemRUYUZra3k3ZmduR25xTDdvcGdTdHhJa0pjNG1oUDR5dkE?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:51:29 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "オランダ代表の最新FIFAランキングは？ 15日にサッカー日本代表と対戦！ 【北中米W杯】（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDX3gtREt3ZXhrREVMSWFsRFE2SGhVbGg3Y1dmSHVYS3Z4aFV0SHJhNFZTMkYwZVdmbGlBUUhuaUtWbVMyTkdEV25pNkFVSTVjQ0Rkc1paUE0xVGxOb3dmSGRZYlYybFpITXlzdEtRUWxaTVNDX1RHWDJyUVQ5QVU?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:43:11 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "サッカーW杯 ブラジルとモロッコは引き分け、カタールは初の勝ち点 [サッカーワールドカップ（W杯）]",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kUExWSWRLUWpXZzNaWmRXTlJHRHVmQzNvQ0J3WmZscXBVLXdDWDltRVM5QW5jQllKTWs1akFpbDZ5dmtkdE1sa2VzWmdrdHhIOHgtN2otOS1sYXlFSkdZQmlPT0ZURmc?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:39:38 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "ベストゴールズ : 2014 FIFAワールドカップ ブラジル大会を今すぐ観戦 | DAZN JP",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGZhd1NRY01GVUd2bWFJZHZHdUZuTHkxdUMwdWxCSmV4LTNXMDdCM1lsaDVGbVdMN0szeklLa1R6Z1JXOGFXdmxCWk9iYWNpUVAxOGt4clFkMG4xcXBMbWJZZGxmczJfVXVjX2VpT0Q4R1hCSFFLcTdpR1B4ZkY3U3N2S3BCOVR3Z0VUX2tvRWp5N3pZTXZqcElLOA?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:18:55 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "W杯初戦注目のブラジルvsモロッコはドロー…決勝Tで日本代表と対戦の可能性ある両チームが勝ち点1獲得（GOAL）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mVUhiSnRnWDFKbmN5a09LelJwU3BjeDVjMlVBNWViVzR1V1hQM083bjQ3Q1BqY0djdlJ5Q2VMOGN1N2gwZzVXUzJKNnVIR3hHZnVmdmp3Vkp4TVhrZHNId2t4ZTVoWU5rR184RkdrRnczODlBeTY2S1d5RS1mU2c?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:06:03 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "FIFAワールドカップ2026｜試合日程・結果・順位表",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUm5ua19GZ2NYb015aVhMZ3RFeUtSU0VHaG9pUGVRbFhUeEdhRW5GQ0dyYmF0eGRPWnpkV3FKWnhnLWM4TGhqRWFIWWh5di0zcmx3cmEyVkR5U2hQZzBmYS1wZ1dHOVhXVUZnRVItT2JJQ0lUaXVJZmJBUUxKNTlUd294TDlsU28wUnk3WHdlSnFNU21jV2NYUlFUS2FmWi1LWldHQnFKTXgtZw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:03:25 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "W杯サッカー日本代表対オランダ代表の地上波放送、ネット配信の予定は？ 視聴方法を紹介【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DMUk2MnZfSzFiQ21qNDNPeVVlQWV2aFJ1Skh4WkQ5RHloZ2swNnhmLS1PaU8zM1pvZENBNTJpZzlfUHNtTmZTOGNJMllkT1N4MVJBUnJyb1NjanhtRGR5amRtMA?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:03:11 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "日本登場１日前に、世界中で関心が寄せられた 英メディアは、日本２－２オランダと予想",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4YzVHV3lDbFVud1drYWNubmJWUzJqeUZtLWQwa1JxZHFNMm1EbnlWeE9hbkNhS0N4SVJvVWszcFZiN3RTZXRwWTNtOHJMdHkwUmtybmk2T0FVQWU0dlhGdkxrS2w2em5Kd1ZHVDliOGdDbzlUSEdSNFdQcUtWMlk?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:32:59 GMT",
+      "source": "日刊スポーツ"
+    }
+  ],
+  "brazil": [
+    {
+      "title": "FIFAワールドカップで指揮を執る48人の監督たち",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaGlkTTdZNlVGZy0wQW05d1N0STFUUnFXT0ZkSXRzckFRR2dZeHoxZy11TzRaZjJWd21tTFF2QkhaMGF0OFpielZyeF9nVzhJUzd3Y3MxZGdHRjN6ZGgyWlZCLU13WWR4Nk1xQW50Y1NYUkNwTVpmd3JmbWt6cW5iSFpTM3RVODRWblkyb1AyU3lJNUc5Rmt0NDgyZzR1aFQycmpMTy1FZFVfTlRRZ2c?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 03:00:00 GMT",
+      "source": "FIFA"
+    },
+    {
+      "title": "ブラジルとの初戦でドロー、モロッコ主将DFハキミ「満足している」 | FIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFN2LWw0anYzQmtYWWJZMmJXVDJSTUI2OTk1TVRURXBsM1Bjczd5NTdYMGhGeEM3T2pCQWpRaVVFd2tqZW5fTm9kSV9iVW9BX3p6UTJGNGhXTm1yQnhqbkdEYTdVZTZHdkszVkNfZDZ4OVNUM2Y3VUM0VmFRdnIzSTBLRnZCMEZEb25oTXlYUzNOOC1GUDl6cHRtei0zVVJXMTZyTloyQWZoZXotZElYY1E5cTR5ajJZNHhJ?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:41:26 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "サッカーW杯 ブラジルとモロッコは引き分け、カタールは初の勝ち点 [サッカーワールドカップ（W杯）]",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kUExWSWRLUWpXZzNaWmRXTlJHRHVmQzNvQ0J3WmZscXBVLXdDWDltRVM5QW5jQllKTWs1akFpbDZ5dmtkdE1sa2VzWmdrdHhIOHgtN2otOS1sYXlFSkdZQmlPT0ZURmc?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:39:38 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "【DAZNパーティーライブ】ブラジル vs モロッコ : グループC 第1節 【FIFAワールドカップ 2026】",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE12WHZYelJnMTZHV0t1UWJwNFAzZUpEOHBZZUEwN2d4TGdMWUN0aGZjMU85Mk10ZTVkLXZGRHZ2X0pHT1hSVGhwM0FicWdEdW9BNFBuU0tRWkxyZVI3eE1NZ18zWmxES0F2X3FhZ1pqV0RDZw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:33:19 GMT",
+      "source": "ABEMA"
+    },
+    {
+      "title": "【サッカーワールドカップ】ブラジルとモロッコ、譲らずドロー サッカーW杯結果と見どころ",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqcnFKUlpidG1Pckx1bWFtN3Y5dnRaRWxhY1pKRFBSTjFEOW5HaTRlVElqSjNlWnpvOC1XYzJJaDUwbHI1Wnp2SWt1UU5PSlF1R2JMZkFJUjRqTEkzQUwxUmRidlpra1c3eHdzUw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:28:13 GMT",
+      "source": "日本経済新聞"
+    },
+    {
+      "title": "ブラジルは2026年ワールドカップで、2つの華麗なゴールによりモロッコと勝ち点1を分け合った。",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMVlDX2MydzRBSkVRbDJLYkI0RDFRbjMwQUx3NEVZc3p6NVhfQTY2ZUFvOWNiT2ZVRld5b3FsSk0yd1VjNnNhWWFDWF9nSFFqNFA4Z3h4bXh1SFV3TUlEdjdrbmtzd2kzNnpmV2NmX3QzUW5VWWg0SXU3M0c4Qm9yellsVVpHQQ?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:25:31 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "ベストゴールズ : 2014 FIFAワールドカップ ブラジル大会を今すぐ観戦 | DAZN JP",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGZhd1NRY01GVUd2bWFJZHZHdUZuTHkxdUMwdWxCSmV4LTNXMDdCM1lsaDVGbVdMN0szeklLa1R6Z1JXOGFXdmxCWk9iYWNpUVAxOGt4clFkMG4xcXBMbWJZZGxmczJfVXVjX2VpT0Q4R1hCSFFLcTdpR1B4ZkY3U3N2S3BCOVR3Z0VUX2tvRWp5N3pZTXZqcElLOA?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:18:55 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "ブラジルvsモロッコ、注目の強豪国対決はドロー決着…ヴィニシウスが同点弾",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1FSTgyeUpTZmJzSWZTVlBLZUFjUWpJRVpnN0s0SlZQUFZJeGNySmhHZ1FwWldVWHQtNUFYbnN5NVkzSFMtaGlGbkhYSlhYbEpV?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:15:22 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "【北中米W杯】ネイマール不在のブラジル、モロッコに先制されるもヴィニシウスの強烈弾で追いつきドロー発進 ｜ブラジルvsモロッコ ｜ FIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcmF2cjR0UlNQR1Y5MUVnSmlzZlBCQWFpTUxXQkI3bm81d0ljeHZNMjVadXZvV0pmN1ZSRGQwUjJrMjg0OHJtUnFVMEdHMkVhRVJaczQxeWM0dFE5SEgwb3ZVMXBrYXpJcmJxaDNuc0drQmU5ZmJxb0Y0OTktWFhXRGtHWmE1UzVDaXFRSm9IandFcWVFeUZEWndqeXpwN1BqV1FzbWlacGtGWFhIbU13LVN1bjRqXzNfMzBwQk10MGF1QTA?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:14:29 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "モロッコがペースを握る序盤に先制、ブラジルがビニシウス弾で同点!! 日本も注目のC組好カードはドロー決着",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15elhqTUU1X0RXanJjeUNtSDZzZ0xZSnpSTnJYaXJLVFJCblYxX1QyMjBBaWJ0TXFaRjU2aE5TdzdUZmM1ZUZmNHNvSVdnNEtOZ01VYWZlclZMa0hEdXcxZnJqR0ZWREk0empNTDdRaw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:07:00 GMT",
+      "source": "gekisaka.jp"
+    },
+    {
+      "title": "【結果速報】ブラジル代表 対 モロッコ代表 スタメン・試合経過・得点情報 FIFAワールドカップ2026（北中米W杯）",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GanJsOHp3WE5OZ0h5T1NVLXpYRmMteFF5dy1DcXFna1JjNV9mUk5VOEtwdk5Vb0Y0YnotY3Z6d2tYNEtGa01RUWlMN05Ea1Jubmt2ZTlYT09rdkJObTQ0WjVrcw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:06:03 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "【北中米W杯】ネイマール不在のブラジル、モロッコに先制されるもヴィニシウスの強烈弾で追いつきドロー発進 ｜ブラジルvsモロッコ ｜ FIFAワールドカップ2026（DAZN News）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nUHprZDFzdm1lR1Y3UnpTS0JPMHNqU0xaR2ltaC1HNFZObHUtT0p0dlB6ZDZXZE9XaUNsamVlU3h5YzlRNEhybGlMTkNXVFBXZGF1VXNodHlkd3BxYnpHTnJiSE9qbWwxT0M4SU5ONS1QdjFiRE9YRG9oOE1zSHM?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:05:48 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "【マルチアングル】ブラジル vs モロッコ : グループC 第1節 【FIFAワールドカップ 2026】",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SNThuVjVoc2JGdjlZY3ZKWFhUNE5GaXA5dHJkMjJuM2txZ0REYmZOeVNNZjI2Q2FnVlQ3TGJYOE5oekk2NHFMZkVSNU5JSTRuRWl0YW42NjdkTHliYXJ4aTdRLUhQdXV0XzVlWjlaaWdlQQ?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:04:32 GMT",
+      "source": "ABEMA"
+    },
+    {
+      "title": "FIFAワールドカップ2026｜試合日程・結果・順位表",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUm5ua19GZ2NYb015aVhMZ3RFeUtSU0VHaG9pUGVRbFhUeEdhRW5GQ0dyYmF0eGRPWnpkV3FKWnhnLWM4TGhqRWFIWWh5di0zcmx3cmEyVkR5U2hQZzBmYS1wZ1dHOVhXVUZnRVItT2JJQ0lUaXVJZmJBUUxKNTlUd294TDlsU28wUnk3WHdlSnFNU21jV2NYUlFUS2FmWi1LWldHQnFKTXgtZw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:03:25 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "W杯 1次リーグ屈指の好カード ブラジル対モロッコは引き分け",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wUENBRGxnMUNKMFNtOEh1WEY1ZncwZlRvRG44bTFIQVpCMEFkR3Z2QndLM2xvR21ERi1GOGtKY3BETGx2TXd6azgzcGZrMlN1QzYxSVBLQWhlNUZLT0kw?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:51:50 GMT",
+      "source": "NHKニュース"
+    }
+  ],
+  "france": [
+    {
+      "title": "【出場チーム】フランス代表｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DQVg5aDFOSEtkVmRTLWk5clhqWXRJdWlDbDZiTUk3V3NrQTFtMHFETzM3Z0M2LUdmdFlvYlJRVEgyX29zUkN4elc4ZFB4V0RMSVF3QVI2dkxVS19OWmJlRWFSdWhsY0lrWXpaaHljZw?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 12:00:01 GMT",
+      "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "FIFAワールドカップ2026公式アルバム発売。ストーンズ、LISA、フューチャーら45組が参加",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSldWN01lR1dIZkwwekRCMlFSTHZQdkhHQUh0OG1vQmZtOWlwRmZsbU1udDZ2RExXbmJDLTRJRlJUYndoVjJ0U1JOdG9rWkF6SnMzWXhaYmNuajBFSUlYSlg1bmZDc3JtanhfTnQyaFljWXVWNDEtUG5oNnFoajkzNWxNclhFdlBROWtIbHl3?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 14:55:50 GMT",
+      "source": "uDiscoverMusic"
+    },
+    {
+      "title": "本当の「死の組」は！？ W杯グループリーグ、平均FIFAランキング1～5位【北中米W杯／最新版】（5ページ目）",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yN2tJdzNsc21TbkdzTVNBbTJ1NVRrUXBHREcxU1BZR2llblBhR3VWcHBmSkU1TDFqSkEzZ2d0ejJXNkJPV0hteUVxTDhJbkZlbnFsV2RGbjNIVGpHVFlBUGVUcFRpUQ?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 21:00:44 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "フランス vs セネガル : グループI 第1節 【FIFAワールドカップ 2026】",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90Nkd4RkpHTE9peFJPWFlFenhxOVdlZGJ4bm5Wd1BZWm5YYzJOR09qU3Vxc213ckZWbFNkbGJURWhzQ2U0QmhBS2JYZDZFSDkwQk1OdTJ4RVNwUXVSZnJTeE95bWZRMWljai1QNWhTV1FaZw?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 17:00:24 GMT",
+      "source": "ABEMA"
+    },
+    {
+      "title": "フランス（グループI）【W杯 出場チーム紹介】",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BYXV5c2F6MmMwZFhOVUc0d1FmUU0taVQ1OFZwakRsUUlHWUc2MkU4eVBDei1abG9ISWtsOWRoekVJWmZTYTl5eDdOVFdsdmI4aGk2MlRxdkdxNjI1d0ZB?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 10:34:24 GMT",
+      "source": "NHKニュース"
+    },
+    {
+      "title": "ワールドカップ優勝はフランス？スペイン？それとも… | まもなく開幕する世界最大の舞台で栄冠を手にする国は（GOAL）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ydkM0dTZNZ0hiRVNuY1FCYkVuUkFhb1JLZXh6WmRDQXJsUGtOei1iam9qRTJBbFEtcVo0eENjYjBhcUlaQlR2eThhTWV0RVNNTkk1QjJlUDMxM2dBRlJOS1Z5ejVLdVBoQ3ZpNW0tWHZmTmUxdkhSd1BzVzFlNTg?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 09:01:35 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "スペイン、フランスがV争いの中心か 士気高いポルトガルの初戴冠も期待 ワールドカップを占う",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLbjZST2YxalY1OWhfUVprbVZ3N0pkbDFYTllFTGQwQ3hoUXFPMk4tQ0p3RHJRU2FyVDljOVh4czBXeGc1VWJuZEpDU284Tm9ielZzRjc0bGpvSWs?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 09:00:00 GMT",
+      "source": "時事ドットコム"
+    },
+    {
+      "title": "フランスの代表メンバー｜FIFA ワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LS1BtWG9RcDlzS0E3bVdZQWRlUElXWmczYW02ajU3dFVQUzRlN0xHclhDQmtCVGtFYV9BLTdoZ3kxRVhNTkdJV2drRTRtX096ZjFycnE3X3JUYVdOYldURDJkd3NHQW5JY25SREVnTnNlYmd0MW55YjZiS3MtcWs?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 08:58:30 GMT",
+      "source": "Reuters"
+    },
+    {
+      "title": "FIFAワールドカップ歴代優勝国・得点王一覧丨全大会の記録まとめ",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV1F4bjNkZldLQktCamxlRF9DOXdIOFEwaG5EWS1LZUJnYndFTllLdk1sbG96UzBuZzlLRzZZQlJ6MEZxaEdweEhnTjFZWDVzTXVkN2NyUGluOGFoWXRNY044cXl2aVM0VExFWDJ6Rkhqdm91TEJWcHdrMVpyeW5sdWY2SUpGdVRwU2s4NW9TSkN0UTB6WjA3Mjhn?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "W杯2026、次世代スターは誰？ブレイク候補の若手選手6名",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOFlvbGg3UUxrX3FFcTFxdVBIRjAyOVRJdG13V3lNdk96MTF1UlZnaGtpc0RuZzJLWGRqc0EwNElUUDk5a0dqbHpObVUwYmFRZFZOMW9rX2FlZ2dMbC1QQjdzRnNLT2I3WDVaemRlam9LMlEyVS1ON3gzNFZrTlFsdXVrRGR4TFFOYzBkN2lYWm10QQ?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "FIFAワールドカップで指揮を執る48人の監督たち",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaGlkTTdZNlVGZy0wQW05d1N0STFUUnFXT0ZkSXRzckFRR2dZeHoxZy11TzRaZjJWd21tTFF2QkhaMGF0OFpielZyeF9nVzhJUzd3Y3MxZGdHRjN6ZGgyWlZCLU13WWR4Nk1xQW50Y1NYUkNwTVpmd3JmbWt6cW5iSFpTM3RVODRWblkyb1AyU3lJNUc5Rmt0NDgyZzR1aFQycmpMTy1FZFVfTlRRZ2c?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 03:00:00 GMT",
+      "source": "FIFA"
+    },
+    {
+      "title": "「独立の誇りを胸に…」の願いは許されなかった。W杯ハイチ代表、試合直前にユニフォーム変更を余儀なくされる",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTlBfWW1nNDVFQTRvalEyZGtvajk4T1VEVnFHcE9fVG1SeTRPM1MtRDh1V0NkeU52WmViWTd1MUs3NHA4aUEzUTU5ZE9Wckdza0xKeFZnZTJibWpvY2swQ3N1RjNFakVFdHh2TEtWNWtPd0xiLWZHWGRUYVdxN0dsWGxPem9FUm9OR3BJdkRrT19neXY1VUE?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:01:27 GMT",
+      "source": "Esquire"
+    },
+    {
+      "title": "W杯ホテルの歓迎「最高だ」 強豪国を“おもてなし”…サプライズ演出に歓喜「気に入った」（FOOTBALL ZONE）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOUWtUS25zbTQyUGtwVUpZanFfUHNqRG00SjZzUWp2NXpnT2R4a0dFclcwU3hwZlNTbDJpSWY3cExmemY1R3MxTGprQ2t6cmdod01JR2NSS1hCVXJCZDBYOHZHZjhjNzNZdXU1bndWeEdnR2NTWS04MGxHVWVTUFE?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:06:36 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "W杯ホテルの歓迎「最高だ」 強豪国を\"おもてなし\"…サプライズ演出に歓喜「気に入った」 | フットボールゾーン - (2)",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPczRMWTlGc2dzb00xLWlGRUE2TkxsbVd5MUpzcmp3aV8yay1SRkROVGlzOVZJcm1mMXNZSTRRLXJtR1dlU090OFBkTUZPTzlrekhOdThNQkhKVWFHaXM4UjQzMl80WDVHVEVoYm9wQkxKb29HVUZTSFhWWnRGd3pQMWVKb0VmMlI0OElMc29EejUtVzEzYkV5Mm5lT2ttZmxnek1scTRJZHo?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:01:00 GMT",
+      "source": "FOOTBALL ZONE"
+    },
+    {
+      "title": "明窓・優勝本命はスペイン？フランス？ サッカーＷ杯開幕",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nOV93clNIOVFubVlGWGNVTTRyMW96V0hEQU1GOElMTnQ0NVNuczJRc2cxU0t5RzVjenNvekJncVNNRm96QUF4UzR4dWM3TTNLRUJvLUpySXN1bUE?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 19:00:00 GMT",
+      "source": "山陰中央新報デジタル"
+    }
+  ],
+  "germany": [
+    {
+      "title": "【出場チーム】ドイツ代表｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54Yk9NelRwM3ZFbkdoNmlaZEE5alRxcGh0V0tPZjVMakVoWmRKMnNIbU5sWW54bmhieU83clhtOTdJWGJmWG1oUk9Rd3o5RW1ZNWd1UDdjWjQ5WGIwZktrbmVFaWFIRTVUbnJGQ0Y0TQ?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 09:00:01 GMT",
+      "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "「DAZN Power Ranking」によるFIFAワールドカップ2026 グループE展望…ドイツの一強、ドラマは南米vsアフリカの2位争いに",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaW5oNUxmSVVYMTJjYWc4OEowaUxJcHZfWGFGNHBfWUNfbWdXeU1vcGUyQ3VIQS1aZ1lXWjgyME0tN0FRZzNtR1liS3YyeHRHUGlpNFJrYUtTUTQ3Q3NDOF9KSTBuaXZKQU9mOUpzRnptbnRXS1RpMFRKS0NWNzN2RzlPbDZYYUxIdEJ6NVYzZ0tiYkg0OEFkalNnYzlHS2pZeDBtWmNyQTVMY3dMLURNRFJzSHBIdU9pb1JSMzZ3?oc=5",
+      "pubDate": "Tue, 09 Jun 2026 08:00:00 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "ドイツの代表メンバー｜FIFA ワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMmRFbkZieFFKV0hCMTZFMzdpdmROenYybGNVcjRHU2N5aHQ1WkVFcFFmMzVzWFVNWDNoUGU2dFBNY0pUN2YxSE5rbHI0NWJ5N3VGdEVUU2EtSThTSk9pNnY4N29xaTBCVXF5RnN0TDc4VHRoRy1YanFyVXVlZ2dDMg?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 08:58:36 GMT",
+      "source": "Reuters"
+    },
+    {
+      "title": "ドイツ代表・FIFAワールドカップ2026丨日程・放送予定・メンバー一覧・背番号・フォーメーション・見どころ",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQVdfZW52REZCbDM4Xy1YSVpYYWNuM3VpeG5XUDBfQVNxUlFncXNXWVc4VHNDZEJMVXpzVUxCUjFtT3hYNVdFV0xTUUx4aHpVUGJSMHFsZEJiM0RwMnlLQXJWNUV6YUt4V0tkalVGRGZsNkdmUmlSVWdHNnlpaFFUSWJwZUtxMHVuLXlHcmxjbw?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "サッカー日本代表丨ワールドカップ歴代成績・最高順位・過去の戦績一覧",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRTVmZ0F6aXRNV00xLXVGaG1XZlZjTl9ReGNUb1B6bTFDaWpveWxMN2lVY05hS1JOU3VrWE40MF9sbW9iRHg5QkowZ0pIbFdqbmZSNlljcWRCbGhmbE8tNlBpakZ4SGxBcHNieG5FbTNRQ21OQ09Ya2Q5aEhkMERGOHN6NjRIbFFRVy1DajRYMFM1OC1WQ1A1OVl0VnBiYkJXXy1ySW5vSmk?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "2026年ワールドカップにおけるドイツ代表の分析：ヴィルツとムシアラへのプレッシャー",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMXhlYks1R0U4R0V2QmMxdk41ZmZyWTdvcV8tM3JjT25HaWdJNnh5cUdkV1RPQktCNXE0dE1EY0l3VmtPRllLSjVJeDBrMDBkM2ZLQ2dzcnBJZnBhR3doWUo5Rm1OYkNiVTB1RmlnVjA0NUIzYWFqak15MVphdDdRQmgtMXlDaWI4c0Vqbzd3THV2dw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:27:26 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "ドイツ対キュラソー（2026年ワールドカップ、グループE）の分析：有望なスタート。",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONVVqOE5FSU1Bd2xTUEF6U2NWU3FjaU5lb0tUQWlRRjhybW9GYjdBQy1wemZWZ2hmQktab0NLVF83ejFnQkU1V0liNGVxSHRzVlY0WXpzQlMzV0Zrc1NKb2doRHlQcjRITjc4OU5ZUTU0bFl6R2c1V0VSSXlIOWEtUXd1NVNiLXRxR0JRamNPNU5sc3kxRnc?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:26:39 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "ドイツ代表対キュラソー代表の解説者は？ 放送局・キャストを紹介【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zRkhGR0h2ZWlITmFHLV84cExGS21uaDJJSkRMdGV4X2otdFlwX1BXVDhoelZnMFNSTWRqNndVdW1QSkp2eFVlMFNJQlg3ZGlqTWVvTVpKN1dKUzRZMy1MNkI1MA?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:45:31 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "【6月15日】ドイツvsキュラソーの地上波テレビ放送・ネット配信予定｜FIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa0ZiZW83cDZkUlR2VkE5cEtJMUJXYUg1T2JrWUdXc181elo4T3FkM1g1X0NRbXVtV010VUZnNGRmQXdpU2NEdEk0UWxpLUhMZzdnTFVXRHI1blhDMExVVm0tb1FjbFVkd0dTbE9XSUJaYzZVanJjMGlrSkh1Q2E1SVN3aEQxU1BsVWlqbHdUSFJmSlBRNlpvM3lTaG5YNWI1c1pWcDBCbnBINFVUZTlIaVRnV1h3QnB0MnlOX0d6UU5CYV9tRlpB?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:00:00 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "ドイツ代表の注目選手は誰？クロップ監督も認めた“100年に一人の才能”！15日にキュラソー代表と初戦へ【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JQjdIcG12VGs5RGk4NmlkQWF0VjdBSlBTR0dKbzlZR0lFRzc4ZDNJS2dkWnR6LUtHZUd2TldJRXAtUWViSlBGLXVfQW5SUUFMOVB2a252Y3VmQk13d1p1TTFVaXZzSnpfSzIwbVFzSDYwQXlTSlZyeC1SckZCRE0?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:50:14 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "ドイツ代表の注目選手は誰？クロップ監督も認めた“100年に一人の才能”！15日にキュラソー代表と初戦へ【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONFJ5bkFBQ2lHNk5WVGROSGlCOXBLU29DMGtESHB5SHczalNXbGtlMDJzUEJpS2RYNU1SOGhSRzRZRmRpRGl4cmlnSjlZZnA5UXBEWGNTcXhOVTY0X0Y5NGVic043WlJoUnB5M1YwRjRqTklaUFB3c2FNZlFRRGtvbTduODBXXzMwR19wWXNSVnlFTzF0X3R2QU5BWlpGbjZL0gGTAUFVX3lxTE1COW9RV3NPLWtIT1ZqWEMzWm93ajR3ckN1RERiWXlmcWEwTnlzdktrT1U3bTMwLUZUTUZqVmUzS3ZtdFdINzlERTcwc1lGb0dxSWpXMkY3LWFRNGxOM01VdnA4clBJOG1sS1FGYlNRMHhlekgzaHFIMVlRbHA5M1ItVU01TE9qaXN6eHY4d042bVZEQQ?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:50:00 GMT",
+      "source": "ｄメニューニュース"
+    },
+    {
+      "title": "ドイツ代表監督はいったい何者？史上最年少で代表指揮。復活を託された38歳の知将【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlXzdzOVphZHNqVFRiNEhLSXZ1a0VjT3pOYTh1ZFc0RkNQUGxzMHZnejdJRXQ5UG56VUJEeFZWRGRTbU9ZV0lyMUhNTFAxeWxGbFQ2RW5QRDBwdXlicWVHYnl4NA?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:40:26 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "2026年ワールドカップの今日のスケジュール（6月14日）：ドイツが開幕戦を行い、日本はオランダと対戦します。",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOGNaa295V0tMRHZzMW9NakU0a1NqUUhNdDB2eFd4cm5RMXpMVFN5STJiV1lPempqdGJnckhJNGNQY3hzN1Q0LUFXLXNmM29xTW43RWE2T3BUVXR6bkZFcGhLOFVyTTNHQU93X3c0YXUyaXY3TVZNMkN3RTRLbXVRYjk2RjBMeDd1ck9PWmVQT2l2SjFVZ2JfZy1mbWxocDA?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:40:13 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "キュラソー代表の最新FIFAランキングは？ 15日にドイツ代表と対戦！ 【北中米W杯】（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XMmhNbDdiVnp5aE1kMmF5aS1QcXhxUk1PdnZRdEYxU3BTMThFbUt0RmxUVzZVQ1pLc2cySmdSWGFEMUxfeXRWWk1CaFlLWFQ5aTdzR0FjaWx3SmtkMFhkZUM4R215OW9VUU5oWmpvZnZTYkVrNHUzZWFyT1RnSVE?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:24:42 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "ドイツ代表の最新FIFAランキングは？ 15日にキュラソー代表と対戦！ 【北中米W杯】（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sREdzM0Y2bWpvWTF2MnB5LUtHd0toMTVzRWlPUkd3WHdrcTljUzQ1enRiYlJkcm5kYmpUZFRxb2h6TFgyd01nTlFoUDVIQVBYbFVmNzljUEt3YlBmeHI0QXNKSklfM3o4cGxNb1ZDSVdGNk5Qb3FLVjBRdV9pUms?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:06:37 GMT",
+      "source": "Yahoo!ニュース"
+    }
+  ],
+  "spain": [
+    {
+      "title": "【出場チーム】スペイン代表｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BdlJPQ1lUdk9LU2Zzb0JjTkU0ZlFnWUt4X0VRN05NNjY5dXNSdUZfNzlWNUE1QmlvTGM0YlIwZHNJWG5xOV9NTkJCeHd1Y0Q3UDVWdnBNUjg4UWpSZ0haemYyV1RIQllscVp0TFRYQQ?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 11:39:23 GMT",
+      "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "スペイン vs カーボベルデ : グループH 第1節 【FIFAワールドカップ 2026】",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0wSjdoUnB5QWhjcTVWN3NyTWx2UFF5YXJ0Rmh1c0NOYWJUaGNaSkNyQ2hlRlN6NG9aODdSZlhwWFRtcGhFMVMxQjU1SUticmFpSndpVV93NDViNnlxOUU1blJkWTE0VTZRN3l6UjRaVl9XQQ?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 16:00:25 GMT",
+      "source": "ABEMA"
+    },
+    {
+      "title": "スペイン | FIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa0h0Z2U4VDFPWG01ajB6bXBIYXpESkxOYzhIQWpQOElQNHpfem9LS1d2UW1YZkNpNE5XZUZNUVVTZWpVWWZkME1EMllUbEN1Zi02SVlQOXR0by1rc1lsZWlXSERYMlhrOF9BTHh0anRMblNYcGZjM3BiVklHdVowcU5aM3FfS3Z4UnZKZUZUdVk?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 13:28:23 GMT",
+      "source": "FIFA"
+    },
+    {
+      "title": "ワールドカップ優勝はフランス？スペイン？それとも… | まもなく開幕する世界最大の舞台で栄冠を手にする国は（GOAL）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ydkM0dTZNZ0hiRVNuY1FCYkVuUkFhb1JLZXh6WmRDQXJsUGtOei1iam9qRTJBbFEtcVo0eENjYjBhcUlaQlR2eThhTWV0RVNNTkk1QjJlUDMxM2dBRlJOS1Z5ejVLdVBoQ3ZpNW0tWHZmTmUxdkhSd1BzVzFlNTg?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 09:01:35 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "スペイン、フランスがV争いの中心か 士気高いポルトガルの初戴冠も期待 ワールドカップを占う",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLbjZST2YxalY1OWhfUVprbVZ3N0pkbDFYTllFTGQwQ3hoUXFPMk4tQ0p3RHJRU2FyVDljOVh4czBXeGc1VWJuZEpDU284Tm9ielZzRjc0bGpvSWs?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 09:00:00 GMT",
+      "source": "時事ドットコム"
+    },
+    {
+      "title": "サッカー日本代表丨ワールドカップ歴代成績・最高順位・過去の戦績一覧",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRTVmZ0F6aXRNV00xLXVGaG1XZlZjTl9ReGNUb1B6bTFDaWpveWxMN2lVY05hS1JOU3VrWE40MF9sbW9iRHg5QkowZ0pIbFdqbmZSNlljcWRCbGhmbE8tNlBpakZ4SGxBcHNieG5FbTNRQ21OQ09Ya2Q5aEhkMERGOHN6NjRIbFFRVy1DajRYMFM1OC1WQ1A1OVl0VnBiYkJXXy1ySW5vSmk?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "W杯2026、次世代スターは誰？ブレイク候補の若手選手6名",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOFlvbGg3UUxrX3FFcTFxdVBIRjAyOVRJdG13V3lNdk96MTF1UlZnaGtpc0RuZzJLWGRqc0EwNElUUDk5a0dqbHpObVUwYmFRZFZOMW9rX2FlZ2dMbC1QQjdzRnNLT2I3WDVaemRlam9LMlEyVS1ON3gzNFZrTlFsdXVrRGR4TFFOYzBkN2lYWm10QQ?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "怪我を越え、二度目のW杯へ──スペイン代表ガビが語る「現代的MF」の矜持",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HNlo4NGdLakVxWjdnNGktZVFxWWFRcjU1dkxlVThVcXNweDlDZ3g0S0I5dWpvNkt2Smt0SURjcTYwaW9kaE5XYko5TW1QTzFaM2dzckpfOHI1ZS1sbC1UZzdZdFA?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 03:30:00 GMT",
+      "source": "GQ Japan"
+    },
+    {
+      "title": "FIFAワールドカップで指揮を執る48人の監督たち",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaGlkTTdZNlVGZy0wQW05d1N0STFUUnFXT0ZkSXRzckFRR2dZeHoxZy11TzRaZjJWd21tTFF2QkhaMGF0OFpielZyeF9nVzhJUzd3Y3MxZGdHRjN6ZGgyWlZCLU13WWR4Nk1xQW50Y1NYUkNwTVpmd3JmbWt6cW5iSFpTM3RVODRWblkyb1AyU3lJNUc5Rmt0NDgyZzR1aFQycmpMTy1FZFVfTlRRZ2c?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 03:00:00 GMT",
+      "source": "FIFA"
+    },
+    {
+      "title": "スペインのW杯初戦はいつ？何時から？試合日程・放送予定",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ1N1SDBXb1NTNGhQOEpWZ3pwNDM0ZDJKZ0pJNEFMeFpYUVRjc0tMT0hLZlY0azdLZEVPamtqTF8yZDVHVFJRS1NVM19ld09OOXg1MUY3SmhuaXY2Nm9ldVRsaFpjQm91VURBc3FDWUFlX1VJWUtCd256TElvRUp1MWpxQXlnNVEwRDlkQThwRVBOTC1CcGFEeFJGSmhmdm5LLVMxaGFoN2Nyc2VkZ3RPNkFuX3dleG4zVHVFTzZaZ3lxN3p0?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 02:01:42 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "2026年ワールドカップをスマートフォンで追跡するための必須アプリ。",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVWk3VC1RM2FWSjZfb084T29LX1A3NjZSZkN6eTh1bUtnYWN1OXhMZ2JnX09ESVBZU2c0Z29nOF9mZkh4U3VJMmJQMTZoUElhT28ydl84b09Xa2hYSEpBOVpHcDFQcTlpVFdzNlpsQ1BTR3ZDM01Odkx6ZkhVUUJ2aUlJU3ZyS0h1WHhYbnNnWVhxRVhX?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:19:44 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "2026年ワールドカップを前に、スペイン代表の正ゴールキーパーの座を巡る争いが激化している。",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ216WjVpS0oxUnRpbjJYRVptSlFzU3RYQXIwSXJJTVhyR0JuTEpGZG0wcldCdEZYMlhWZTZwVzBWR2x4LS1rMkIzSEZPUWpCUS1ZWUlMc0NGeGRFcG11RHRERHIydy1LZmJlSzJsNDFVOGh2R2VfenZEc3NOdDRrd2gycmY2czNXOExmVUIzRktLbWZjcDJnMkFUd1FubnN0QVh2OUllbw?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 23:52:45 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "1次リーグ・グループH スペイン対サウジアラビア",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aZzFiczNJNGdnMlNBU2d5Q2dwUHhhQUNNUGVRcm5XcXJ4WWtBZFdnRmJBR2s5SjdfZ185NlZLWEU3OXhYTkpCaWl4UUJwc1VQeWx2QjRMNjN4enN0Q3B5SEtmU3RMQnE2NlpmVjJR?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 19:33:09 GMT",
+      "source": "web.nhk"
+    },
+    {
+      "title": "Morocco v Spain | Round of 16 | FIFA World Cup Qatar 2022™ | Penalty Shoot-Out をライブ 中継 | DAZN JP",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRDFzY3pVampBSzZGYW9pYjIwN0JGSkVwWGFEZHVDOXNEVEZRX09lN19zU0VZUjVtTUpaN3AzU0RJY0xUUTdQRDN6MWlSeUFXeW5YaTh6UDNUYncxMmgzZEdKaVlpeFoxNGhKWFZuYmQxeHlLTTNEZ0Y3Znc0RXpjaHBUeXE3U3hBSGFTeA?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 18:28:25 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "ラヤ、スペイン代表監督に「お前の生活を地獄にしてやる！」と強烈メッセージ。",
+      "link": "https://news.google.com/rss/articles/CBMipARBVV95cUxNanRRaVJ5QUFaeW1GUkZGVGlPRmFMYmxxUWJIMWVyZ19MbXc3ZWNlSWdQYzFtUlJLUDloZWhsbVRtZzFtWXBUR2xtOUxnY2cyOHI3eF91TzNUMGZobVBycFNuUVE2UkNpNktjLWE3dGpVd0FNeW1YcGdLV1RMNFk0TDVTZnROYzZ6azNDSFM2Si16Si1JVzI2M01IbU5LRXVVV1A5Z1o0c0I5M053UHpXcFRYaF94QTI2MVdyUnU1SEVUc0FpOVRsZG5Xd1MzazM0bkYxNTBPQlhTcWI3WVBhZ2xwd0hYalVEXzBZdzBaalJkQUZQeG5WTm96ZXVMNEJYZlNtQnJLOVhWUmVJSVBOLTY4NGcwcTg5dEs2UUswZ1oxNHpGV19ZOE5WaUxNMFctS3lYdlYwbXltUHhFUWhLRjVmRklncVBUTG1HWkJXcDdBdVg0OHBuMDh4bE9nWFo0YkQ3UEJESzRQRVpFNk8xMFROQmhpTWJlNnh3WGhySjZsQzhnQWhvNW8tSm9YekdsUjRrVEM5N2Nqcm1SWHJMQnc5RG1hc3l6Mnpua3J4bWtTTnNkMlFTSUVQNUF5c1FtX0pPRWIyV1RuV1B5TnNNczVUM3ZtMVJpN0Z5WTQ1b0drc3JLWE5YaEJ6dGVVWmlvalVuV3NlZDZxN0NkTTZnTTVaNFlGM2xFTXVaSjZQeXBKZlNxNVdGTnpxS2tTNlhxdTJ3YQ?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 17:57:00 GMT",
+      "source": "Goal.com"
+    }
+  ],
+  "worldcup": [
+    {
+      "title": "FIFAワールドカップ2026開幕、どこで見られる？ 日本代表はいつ出場？",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zT05YbFFsa3M2VG5fOUtkT1FVZWYtd0hfdHFoR0xnaWpubThJUURTTmFST19sN2taT3dLUkNTSU11VjV1Rnc3aE4yZDNycWN5M3pTdmVPUE15SjVKZm5FbmVKdVg2ZGc?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 15:00:00 GMT",
+      "source": "ケータイ Watch"
+    },
+    {
+      "title": "FIFAワールドカップ2026！",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1MejVsdWJHSGxYMGVjY21kMjk4M0JYQkFGV0h0UmZyaUhUakk5SXhteVA0bUQtdDFKbkdpd1E2RnpFZ2prZjR6VVdkVTRjNVJRNUt6NkJ0Ui0zVXFvWjdB?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 11:02:34 GMT",
+      "source": "web.nhk"
+    },
+    {
+      "title": "ブラジルとの初戦でドロー、モロッコ主将DFハキミ「満足している」 | FIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFN2LWw0anYzQmtYWWJZMmJXVDJSTUI2OTk1TVRURXBsM1Bjczd5NTdYMGhGeEM3T2pCQWpRaVVFd2tqZW5fTm9kSV9iVW9BX3p6UTJGNGhXTm1yQnhqbkdEYTdVZTZHdkszVkNfZDZ4OVNUM2Y3VUM0VmFRdnIzSTBLRnZCMEZEb25oTXlYUzNOOC1GUDl6cHRtei0zVVJXMTZyTloyQWZoZXotZElYY1E5cTR5ajJZNHhJ?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:41:26 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "【北中米W杯】公式発表は約6万8000人も…カタールvsスイスは空席目立つ｜ FIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUE95ZTNIRTQwVlZqaXlJcktkLWM1Tkl5bHpaLVdsYVJiMWxuTFF2cFA4bW13VzFQYWQ0UkkxaFpoa2hTdVlXdUVHY2NxTFlfREhkVFF4VmhGaDdWX05USHlQNnY0UkhJQW5YSXVQallwUzg2bU5KcFk3QjBDLU9HSWFPWG1paTVVNElvTWRaOXRpZ3J4UnZqVkgyRnRnN0F2bHlGUTV2c0VtZi04dGFNNmZkTExnZVpDdTI3ZWxiaFdjb01LZThCSms5aw?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:29:19 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "【北中米W杯】公式発表は約6万8000人も…カタールvsスイスは空席目立つ｜ FIFAワールドカップ2026（DAZN News）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LMzVScXhjSE1mM2lSOEtDc1ktZ0Y0TFAzV3JjdVlqT0Y3Q2FuVHJQWXVNazZvN1d3MGV0TzJDeFd0NDg0RXJnWDh2M1lGUXpvQV9aWTVTSVhBNmE0QUZSRjFJNWlmTWZWWU90Q1BJNW5TQXNLV1MzaGMyMTFrTDQ?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:19:08 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "【Ｗ杯】Ｃ組ハイチvsスコットランド ブラジルvsモロッコ、Ｂ組スイスvsカタールはドロー／ライブ速報中",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhU05RMVJKZnFRTVA2X0dNR1BfcTBHQ2Vic3NlMHhkYmVneUx1UVZDd3UwRmsxUGlxTUM2WEwycUlzQUtTSXlaaGFJN3EwWTFTNDhvVDFNZzZNc2FhWEVXeVROeEpLSWdBcHZTSmJyZjU0WXU4SkRNX082d0E3Vm8?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:08:00 GMT",
+      "source": "日刊スポーツ"
+    },
+    {
+      "title": "W杯オランダ戦を無料で見る方法は？日本代表初戦の中継局一覧",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNFVQY212Ujkwbk5TRzBHT0hSeWdZbW5BSmcyVjJ6T25XSlJIQVl6WE5VRGx2QUJjZ2V1alVFR3FtSVJYZnYxWm5Bb3FaWG1KTzRWcHZhYjBEOHZJWlJINW9XbHBKdDlOM1IzUDREQnpQMU9DTlVITnkyWkw5ZE95MFJJS1hvMHM3ZFg2LWItUHFrNy03Z3lKYkpVazk2UFI0UGhLYVlfaDFFYlN2TTdaNHVqVGc2YzdOWXNHTGVleU9fc0t0N054M2hSUTBpWjE4bERrUg?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 01:00:01 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "W杯サッカー日本代表対オランダ代表の地上波放送、ネット配信の予定は？ 視聴方法を紹介【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DMUk2MnZfSzFiQ21qNDNPeVVlQWV2aFJ1Skh4WkQ5RHloZ2swNnhmLS1PaU8zM1pvZENBNTJpZzlfUHNtTmZTOGNJMllkT1N4MVJBUnJyb1NjanhtRGR5amRtMA?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 00:03:11 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "オランダ代表、サッカー日本代表戦予想スタメン全選手紹介＆フォーメーション【北中米W杯】",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13VlpidUdwVzA5UDZGUXBEZkpyYWt4SGZCYVFHVHVMWXF3YUFZbG5FelVoM1JxdDZGdE1vdzY2aW50Qmo3OXVmbHQ0dlBIV2Y1V05JNlQwbUluVzluc2RkRmtSWQ?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 21:30:50 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "【試合速報】グループC ブラジル vs モロッコ｜6月14日（日）7:00｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6S1JLUE15SEU1N3VlRTFaT2V5eHZnbFllT2RBLWF6alJIbXZWTnRQNkFySEdVQ3h1S1BCMEl2YUJWN0FDeW03OXJCWXZhenhiamlTWFZBVVRIOHcyb1ZqaFo1N1NnLVJNeDE4eHhwRQ?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 19:20:00 GMT",
+      "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "【FIFAワールドカップ2026】6月14日の試合速報 ・結果 カタールvsスイス、ブラジルvsモロッコ、ハイチvsスコットランド、オーストラリアvsトルコ",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSFNyM3I1OERIQjBTdFd6bGtfU1ZzYmhrTk5YalV0NGpBN3ZGRHctZTdfVDhXTHFqNWRYUkpTa0syZWo1UmJUN1huVWZLWHlIam1GbmlmdlhBSnhnV3FIVXdhWm1NN1BkWlI1LTZsWGFxT00xNVRBMElZTm9kbHZCa0F5ZjBCSmc?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 13:34:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "ワールドカップ日本戦のテレビ中継予定 地上波・NHK・BSなどDAZN(ダゾーン)以外の放送は？",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSXNOSmRBd2NLUnNmQTVaYkozMHdQeXRSdnBEYnJfYy1SeFNaeEx0Sjc3VGpzbTBzZjBVb2xkaE5ma2JaZGQ5SXpxNm55V0JDaUFJRWZpUllpbXZFd01yU2VDMUV5dHN3RVRHNlhMQVBqYXBPM2JBTnpsQWFKOURvOExZSkxnSXFLNUFpYmZkVWlPTl95LVAxN2wtbnFwUTJfaGdfV2ZQamN6bTVWWjFaOEdhSm00VmlJSm1ReVJHVXFRbkNYY0NKLU4tcVRUTEV4NWNF?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 12:40:06 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "【日本vs.オランダ】15(月)あさ5時キックオフ【本田圭佑さん解説】",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5udXZydEltc251Tll1N2t5b3hOVE1LOEU2R2dLYTItV1ZleWFMNF9XeUdNYkJVQTJTQkswMU0wektKeGg0bzRncG5qZmRfclpZZGE4VW9fc1VPYW9UUE5Pcw?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 08:10:00 GMT",
+      "source": "NHK"
+    },
+    {
+      "title": "【W杯2026】BLACKPINKリサ、ケイティら豪華集結！ ロサンゼルス会場の開会式をレポート",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc2h6ZFJ6Z1NhZ0x2YmJyTFJPUlVFbXl1MVVwQlhjcV91N0wtSXhhT19XM01TRjBvMFVLaDM0YlhPWjBLUndTMHl6Ukdpd25RRy03bnhwOF9iNEdVY1JrRzVCYmFKY1ZpNW42ZUZMenE5c255LXpQOU5fcF9jSDNmYU1Zd3pFaFNXYlJqaXlvMjN3TWJmTEpFX21zZw?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 02:22:01 GMT",
+      "source": "ELLE"
+    },
+    {
+      "title": "Gap x FIFAワールドカップ™ 2026 コラボコレクションが国内発売開始",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMb1NNd3ZsSWltSzJwV2JoMnJKbHNjSHUwaWktejlPUFY1c01iR1pCMzVhNmoxLWFsRlQxNmppWUdsYk5HZWVKdlBoRTdhX2NkQ1dDenpHVTZZaTFOWnc?oc=5",
+      "pubDate": "Sat, 13 Jun 2026 01:16:16 GMT",
+      "source": "uptodate.tokyo"
+    }
+  ]
 }
