@@ -227,11 +227,14 @@ function renderMatches(filter) {
 
   document.getElementById('matchesContainer').innerHTML = html;
 
-  // 全試合表示の時だけ今日にスクロール
+  // 全試合表示の時だけ今日にスクロール（ナビ+タブバー分オフセット）
   if (filter === 'all') {
     requestAnimationFrame(() => {
       const el = document.getElementById('today-section');
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (el) {
+        const offset = el.getBoundingClientRect().top + window.scrollY - 110;
+        window.scrollTo({ top: offset, behavior: 'smooth' });
+      }
     });
   }
 }
