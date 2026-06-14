@@ -381,8 +381,11 @@ nav {
 }
 
 .group-card tr:last-child td { border-bottom: none; }
-.group-card .g-pts { font-weight: 800; color: var(--accent); }
+.group-card .g-pts { font-weight: 800; color: var(--accent); text-align: center; }
 .rank { color: var(--muted); font-weight: 700; }
+.sh { color: var(--muted); font-size: 0.65rem; text-align: center; }
+.sh:nth-child(2) { text-align: left; }
+.sc { text-align: center; font-size: 0.78rem; }
 
 /* ── NEWS ── */
 .news-grid {
