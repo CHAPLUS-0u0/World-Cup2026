@@ -117,6 +117,21 @@ nav {
 /* ── CONTAINER ── */
 .container { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
 
+/* ── FILTER BAR (sticky) ── */
+.filter-bar {
+  position: sticky;
+  top: 58px;
+  z-index: 90;
+  background: var(--bg);
+  padding: 10px 0 10px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--card-border);
+}
+
 /* ── TABS ── */
 .tabs { display: flex; gap: 6px; margin-bottom: 18px; flex-wrap: wrap; }
 
