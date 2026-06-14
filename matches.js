@@ -368,32 +368,43 @@ function renderStandings(standings) {
       <div style="padding: 0 10px">
       <table style="table-layout:fixed;width:100%">
         <colgroup>
-          <col style="width:22px">
-          <col style="width:auto;max-width:120px">
-          <col style="width:22px">
-          <col style="width:22px">
-          <col style="width:22px">
-          <col style="width:22px">
+          <col style="width:18px">
+          <col style="width:auto">
+          <col style="width:20px">
+          <col style="width:20px">
+          <col style="width:20px">
+          <col style="width:20px">
+          <col style="width:26px">
+          <col style="width:26px">
           <col style="width:30px">
+          <col style="width:32px">
         </colgroup>
         <tr>
-          <td style="color:var(--muted);font-size:0.68rem">#</td>
-          <td style="color:var(--muted);font-size:0.68rem">チーム</td>
-          <td style="color:var(--muted);font-size:0.68rem;text-align:center">試</td>
-          <td style="color:var(--muted);font-size:0.68rem;text-align:center">勝</td>
-          <td style="color:var(--muted);font-size:0.68rem;text-align:center">分</td>
-          <td style="color:var(--muted);font-size:0.68rem;text-align:center">負</td>
-          <td style="color:var(--muted);font-size:0.68rem;text-align:center">勝点</td>
+          <td class="sh">#</td>
+          <td class="sh">チーム</td>
+          <td class="sh" style="text-align:center">試</td>
+          <td class="sh" style="text-align:center">勝</td>
+          <td class="sh" style="text-align:center">分</td>
+          <td class="sh" style="text-align:center">負</td>
+          <td class="sh" style="text-align:center">得</td>
+          <td class="sh" style="text-align:center">失</td>
+          <td class="sh" style="text-align:center">差</td>
+          <td class="sh" style="text-align:center">勝点</td>
         </tr>`;
     group.table.forEach(row => {
       const name = row.team.name;
+      const gd = row.goalDifference > 0 ? `+${row.goalDifference}` : row.goalDifference;
+      const gdColor = row.goalDifference > 0 ? 'color:#16a34a' : row.goalDifference < 0 ? 'color:var(--live)' : 'color:var(--muted)';
       html += `<tr>
         <td class="rank">${row.position}</td>
         <td><div class="g-team">${getFlag(name)}<span>${getJaName(name)}</span></div></td>
-        <td style="text-align:center;font-size:0.8rem">${row.playedGames}</td>
-        <td style="text-align:center;font-size:0.8rem">${row.won}</td>
-        <td style="text-align:center;font-size:0.8rem">${row.draw}</td>
-        <td style="text-align:center;font-size:0.8rem">${row.lost}</td>
+        <td class="sc">${row.playedGames}</td>
+        <td class="sc">${row.won}</td>
+        <td class="sc">${row.draw}</td>
+        <td class="sc">${row.lost}</td>
+        <td class="sc">${row.goalsFor}</td>
+        <td class="sc">${row.goalsAgainst}</td>
+        <td class="sc" style="${gdColor};font-weight:700">${gd}</td>
         <td class="g-pts" style="text-align:center">${row.points}</td>
       </tr>`;
     });
