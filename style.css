@@ -383,8 +383,14 @@ nav {
   background: #f8faff;
 }
 
-.group-card .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.group-card table { width: 100%; border-collapse: collapse; min-width: 300px; }
+.group-card table { width: 100%; border-collapse: collapse; }
+
+@media (max-width: 480px) {
+  .col-wdl { display: none; }
+  .group-card td, .group-card .sh { font-size: 0.72rem; padding: 5px 4px; }
+  .group-card .g-team span { font-size: 0.72rem; }
+  .group-card .g-team img { width: 18px; height: 14px; }
+}
 
 .group-card td {
   padding: 6px 8px;
