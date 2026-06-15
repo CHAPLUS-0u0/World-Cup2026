@@ -454,9 +454,9 @@ function renderStandings(standings) {
           <td class="sh">#</td>
           <td class="sh">チーム</td>
           <td class="sh" style="text-align:center">試</td>
-          <td class="sh" style="text-align:center">勝</td>
-          <td class="sh" style="text-align:center">分</td>
-          <td class="sh" style="text-align:center">負</td>
+          <td class="sh col-wdl" style="text-align:center">勝</td>
+          <td class="sh col-wdl" style="text-align:center">分</td>
+          <td class="sh col-wdl" style="text-align:center">負</td>
           <td class="sh" style="text-align:center">得失点</td>
           <td class="sh" style="text-align:center">勝点</td>
         </tr>`;
@@ -471,9 +471,9 @@ function renderStandings(standings) {
           ${getFlag(name)}<span>${getJaName(name)}</span>
         </div></td>
         <td class="sc">${row.playedGames}</td>
-        <td class="sc">${row.won}</td>
-        <td class="sc">${row.draw}</td>
-        <td class="sc">${row.lost}</td>
+        <td class="sc col-wdl">${row.won}</td>
+        <td class="sc col-wdl">${row.draw}</td>
+        <td class="sc col-wdl">${row.lost}</td>
         <td class="sc">${gdStr}</td>
         <td class="g-pts" style="text-align:center">${row.points}</td>
       </tr>`;
