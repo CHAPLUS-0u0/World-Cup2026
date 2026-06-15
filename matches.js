@@ -438,7 +438,7 @@ function renderStandings(standings) {
     const name = group.group ? group.group.replace('GROUP_', 'グループ ') : group.stage;
     html += `<div class="group-card">
       <div class="group-header">${name}</div>
-      <div style="padding: 0 10px">
+      <div class="table-wrap" style="padding: 0 10px">
       <table style="table-layout:fixed;width:100%">
         <colgroup>
           <col style="width:18px">
