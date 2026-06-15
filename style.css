@@ -386,8 +386,6 @@ nav {
 .group-card table { width: 100%; border-collapse: collapse; }
 
 @media (max-width: 480px) {
-  .col-wdl { display: table-cell; }
-  .col-gd { display: none; }
   .group-card td, .group-card .sh { font-size: 0.72rem; padding: 5px 3px; }
   .group-card .g-team span { font-size: 0.72rem; }
   .group-card .g-team img { width: 18px; height: 14px; }
