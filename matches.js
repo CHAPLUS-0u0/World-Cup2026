@@ -464,7 +464,7 @@ function renderStandings(standings) {
       const name = row.team.name;
       const gd = row.goalDifference > 0 ? `+${row.goalDifference}` : String(row.goalDifference);
       const gdColor = row.goalDifference > 0 ? '#16a34a' : row.goalDifference < 0 ? 'var(--live)' : 'var(--muted)';
-      const gdStr = `${row.goalsFor}-${row.goalsAgainst} <span style="color:${gdColor};font-weight:700">(${gd})</span>`;
+      const gdStr = `<span style="color:${gdColor};font-weight:700">${gd}</span>`;
       html += `<tr>
         <td class="rank">${row.position}</td>
         <td><div class="g-team g-team-link" onclick="filterByTeam('${name.replace(/'/g,"\\'")}')">
