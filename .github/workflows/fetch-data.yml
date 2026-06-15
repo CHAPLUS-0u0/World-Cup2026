@@ -29,39 +29,103 @@ jobs:
             "https://api.football-data.org/v4/competitions/WC/standings" \
             > data/standings.json
 
-      - name: Fetch match details
+      - name: Fetch match details via ESPN
         run: |
           python3 << 'PYEOF'
           import json, urllib.request, time
+          from datetime import datetime, timedelta, timezone
 
-          token = "${{ secrets.FOOTBALL_API_KEY }}"
+          def espn_fetch(url):
+            try:
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=10) as r:
+                return json.loads(r.read())
+            except Exception as e:
+              print(f"ESPN error {url}: {e}")
+              return None
 
           with open('data/matches.json') as f:
-            data = json.load(f)
+            fd_data = json.load(f)
+
+          # 試合済みの日付を収集（UTC）
+          active_dates = set()
+          for m in fd_data.get('matches', []):
+            if m['status'] in ('FINISHED', 'IN_PLAY', 'PAUSED'):
+              active_dates.add(m['utcDate'][:10].replace('-',''))
+
+          # ESPN scoreboard から event ID を収集
+          espn_events = {}  # "home_name|away_name" -> event summary
+          for date_str in sorted(active_dates):
+            sb = espn_fetch(f"https://site.api.espn.com/apis/site/v2/sports/soccer/FIFA.WORLDCUP/scoreboard?dates={date_str}")
+            if not sb:
+              continue
+            for ev in sb.get('events', []):
+              comp = ev.get('competitions', [{}])[0]
+              teams = comp.get('competitors', [])
+              if len(teams) < 2:
+                continue
+              home = next((t['team']['displayName'] for t in teams if t['homeAway']=='home'), '')
+              away = next((t['team']['displayName'] for t in teams if t['homeAway']=='away'), '')
+              espn_events[ev['id']] = {'home': home, 'away': away, 'date': date_str}
+            time.sleep(0.3)
+
+          # 各 event の詳細（ゴール・カード）を取得
+          details_by_espn = {}
+          for eid, info in espn_events.items():
+            summary = espn_fetch(f"https://site.api.espn.com/apis/site/v2/sports/soccer/FIFA.WORLDCUP/summary?event={eid}")
+            if not summary:
+              continue
+            goals, bookings = [], []
+            for item in summary.get('keyEvents', []):
+              t = item.get('type', {}).get('id', '')
+              if t == 'goal':
+                goals.append({
+                  'minute': item.get('clock', {}).get('displayValue', ''),
+                  'scorer': item.get('text', ''),
+                  'team': item.get('team', {}).get('displayName', ''),
+                  'type': 'PENALTY' if 'penalty' in item.get('text','').lower() else
+                          'OWN' if 'own' in item.get('text','').lower() else 'REGULAR',
+                })
+              elif t in ('yellowCard','redCard'):
+                bookings.append({
+                  'minute': item.get('clock', {}).get('displayValue', ''),
+                  'player': item.get('text', ''),
+                  'team': item.get('team', {}).get('displayName', ''),
+                  'card': 'RED_CARD' if t=='redCard' else 'YELLOW_CARD',
+                })
+            details_by_espn[eid] = {**info, 'goals': goals, 'bookings': bookings}
+            time.sleep(0.3)
+
+          # football-data match ID と ESPN event を名前でマッチング
+          def normalize(s):
+            return s.lower().replace(' ','').replace('-','')
 
           details = {}
-          for m in data.get('matches', []):
-            if m['status'] in ('FINISHED', 'IN_PLAY', 'PAUSED'):
-              mid = m['id']
-              try:
-                req = urllib.request.Request(
-                  f"https://api.football-data.org/v4/matches/{mid}",
-                  headers={"X-Auth-Token": token}
-                )
-                with urllib.request.urlopen(req) as res:
-                  detail = json.loads(res.read())
-                  details[str(mid)] = {
-                    'goals': detail.get('goals', []),
-                    'bookings': detail.get('bookings', []),
-                    'substitutions': detail.get('substitutions', []),
-                  }
-                time.sleep(0.5)
-              except Exception as e:
-                print(f"Error {mid}: {e}")
+          for m in fd_data.get('matches', []):
+            if m['status'] not in ('FINISHED', 'IN_PLAY', 'PAUSED'):
+              continue
+            hname = normalize(m['homeTeam'].get('name',''))
+            aname = normalize(m['awayTeam'].get('name',''))
+            mdate = m['utcDate'][:10].replace('-','')
+            matched = None
+            for eid, ev in details_by_espn.items():
+              if ev['date'] == mdate:
+                eh = normalize(ev['home'])
+                ea = normalize(ev['away'])
+                if (hname in eh or eh in hname) and (aname in ea or ea in aname):
+                  matched = ev
+                  break
+            if matched:
+              details[str(m['id'])] = {
+                'goals': matched['goals'],
+                'bookings': matched['bookings'],
+              }
+            else:
+              details[str(m['id'])] = {'goals': [], 'bookings': []}
 
           with open('data/match_details.json', 'w', encoding='utf-8') as f:
             json.dump(details, f, ensure_ascii=False, indent=2)
-          print(f"Fetched details for {len(details)} matches")
+          print(f"Details for {len(details)} matches, ESPN events: {len(details_by_espn)}")
           PYEOF
 
       - name: Fetch news
