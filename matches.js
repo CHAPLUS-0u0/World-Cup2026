@@ -110,6 +110,24 @@ let allMatches = [];
 let currentFilter = 'all';
 
 let matchDetails = null;
+let standingsCache = null;
+
+async function getStandingsMap() {
+  if (standingsCache) return standingsCache;
+  try {
+    const res = await fetch('data/standings.json?t=' + Date.now());
+    if (!res.ok) return {};
+    const data = await res.json();
+    const map = {};
+    (data.standings || []).forEach(group => {
+      (group.table || []).forEach(row => {
+        map[row.team.name] = { ...row, groupName: group.group };
+      });
+    });
+    standingsCache = map;
+  } catch(e) { standingsCache = {}; }
+  return standingsCache;
+}
 
 async function apiFetch(path) {
   const fileMap = {
@@ -292,8 +310,8 @@ async function toggleMatchDetail(id) {
     detail.style.display = 'block';
     if (hint) hint.textContent = '▲ 閉じる';
     card.classList.add('expanded');
-    const details = await loadMatchDetails();
-    detail.innerHTML = buildDetailHTML(matchDataMap[id], details[String(id)] || {});
+    const [details, standings] = await Promise.all([loadMatchDetails(), getStandingsMap()]);
+    detail.innerHTML = buildDetailHTML(matchDataMap[id], details[String(id)] || {}, standings);
   } else {
     detail.style.display = 'none';
     if (hint) hint.textContent = '▼ 詳細';
@@ -301,68 +319,109 @@ async function toggleMatchDetail(id) {
   }
 }
 
-function buildDetailHTML(m, detail) {
+function buildDetailHTML(m, detail, standings) {
   const home = m.homeTeam.name;
   const away = m.awayTeam.name;
   const goals = detail.goals || [];
   const bookings = detail.bookings || [];
-  const homeGoals = goals.filter(g => g.team?.name === home);
-  const awayGoals = goals.filter(g => g.team?.name === away);
 
-  // ゴール列
-  let goalsHTML = '';
-  if (goals.length > 0) {
-    const homeCol = homeGoals.map(g => {
-      const min = g.minute ? `${g.minute}${g.injuryTime ? '+'+g.injuryTime : ''}'` : '';
-      const icon = g.type === 'OWN' ? '🔴' : g.type === 'PENALTY' ? '🎯' : '⚽';
-      return `<div class="goal-row">${icon} <b>${g.scorer?.name || '?'}</b> <span class="goal-min">${min}</span></div>`;
-    }).join('') || '<span class="no-event">-</span>';
-    const awayCol = awayGoals.map(g => {
-      const min = g.minute ? `${g.minute}${g.injuryTime ? '+'+g.injuryTime : ''}'` : '';
-      const icon = g.type === 'OWN' ? '🔴' : g.type === 'PENALTY' ? '🎯' : '⚽';
-      return `<div class="goal-row goal-row-away">${icon} <b>${g.scorer?.name || '?'}</b> <span class="goal-min">${min}</span></div>`;
-    }).join('') || '<span class="no-event">-</span>';
-    goalsHTML = `
-      <div class="detail-goals-block">
-        <div class="detail-goals-col">${homeCol}</div>
-        <div class="detail-goals-center"><span class="detail-label-inline">⚽ GOALS</span></div>
-        <div class="detail-goals-col detail-goals-right">${awayCol}</div>
-      </div>`;
+  // ── チーム情報（順位・成績）──
+  function teamStatsHTML(name, align) {
+    const s = standings[name];
+    if (!s) return '';
+    const gd = s.goalDifference > 0 ? `+${s.goalDifference}` : String(s.goalDifference);
+    const right = align === 'right';
+    return `<div class="detail-team-stats ${right ? 'detail-team-stats-right' : ''}">
+      <div class="detail-team-rank">${s.groupName?.replace('GROUP_','グループ') || ''} ${s.position}位</div>
+      <div class="detail-team-record">${s.points}pt &nbsp;${s.won}勝${s.draw}分${s.lost}敗&nbsp; 得失${gd}</div>
+    </div>`;
   }
 
-  // カード
-  let cardsHTML = '';
-  const homeCards = bookings.filter(b => b.team?.name === home);
-  const awayCards = bookings.filter(b => b.team?.name === away);
-  if (bookings.length > 0) {
-    const fmt = b => {
-      const icon = b.card === 'RED_CARD' || b.card === 'YELLOW_RED_CARD' ? '🟥' : '🟨';
-      const min = b.minute ? `${b.minute}'` : '';
-      return `<div class="goal-row">${icon} ${b.player?.name || '?'} <span class="goal-min">${min}</span></div>`;
-    };
-    cardsHTML = `
-      <div class="detail-goals-block" style="margin-top:8px">
-        <div class="detail-goals-col">${homeCards.map(fmt).join('') || ''}</div>
-        <div class="detail-goals-center"><span class="detail-label-inline">🟨 CARDS</span></div>
-        <div class="detail-goals-col detail-goals-right">${awayCards.map(fmt).join('') || ''}</div>
-      </div>`;
-  }
+  const statsHTML = `
+    <div class="detail-team-row">
+      ${teamStatsHTML(home, 'left')}
+      <div class="detail-team-center"><span class="detail-label-inline">現在の成績</span></div>
+      ${teamStatsHTML(away, 'right')}
+    </div>`;
 
-  // サブ情報（前半スコア・主審）
+  // ── スコア内訳 ──
   const htHome = m.score?.halfTime?.home;
   const htAway = m.score?.halfTime?.away;
-  const htHTML = (htHome !== null && htHome !== undefined)
-    ? `<div class="detail-row"><span class="detail-label-inline">前半</span><span class="detail-val">${htHome} - ${htAway}</span></div>` : '';
+  const ftHome = m.score?.fullTime?.home;
+  const ftAway = m.score?.fullTime?.away;
+  const dur = m.score?.duration;
+  const durLabel = dur === 'EXTRA_TIME' ? '延長戦' : dur === 'PENALTY_SHOOTOUT' ? 'PK戦' : null;
+  const scoreHTML = `
+    <div class="detail-score-row">
+      <div class="detail-score-item">
+        <span class="detail-label-inline">前半</span>
+        <span class="detail-score-val">${htHome ?? '-'} - ${htAway ?? '-'}</span>
+      </div>
+      <div class="detail-score-item">
+        <span class="detail-label-inline">後半</span>
+        <span class="detail-score-val">${(htHome != null && ftHome != null) ? (ftHome-htHome)+' - '+(ftAway-htAway) : '- - -'}</span>
+      </div>
+      ${durLabel ? `<div class="detail-score-item"><span class="detail-label-inline">決着</span><span class="detail-score-val">${durLabel}</span></div>` : ''}
+    </div>`;
+
+  // ── ゴール記録 ──
+  let goalsHTML = '';
+  if (goals.length > 0) {
+    const homeGoals = goals.filter(g => {
+      const t = g.team?.name || g.team || '';
+      return t.toLowerCase().includes(home.toLowerCase().split(' ')[0]);
+    });
+    const awayGoals = goals.filter(g => {
+      const t = g.team?.name || g.team || '';
+      return t.toLowerCase().includes(away.toLowerCase().split(' ')[0]);
+    });
+    const goalRow = (g, reverse) => {
+      const min = g.minute || '';
+      const name = g.scorer?.name || g.scorer || g.text?.split('\n')[0] || '?';
+      const icon = g.type === 'OWN' ? '🔴' : g.type === 'PENALTY' ? '🎯' : '⚽';
+      return `<div class="goal-row ${reverse ? 'goal-row-away' : ''}">${icon} <b>${name}</b> <span class="goal-min">${min}</span></div>`;
+    };
+    goalsHTML = `
+      <div class="detail-goals-block">
+        <div class="detail-goals-col">${homeGoals.map(g => goalRow(g,false)).join('') || '<span class="no-event">-</span>'}</div>
+        <div class="detail-goals-center"><span class="detail-label-inline">⚽ ゴール</span></div>
+        <div class="detail-goals-col detail-goals-right">${awayGoals.map(g => goalRow(g,true)).join('') || '<span class="no-event">-</span>'}</div>
+      </div>`;
+  }
+
+  // ── カード ──
+  let cardsHTML = '';
+  if (bookings.length > 0) {
+    const homeCards = bookings.filter(b => (b.team?.name||b.team||'').toLowerCase().includes(home.toLowerCase().split(' ')[0]));
+    const awayCards = bookings.filter(b => (b.team?.name||b.team||'').toLowerCase().includes(away.toLowerCase().split(' ')[0]));
+    const cardRow = (b, rev) => {
+      const icon = b.card === 'RED_CARD' || b.card === 'YELLOW_RED_CARD' ? '🟥' : '🟨';
+      const name = b.player?.name || b.player || b.text || '?';
+      const min = b.minute || '';
+      return `<div class="goal-row ${rev ? 'goal-row-away' : ''}">${icon} ${name} <span class="goal-min">${min}</span></div>`;
+    };
+    if (homeCards.length || awayCards.length) {
+      cardsHTML = `
+        <div class="detail-goals-block">
+          <div class="detail-goals-col">${homeCards.map(b=>cardRow(b,false)).join('')}</div>
+          <div class="detail-goals-center"><span class="detail-label-inline">🟨 カード</span></div>
+          <div class="detail-goals-col detail-goals-right">${awayCards.map(b=>cardRow(b,true)).join('')}</div>
+        </div>`;
+    }
+  }
+
+  // ── 主審 ──
   const refs = (m.referees || []).filter(r => r.type === 'REFEREE');
   const refHTML = refs.length > 0
-    ? `<div class="detail-row"><span class="detail-label-inline">主審</span><span class="detail-val">${refs[0].name}（${refs[0].nationality}）</span></div>` : '';
-
-  const noGoalData = goals.length === 0
-    ? `<div class="detail-row" style="color:var(--muted);font-size:0.75rem">ゴール詳細データなし</div>` : '';
+    ? `<div class="detail-ref">🏁 主審: ${refs[0].name}（${refs[0].nationality}）</div>` : '';
 
   return `<div class="match-detail-inner">
-    ${goalsHTML}${noGoalData}${cardsHTML}
-    <div class="detail-sub-row">${htHTML}${refHTML}</div>
+    ${statsHTML}
+    <div class="detail-divider"></div>
+    ${scoreHTML}
+    ${goals.length > 0 ? `<div class="detail-divider"></div>${goalsHTML}` : ''}
+    ${bookings.length > 0 ? cardsHTML : ''}
+    ${refHTML}
   </div>`;
 }
 
