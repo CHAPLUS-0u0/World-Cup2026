@@ -271,7 +271,30 @@ nav {
 
 @keyframes slideDown { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
 
-.match-detail-inner { padding: 12px 18px 14px; }
+.match-detail-inner { padding: 12px 18px 14px; display: flex; flex-direction: column; gap: 10px; }
+
+.detail-divider { height: 1px; background: var(--card-border); margin: 0 -2px; }
+
+/* チーム成績行 */
+.detail-team-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 4px 10px;
+  align-items: center;
+}
+.detail-team-stats { font-size: 0.76rem; }
+.detail-team-stats-right { text-align: right; }
+.detail-team-rank { font-weight: 700; color: var(--primary); font-size: 0.75rem; }
+.detail-team-record { color: var(--muted); font-size: 0.72rem; margin-top: 2px; }
+.detail-team-center { text-align: center; }
+
+/* スコア内訳 */
+.detail-score-row { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+.detail-score-item { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+.detail-score-val { font-size: 1rem; font-weight: 800; color: var(--text); }
+
+/* 主審 */
+.detail-ref { font-size: 0.72rem; color: var(--muted); text-align: center; }
 
 .detail-goals-block {
   display: grid;
