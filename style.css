@@ -383,7 +383,8 @@ nav {
   background: #f8faff;
 }
 
-.group-card table { width: 100%; border-collapse: collapse; }
+.group-card .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.group-card table { width: 100%; border-collapse: collapse; min-width: 300px; }
 
 .group-card td {
   padding: 6px 8px;
