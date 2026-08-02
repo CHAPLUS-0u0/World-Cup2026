@@ -93,6 +93,12 @@
   ],
   "brazil": [
     {
+      "title": "FIFA World Cup 2026 - Round of 32 - Brazil v Japan - Fans gather in Tokyo",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNTBCbEJMSXprX3lGUDFEbXA2Uk16SkcxckpRM1I1TTFIN2xlY2NBN3Q3SldrODFpS0lRemRmWGJPdzl1UW91UmNKekNadEo3Z2VTS281SnMxTjcwaEVaTEFHTFZJZlI2UTIyVzBVQkJvT2djV1N0QllSaE5sTkdJbEFkSGpUOXI3XzVtLUZkU19vYURUdnN2b1RrWVVySTBzQnFvMkZRbGg0ajFZdmxUU1owTUVFZnBKdEEzRE5B?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
       "title": "FIFAワールドカップ2026 TOP",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUUtNUQyY2FYaW9ucFVjZUZ6eUlYSjF2Y3ZPazVta29TWVFCT2hneUwwdFVDSF9FaWh3NklJQjI0T2dya2RvQ0puZkJXVmlDUEZvZXNJeHFtMXp5c2dXT09NWjd5eEdIYWNTQ3EzMTRXRTd1cUt5NlVqNloyOHpVSGNFU0RSbXE2?oc=5",
       "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
@@ -153,12 +159,6 @@
       "source": "Goal.com"
     },
     {
-      "title": "ネイマール「私の時間はもう終わったと思う」 ブラジル代表引退を正式表明！「もうこれ以上は望まない」（スポニチアネックス）",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FM3dkQ284NkdweVlURmRIb0lESndBb2JyOXBPaG9lRmhNdlhWY0xjcUtDVmlMV25lZ2FDUl9TZ284eEZmOWRaNlFEYzFtZU1qMVVfQ3N2ckdpYnhPSjJsRlRzWTlqWmFpek4tancyS3ZOQlVkTTd1aHVSNGNoR3M?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 01:07:58 GMT",
-      "source": "Yahoo!ニュース"
-    },
-    {
       "title": "ネイマール、ブラジル代表からの引退を表明「僕の時間は終わったと思う」",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuX0dydUxMQm5Fc2pjNGlxSlZ3bkdtOVBzZEUxTjFvNUdnX0RRUkdHajE1YTltc3pWRm9zcjRlUThCenVSWWxmRFhYdm9WMFd3N3NVX0ptQ3BEV0dCd2I2WDgzOE40aU1naEZFekVOdw?oc=5",
       "pubDate": "Thu, 30 Jul 2026 00:22:42 GMT",
@@ -171,10 +171,10 @@
       "source": "ELLE"
     },
     {
-      "title": "FIFA World Cup 2026 - Round of 16 - Mexico v England",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObElLNTNwWUxESnRQazRBMHZCUU5kRmZVTzI5c3pMbUVjV3otY1VnWjJEYXlDbXhnQ2I2d1VWTk1kZDFDRzRfV0NLNVpjUkdRTGpDWWJZY2JWeWxfY2NmRFJHdlgxZW43TkRUc21BMUQ4SS0wLXJLOWFMaUhpQUhCN3FNMFBkbEdXM2Y4MF9lbllIM0VPcXhIZXRoVXI2dDJv?oc=5",
+      "title": "Best World Cup photos from Day 25",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCdTNpYUJFYTFUZ29NWWdJQ3RRVldjc01JR3lkUEpTUjhfaUI5bU5PMkZYSjBvYzZfbGNwSW9CbERpRmUxaUlvZVh1VFJ5QWRPMDZqSVRRUGZKQk4yTm8ySzgwNy1iYUJuN25HdWVCYkNKZ1VkdnJqemRPMGQ?oc=5",
       "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
     },
     {
       "title": "【試合結果速報】ブラジルvsモロッコはドロー決着 ネイマール不在のブラジル、ビニシウス弾で追いつく｜動画・結果・ハイライト｜FIFAワールドカップ2026 グループC第1節",
@@ -206,7 +206,7 @@
       "title": "FIFA World Cup 2026 - Semi Final - France v Spain",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRlN5QWV5Q1Bza01lYkJhZVNaRWYzdUJieTBUdW4xbU1jZ1JSWTczSktEQWRodk5lWDFGM1g3TmMwYmJfSGo0RWgzTnJOMV8xNXhZN2lpQXpHM0xZdXBUSU5vRU5KWG5oU0hFZTNiSndwTDJkVDNPa0xoTW4tX09SeFkwZ0ZkVXVfZXNTN3ZLWlltR2J0bnlqSndINmFsSDZH?oc=5",
       "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
     },
     {
       "title": "【写真・1枚目】W杯決勝KOの90分前に閉会式が開催…トム・クルーズらが特別出演",
@@ -242,7 +242,7 @@
       "title": "Best World Cup photos from Day 29",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE15ai1VOVJsMzVCcWRNMFl1bGk2cEc5ODNxRFJzYXVEbnh2VExrNVNuYWs3TDg5MDRvSWNLMEdBckxwSGpDRjA5bnc3OGJYX1hiUHhISWR1TnFaUWU2aVVKbzZZaVAwcnBIVVNsRWJnV0VDSS1Ma041eDNrNmU?oc=5",
       "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
     },
     {
       "title": "【2026年サッカー男子W杯】 イングランド、6-4でフランス破る　3位決定戦",
@@ -346,7 +346,7 @@
       "title": "Best World Cup photos from Day 15",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzM19WZm52enFmaHNua0J4YXRNdEVZU2lTYk9PZXVnRE5FM2NjTUtFUXhJdFZRUTFoS21qNUsweURvRGxJN2xLODlqTTNRYXBjNzAzYzBuQlZUYW1DNENfTEpNVW5rSTluV19sclJ0ckJlSXJtYVZVOGx6RjU?oc=5",
       "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
     },
     {
       "title": "Switzerland v Ukraine | Round of 16 | 2006 FIFA World Cup Germany™ | Penalty Shoot-Out をライブ 中継 | DAZN JP",
@@ -390,7 +390,7 @@
       "title": "Fans flood Madrid to welcome Spain's World Cup victors",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOTRTQndxcGhWelRNVWJWaEFQZVlQMzN4a1RpVG1jRVI2NERkZGhwR3ZQYUdvSGRheHlIa1pIQV9EYUZFVlZMcG5lYXBHR21GYzBTWmhIRGFyMVdqVW5TdUdqSVY2ajN3RzFETUtBcEpOUmdnVy02alJwNGx5VkR0SkhLSTNJSEVQcjY0Y3pmVE5XMVI5TnlkMVp3?oc=5",
       "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
     },
     {
       "title": "ビヨンセやヘイリーも！ 「FIFAワールドカップ2026」決勝戦に来場した豪華セレブ17組",
@@ -402,19 +402,13 @@
       "title": "Latest photos from the 2026 World Cup",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdmFpM3M2RG1KczZJUzlHeVBNWHVTbWpQNnRlb01tUVNUUlZzdVh6bmpDUkdHWVpzY21Fa3p3QUkyMl9jeG9KREJ2c0prcXlial9TQVFlVC1GM0lmUE1MM0RGV1VFeTNNS2pleDQxU2V4U2NYVDk3NlE3S1pSTU1NcWdTZXNzVEp0RlB1WGxyU0Q5VUpqTzU4MmowSmNxY2szMVE?oc=5",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
-    },
-    {
-      "title": "BTSがグラミー賞のボイコットを表明、アジアンポップ賞への抗議か グラミーのCEOもコメントを発表",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcEpLM1RWT0VxV2xyYU5naXFtaW1DSk1xRVo3T09OOTJUUVlSa1dJUlR3aEhQSWh3c082NG9OVnpidUJGbUJnQjRlMzFnVlVRVlZ3aW1lNHZWYUVqYWU5Ynhwd3JMQTJaTWFIYmk4Wk1XR3ZiS1o4VVk1NDd4eXd1N1FxcmQ4bkE?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 20:43:10 GMT",
-      "source": "ELLE"
+      "source": "ロイター"
     },
     {
       "title": "2026年FIFAワールドカップでは、予測市場の取引量が200億ドルに達しました",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLW52MnFFTHNWS3paNVN3WDgzMEhHN0l6TjZOYzRmSEpxcHhBTTlxTjc5alVGckFHY3BYVzJmaThJcXVvZnVNRU83c19VUkZyM2RVOFMxVXA1VlE1czBvekNhT3B1X1dZMEs5aDI5TUJuemFhMEhJMWI4T0lJbUJzMURqUnkyckxZOUp1V1VRUW1teXZUVFdTQUV1ZHNJVzBrcGprTnJaYjRtOXBZSGVObzNYdk9oY21oR0JsU2F2UGprUGc?oc=5",
       "pubDate": "Thu, 30 Jul 2026 20:00:00 GMT",
-      "source": "CoinDesk"
+      "source": "coindesk.com"
     },
     {
       "title": "「自分は絶頂期にいた！」。バルセロナのスター、フェルミン・ロペスが、スペインのワールドカップ制覇を逃したことへの対処で「助けが必要だった」と認め、「人生最悪の夏」から回復へ。",
@@ -426,13 +420,7 @@
       "title": "アルゼンチンのパレデスら調査対象 W杯決勝後に暴行 スペインのガビも FIFA",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd1kyMVd5UUlwZlpzejBhVWRqaEM3elZPVndRQ2ZYMzF3d1lrclUwRlpHRG9HT3hvcjc4c1NyWlhDWEJ3Y00xLXllNDZ2SjZYdU9pZ2ZWdmJZcWVBYmxoTFVuMlZKSDRxakZMTEFLZ2tTNUU2cXdhYUFMY1FPY2lndWtiSWVKS1pjdk90QVQtdFVXcHZPTTUtNlEyQ1o3VlpxSFNhOURuWQ?oc=5",
       "pubDate": "Thu, 30 Jul 2026 02:08:31 GMT",
-      "source": "sankei.com"
-    },
-    {
-      "title": "「コピーがオリジナルに勝てるのか？」日本代表がスペインを目指すべきではない理由。現役Jリーグ監督が語る世界との差【前編】",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EY1RvZEFkaXFjVTJYUDhyV2F2R0E4SDFpU0hnUFpBbTlBbnkyRWZ0eHc4VUY2dTVTTVh3Q1Fzb0l0YU5wMkx1MTROQnRhZkkxWnFBaHotOE9fVV9xNUtPblpHaw?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 01:10:48 GMT",
-      "source": "フットボールチャンネル"
+      "source": "産経ニュース"
     },
     {
       "title": "【速報】スペインvsアルゼンチンのスタメン発表！NHK総合で生中継&DAZNで無料ライブ配信｜FIFAワールドカップ2026決勝",
@@ -444,19 +432,31 @@
       "title": "Spain beat Argentina to win World Cup",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNmVzY05MSl9JVktrdk9oZDM4NTBtNTNOSjdaVTNJN0llSmhGZi1XOW40ZnpTTnNWZThpdXBPLTNuLWN2SG5VdVhaeVU5OE9MdVdvX2lOeURaSEQwdERaQjk3ZG00VXZNYkltY1J2bXJ2MGxrR000MG5yQWFsRmd4Q19weHBzLUNIS2NLMWZR?oc=5",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
     },
     {
       "title": "Highlights from the first-ever World Cup halftime show",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVDlxRVRaeTFpT1NkaDJ0SFZJdEJFZHZNeWxYaE1qRTZjVF9aV3VVWnZIRDRJWWpjWlJXYTI4Zm1PeU5tU0J0elAzS1FhaURXT0ZZYUtLc3FjNnc0TWFsbW9MNU4xbDJSSE9CTHhzUEIxLWJuWnNkYkotam9nYnNoUkl5ZlpwbUk?oc=5",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
     },
     {
       "title": "【試合速報】決勝 スペイン vs アルゼンチン｜7月20日（月）4:00｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByMDhpWG9WTDNMdDM0QXRkWE9OaTkxd0toWXdOdTRjaXBNZlBleHQ3Z1lGaktMbDE4bWNObXV5bDhkUUE5ZVlDazFjS1o1RTlFaUxHeWd2UDY2Unl1VTRCSWZFQnVrNnhCS015dXhybw?oc=5",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
       "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "49歳で衰え知らずの美貌！ シャキーラとは何者か、あらためて徹底解剖【ピーチズのOM(F)G！】",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbzB2cVFGSWhmdmdFY25sRUdqZHp1dTh2ZE1EN3RtbFNROXR6U1V1U1lDVmhueG1jQ2hYbG9zRGVCd3BHbUo0WE5IdjJadlBXa3VsVV9FV1k0T283X2lnQ1FHaUVST2Q0LUY1N2U5ZzFueExYd2p2c0RnUlF4NHRzTU5n?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 00:03:49 GMT",
+      "source": "ELLE"
+    },
+    {
+      "title": "FIFA World Cup 2026 - Final - Spain v Argentina - Fans gather in Lamine Yamal's hometown",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTUhfZzFjZHpnMWtyTjFMYzJ2MGxha2QyMkFsUmh1SWFjbkFlN3JTSmdPTkV2YWZ1QmlGMTNCTjUwZTdPck1GeXgyRVVTUWpaX05DNW1xOEpmTUpMSEw0V1o5QVFGZ29BRnhNMmRYcnpjQjF4MEp2ajNaT0lhckppUzNGRWVlaFo5YkdmYlZWNA?oc=5",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
     }
   ],
   "worldcup": [
@@ -476,7 +476,7 @@
       "title": "2026年FIFAワールドカップでは、予測市場の取引量が200億ドルに達しました",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLW52MnFFTHNWS3paNVN3WDgzMEhHN0l6TjZOYzRmSEpxcHhBTTlxTjc5alVGckFHY3BYVzJmaThJcXVvZnVNRU83c19VUkZyM2RVOFMxVXA1VlE1czBvekNhT3B1X1dZMEs5aDI5TUJuemFhMEhJMWI4T0lJbUJzMURqUnkyckxZOUp1V1VRUW1teXZUVFdTQUV1ZHNJVzBrcGprTnJaYjRtOXBZSGVObzNYdk9oY21oR0JsU2F2UGprUGc?oc=5",
       "pubDate": "Thu, 30 Jul 2026 20:00:00 GMT",
-      "source": "CoinDesk"
+      "source": "coindesk.com"
     },
     {
       "title": "サッカーW杯を欧州がボイコットへ、アジアも反発 FIFA子会社案 [サッカーワールドカップ（W杯）]",
@@ -489,12 +489,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RQTJsX2lzQndwNG1FN2hQVDVXSVU4cHo0b2tZWHRRR0FsNE1QTUl0UHVpNzJON3BUZExJZWpGWVRVVGgwTjVMTTkyU3ZrV29WMHFObHR4NE1uUUQ0SnFwTjVvRzVUd3RZOWxUQmh1RHNWNVpIc0RsRkw1N0lCTTA?oc=5",
       "pubDate": "Thu, 30 Jul 2026 11:50:47 GMT",
       "source": "Yahoo!ニュース"
-    },
-    {
-      "title": "“サッカーの祭典”FIFAワールドカップ2026が幕を閉じる",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByWjFuSTdrR3VZSWo1Z1hpYmIxeHV3UFVRd1hSZjBSYWxtLXZwTFM3LUpLRE5mZkYxeXB5VW9XbzJTZWw3N1Q0MmF2T19mR2pVUk56UngyanFXcUlDVmdYeE5qSFMyMUg0eTlGM2RLTHI?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 10:51:00 GMT",
-      "source": "スポーツナビ"
     },
     {
       "title": "【産業能率大学プレスリリース】FIFAワールドカップ2026北中米大会に関するアンケート調査結果",
@@ -512,7 +506,13 @@
       "title": "Highlights from the first-ever World Cup halftime show",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVDlxRVRaeTFpT1NkaDJ0SFZJdEJFZHZNeWxYaE1qRTZjVF9aV3VVWnZIRDRJWWpjWlJXYTI4Zm1PeU5tU0J0elAzS1FhaURXT0ZZYUtLc3FjNnc0TWFsbW9MNU4xbDJSSE9CTHhzUEIxLWJuWnNkYkotam9nYnNoUkl5ZlpwbUk?oc=5",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
-      "source": "jp.reuters.com"
+      "source": "ロイター"
+    },
+    {
+      "title": "49歳で衰え知らずの美貌！ シャキーラとは何者か、あらためて徹底解剖【ピーチズのOM(F)G！】",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbzB2cVFGSWhmdmdFY25sRUdqZHp1dTh2ZE1EN3RtbFNROXR6U1V1U1lDVmhueG1jQ2hYbG9zRGVCd3BHbUo0WE5IdjJadlBXa3VsVV9FV1k0T283X2lnQ1FHaUVST2Q0LUY1N2U5ZzFueExYd2p2c0RnUlF4NHRzTU5n?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 00:03:49 GMT",
+      "source": "ELLE"
     },
     {
       "title": "ハーランド「神様」と説明不要2ショット「キッズに見える」肩組み身長差話題、ブルズも“公認”",
@@ -545,10 +545,10 @@
       "source": "Yahoo!ニュース"
     },
     {
-      "title": "FIFAワールドカップ、予測市場での取引が3兆円規模に 公式NFTも盛況",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1HUjRkMGVvVGp2SWNlNmlmLVo1YTM5a1FQbFNkM29Hc0UzVDJURWpOenFVLURXdDZWYVA2bU8wWXVab1U?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 00:45:28 GMT",
-      "source": "CoinPost"
+      "title": "Jリーグ2026-2027｜FIFAワールドカップ2026日本代表選手の所属クラブは？",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzhFVi0xdGMzTFJKYzV1U0EtM3N6aV9yaUV4SjhWNWM5dkNkTXhjRks2Y3BBR3dRUkk2WDA4QlZ0Qm9IdEFFMXdKbkRWWkhza01vY01leVVxWUNOcjdGR3ByQklSdUctWWFZbW5FcUt2SFA5c1FqNmkwNWdoN1RzazlQcG5DSlRwUGtEYU9lN1dQTXdnUUl4X0xNZmdIQlk5X3NBOUNtRnNrZVVDSE1CVFNfQlB2aDJCaDVjYlhjbXFMakFYeDRsbllFZw?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 05:30:58 GMT",
+      "source": "DAZN"
     }
   ]
 }
