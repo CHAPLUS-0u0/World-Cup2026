@@ -1,8 +1,554 @@
 {
-  "japan": [],
-  "brazil": [],
-  "france": [],
-  "germany": [],
-  "spain": [],
-  "worldcup": []
+  "japan": [
+    {
+      "title": "W杯クオーター制への大反発か、FIFA会長を追い詰めた｢欧州のボイコット｣と再選の行方【FIFA3兆円の野望と2度のオウンゴール、来年3月の会長選】(3)",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSC1vRXY4al9QcTl3N2d4aW14YlJDQnlVOENsZlZvcnplUWNUMThBUjFmMDVWNjNQWE8wRkUzMENHRkZwUHhfRDYwMmVVSURZLVNMV3pmMXpnc0wtMFhr?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 21:35:00 GMT",
+      "source": "サッカー批評Web"
+    },
+    {
+      "title": "サッカー“日本代表の司令塔”が勝てなかった「愛媛の天才少年」とは何者だった？「将来はアーセナルに…」本人が語った“ライバルとの物語”",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uNllqbkp3a1ExYkdTZ1JqRzN5blFkMnJURDNoN0pYTmlIMU95X25TeUtQZTZXZC1IWnR0YUw3azNuUWlpTG9pXzItUktkS0pUaUxGM0dTRGVTR0Y2SENB?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 21:00:00 GMT",
+      "source": "Number Web"
+    },
+    {
+      "title": "サッカー:ワールドカップに幻滅した岡田武史さん 救いはスペインの優勝",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aaTF5djBLSlJ4NmIzTjJUaUlvZ3FPV2tpNGFCRUVPNzVtelZjOTVGbWFZRllwbnU3ZkVaSjlETWVEMTRKbVROdEVCUHJ3azAzdllvVmpNcU16ci1IS0NMUW80RVNFUUNueFhfUQ?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 20:00:00 GMT",
+      "source": "日本経済新聞"
+    },
+    {
+      "title": "【サッカー日本代表】9月にウルグアイ代表と対戦 森保ジャパンW杯後初戦 森保監督「この試合からわれわれも再び歩みを」",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1UlQyYURER3VWREJVVmllbWg3NjV4Y0dNLUJjWENRYmNmakVqcmhfMFVBWXpvZ2VTUHhoTFV5ODRyVnVjV2RJOFpWYndsenNqZUtmV1N2YVdMT1M0VVNUeUpDdkJVenRFMEZWUHJGR2RpNVRISHRjcDNuTG8wUEU?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 09:40:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "日本代表が求める「個」はスペインと何が違う？ 岩政大樹が「2050年に優勝と言うなら今こそ議論を」と話す理由【コラム】",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5IZGxkOTJkT1NOSm9saWFKZFpzNDRPbndERm5iSFlFSVhxdkZxQmZNVFEzWkJJTHA0R1pWYzlqMmV4WnZMdXBaaE9YZUlQU1BrNlBXa1VZZm5UWWRkZ2VubmtJNnR0N05PN2NySFJ4d3lGR0ZIRGcwUU5FRmFpM2M?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 09:10:02 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "川淵三郎氏、W杯で「サッカーに幻滅感じた人多かったのでは」野々村チェアマンJリーグ指針は評価",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JN1hBUHhjUlBLdDMzWlRHLXlPNXJLTkI0NWQwb2tlOUtzV29OZHhNQlB6c181REUwbnpoMzZjV2dlUVVnWmFGYjZxeGlLdGNYanVrcDRaZWRfUzJ5ODR2cVJPUWhUMHJONm5fOVpR0gF2QVVfeXFMUGFSWmFra294UGJ6SWUtcXl5MWM4MDlETkZvTzRfMVpKdXcwRjA3S2NWbEZFRTIyVzZFNmNIV2U4ZG5TcTJBN3padUFSSEhIWUpaV0FRUTJ1OHpkUHlVcWxjcy1Eb0pFLW1NQi1JSnVVeW52UUdFUQ?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 07:21:44 GMT",
+      "source": "日刊スポーツ"
+    },
+    {
+      "title": "サッカー日本代表、W杯後初戦はウルグアイと 宮城で9月24日",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BanczeFMySUU2d2x5Q2l2UURmSVM0elAtdTdOdFhVck9CcnhxMTlEZWpmOG44ZDByc3BtX05wTktJbklkQXI1aUxmMDJKcnV3OTJQVGtIMFJCRFdYZHZYN1IwVWhNUDh4YnFfeA?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 02:10:41 GMT",
+      "source": "日本経済新聞"
+    },
+    {
+      "title": "【W杯2026】サッカー日本代表、決勝トーナメント第1戦の「ブラジル」はどんな相手？ W杯優勝は史上最多の5回【サムライブルーとの直近5試合の対戦成績あり】",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxOUDhPY2pjM3JIUlZ4U05rRGJQUjV2N0pIQmlOcFF3X2JWa0JJdUVITk52V2Fydkd6MTlYTWtCelBPaTJ3VE9jRzhabmVBemlSb3RhOUM0VlpqT1gzZ3ROS1h3WlNWeWEwTWc1dENWZm5YelFaN2lHOXMxSEtiLXlQdHhMVFZOQWxtUXFvOGl4ZzRvWjdJa2dtVUExVkpHdzVWYmhpX0IzMkUyZk9DUFBlSTQ1N2dUOHo1OGdwWXQybkpvOVJXNDNiVnU1T1F6Tld5YVRuRkFuT1JnLVkxU3l5UjlQOG5DWGRtcHYwdkp0TGVLWWVVTFYtelVYR3RtdDZodXBldU9NZ090UVEwX09VOVpuUHdWVWVKWFNZSmZhVTR3NVNBZVB2LVBYYVVlN1R4VzdiSUxTMk5XcVZuVDFmNGZjdU9nNEJqZTVSdTB6WHZjaFlrSmItSWw4czN1RXFMN2FjYkk5ZmFCNm9EMktEOExGMktVcXRXTE1SRGM5UUcyRVpGZ0kxcWtzUjdzdE0?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 01:14:13 GMT",
+      "source": "山陽新聞"
+    },
+    {
+      "title": "日本代表、W杯後最初の強化試合でFIFAランク20位ウルグアイと対戦！フジテレビ系列で全国生中継（GOAL）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55amM4cEZWVUJvbklmTnE2aU9sclBiRGtJTFpfVU9hdmlZbFFaWWtWbFA2b0UySEd5cUxDYVNubzhEZ0RwYjM2VG9ta2RCXzlmYi15MC0tbW83cFJlTmVLUFZ1d2lxay1na0lLelEwb3RRTDdFRFRRZ0prTjFzaVk?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 00:57:52 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "日本代表の発表に「協会頑張った」 W杯出場国との対戦決定に「ちょうどいい相手すぎる」（FOOTBALL ZONE）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RWVRpeFpfMFNoZTVDa0FqTFZWQmxSWVRRWFNPQUdaUVZKQ3lOU0EyS3ExVXhRenJzOXh0cTVGQnMtMVdHZFNvMHo0WnpEUHl1YlNlV2ZKbFMtZmdabE10UEduZGs0UTNWbkpzQ3FDdDVMaFgyNmcwQnRoc1R2Zlk?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 00:53:28 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "日本代表の発表に「協会頑張った」　W杯出場国との対戦決定に「ちょうどいい相手すぎる」",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeWg3d0NkbVFXeXNFNklmVDhlelE3MTZ0MmJLTXN6dEF4UlljR2x6WWNkbEpnbmZ5R0JqS1FxQ29mUnU3V2RETlhoY0d1Vm1FNWRMMTBJT2VnQXV3bDZQbjRMY2NLWmNuZkV3Tk5QbDdTeEpzSzYyaDZZNDJ0NV9MY0ZGN0YzMHpK0gGOAUFVX3lxTE45YzFpTXJSNlc1dkpPZDlFUUJEU1FGQUhScTYydURGMkw0d2NCQWJwaERjOGh6NzdNUnV6Z0piLXY4NTZDbC1pRWtCMEpkUmNIaWdkdG5YaXNfWk9WOE93N2JTdVFmcTNrZDhWSThLa1dSSDA1LTZQN0NkVnZkSkI0OWtVYmM2cmlZQWdGeEE?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 00:53:00 GMT",
+      "source": "ｄメニューニュース"
+    },
+    {
+      "title": "日本代表、9月24日にウルグアイ代表との対戦が決定！ 全国生中継とライブ配信も決定！ 北中米W杯後最初の親善試合",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pV2FBVmd1N1RFYkwxdFZGamtVdXBkb3hRTXRpSlBCOFEtVnJla2pFVHNUYXBYbGRVVHItRGtoTkg3QjFCbFRSNlprRUJBOHd5Wi1GeFJuRDltU2JncFM4clRUMVhOckpheWRWTnR1X2FSc1pKcndZVnVWWVlzVlE?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 00:20:06 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "「合意に達した」CL予選直前に急展開！W杯落選の日本代表MFがオランダ王者に電撃移籍へ！移籍金は最大31億円で「５年契約を結ぶ」",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xcTV4eXhMd1ZON3dHNzU1MDdxSVY2ZXEzSG1KeFEtVnNuUVk0dHRxa0FpNmk2ekJiOFhSSkJSeVQ2TkYzWkR5UnZFT1JDZkp4dDZ5SjQ3RjNaNFdmZ1lIT01CY9IBc0FVX3lxTE1nWk1tbklsS2FKczFhQnZBVjJ6Q1djYzlhQVF1UlZoWFZuQzBaSTJJRFdFQk1MMlVIUVBQTDhDRk5aWEROQ3EwenhWYmQxUHMxRXpJTHFMQl9HYTVYRHdxNmx3aGpHRVNrNEZJUm9qc2pJUlU?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 19:23:00 GMT",
+      "source": "soccerdigestweb.com"
+    },
+    {
+      "title": "【W杯2026】サッカー日本代表公式、ONE PIECEとのコラボフラッグ巡り注意喚起「厳正なる処分をさせていただく場合がございます」",
+      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxOVWk1bXdvM2h0eUpMbG04VW1VejY1ZWhtOUcwY1VBSDRqTmFLTmZVYjZHem9ZaGprYlcxUnhLaXh1aFFESUVmVVdIb1FJZjJpRlNkUWlVakNaN2dfNk1ZUG1BVEV1NEM0NVdIRUpTUHhtM2Q4ZzVnRkh0UmpfNEFVX3R6RE9qSGRCX1ZucW5XQmJUWDJNSGdBVnA0UW9zOVZrOXNkQWlhV0Z2dmZsT2JmNDNGTlFDa2dQVmVtNG1fbk15SXdiT081QjZ6MGxPaW13T2hnRlFBdU9LYW1jRE8yWFItaHVoZnBQeHV0RFpCamxrTjNieC13UU5Nejd6d2pKRndueVkzOC1XRUdGM180aTdYRXlrbkVOLXR5ZWlNdzREaWo0U0xsM2hVcm9pSW9oaXdFcnhXN3U1NGVyYWltcGRjLVVlOEJZTUxPdWFDY1kwbEV1d2RicVB1dERCTTBlLW9tdWRvNW9RT2Y5bFJXUDhxczRtcUQ0Mll0MExvOXFiYVJYUFlJd3RySzZnTUJwT25lS0pfaEIzZzMxWnNyR3V4TlVqelVUSkFMdU5hZFBkWGYySXRfWlVuZHpUODhRWDVWTzQ2U1c4QXNmdDJHOXRMOTZVTnIwdm1jMDdSV1hrb1lEVWc?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 15:48:27 GMT",
+      "source": "山陽新聞"
+    },
+    {
+      "title": "（取材考記）サッカー日本代表 Ｗ杯、「８強」は低い目標か 加藤秀彬",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UbTBsQlV5aVg1NHBBeFpzdFhaXzBadGs5UXVQcnBJVnJNWURFUWlDWXZqZHV0OEVoVjlNRlA2aE5QZGE2RzR2OUxoR3lyXzZIUGxsaHIwMUcyQTZ5?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 07:30:00 GMT",
+      "source": "朝日新聞"
+    }
+  ],
+  "brazil": [
+    {
+      "title": "ＦＩＦＡ女子ワールドカップ ブラジル２０２７まで１年 アディダスは女性マーケットを有望と捉える : WE Love 女子サッカーマガジン",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PbTJqYzdyTmhVUW0tVGpDVFFDcUJXQW1hS0tmUV9rR3pPa2ZaU3pLRl9telN5SExxM19NdVJUN09FekxKTE9LaS1lUXpjUHpHMjBsdjFGLXZkUDg?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 22:00:51 GMT",
+      "source": "targma.jp"
+    },
+    {
+      "title": "日本はなぜ失点した？名将アンチェロッティ監督が仕掛けた戦術とは／サッカー日本代表vsブラジル代表 FIFA W杯 2026",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNXQwUG9CdFpvX0dZd0RUWmVhZXQtbFpmek9PdW5uSDVKNmNnZVpieE9TLTB5d3lvRmh1QXBRZTZRTXF3b0cySjRqTVVvWG0xTHZabzdZRHpUMThla0wwWlRRV080WDdDRUNjdmNWMS1BNGhtbmJLMG9xeFVGamtMN1M4eFhiWjlFbDBIaFF6WklGUUkyc0xlV255Y1VRWWhIZ201OUsxbUxZR1llb3NKT2FiUQ?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "FIFA World Cup 2026 - Round of 32 - Brazil v Japan - Fans gather in Tokyo",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNTBCbEJMSXprX3lGUDFEbXA2Uk16SkcxckpRM1I1TTFIN2xlY2NBN3Q3SldrODFpS0lRemRmWGJPdzl1UW91UmNKekNadEo3Z2VTS281SnMxTjcwaEVaTEFHTFZJZlI2UTIyVzBVQkJvT2djV1N0QllSaE5sTkdJbEFkSGpUOXI3XzVtLUZkU19vYURUdnN2b1RrWVVySTBzQnFvMkZRbGg0ajFZdmxUU1owTUVFZnBKdEEzRE5B?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "決勝トーナメント1回戦 日本対ブラジル",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41MlBfcnljRC10SDJnYTJHUmpCQWp3bWF0a2hDZGo2T0VJVUZYQ1Y5WkJTWVRYS0ZKUlAyQVVyYXoyTlc0VHhkWkRuVmM1eGxNQWpKS2ZqeXFNUmVWMF9VUVhRM243Z0tXX2stZmN3?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "web.nhk"
+    },
+    {
+      "title": "【2026年サッカー男子W杯】 日本、ブラジルに逆転負けしベスト32で敗退　後半終了間際に決勝点奪われる",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83T1JzMGhhSXpITG8tQmhjQVhOejM0Q2JBX1lPMENRbGZCalNEOUU0NDcyX2wyUG4yNEtySjdzdWNfOXRpYXZQWDZjWlhvRFVSeWVfdWxmbElRempBb0RN0gFkQVVfeXFMT2NZVFhBc2k2Xy1FbFN6NTVEOGRRVXRBNW9XOXpDSWMwQ0FsR0dxNUU0M0hrMmdXYWEwU2JVcnBBY0drYTNXSjc2dlAySEZuckVSaHhTbEk0SUdiVFNXdnJ1b3lSbA?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "BBC"
+    },
+    {
+      "title": "日本、1-2でブラジルに逆転負け 終盤の失点でW杯ベスト16逃す [サッカーワールドカップ（W杯）]",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwWFhROWxQbWZHbG1uOUszTXZsTWw5S2xEZGQweGt6d3hLZV9oSVV4RkxiQ0NKanZ3R05zOXlQTmxMSGxISEpjT3huZmx4Nk9mRFRxN0tfanVPOTNmelk5SjJuRGV1dUU?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "【ワールドカップ】ブラジル戦で露呈したサッカー日本代表の限界点「感動をありがとう」は勝負の本質を曖昧にする",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ0h4SWV4dXgtbzk2Y2hJbXN4MlluQ05oVzdvaDJpRU9hRnh5MjN5OHl5cVdadFBIX1ZBNUtzT0c4MkdDX3dsNFJXS1FHRnNWeUczRllZeDlubEM1aDJsTEE0YnhkZ2xZVThtaFlhZ19TLVU4cHBrRVZFTVZ1bnVqSg?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "webスポルティーバ"
+    },
+    {
+      "title": "ブラジル、W杯日本戦の午後は仕事・学校休み 日系人、先住民も注目 [サッカーワールドカップ（W杯）]",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HX210NDJaejAtQVhIUG1iZmdOUU5hRV9kOGdVazdXTG9KTHI2SzlnY0w0Q2I5LWNUeHBtTDBtSnM1LTVRNzlmejNma0lpV0dlRXRqMGY4VnVjbEN6V3phSWFhVEJQLVE?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "FIFAワールドカップ2026 TOP",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUUtNUQyY2FYaW9ucFVjZUZ6eUlYSjF2Y3ZPazVta29TWVFCT2hneUwwdFVDSF9FaWh3NklJQjI0T2dya2RvQ0puZkJXVmlDUEZvZXNJeHFtMXp5c2dXT09NWjd5eEdIYWNTQ3EzMTRXRTd1cUt5NlVqNloyOHpVSGNFU0RSbXE2?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "【写真・2枚目】ジダン氏のフランス代表指揮官就任が決定的に…デシャン監督はW杯3位決定戦を最後に退任、来週にも正式発表へ",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUWNva0N2Rmp0RTZRX1JyOFRwd3c0cnkyMHpTeFg5UDhYZW55SEJvaV9Na1lIdFFZQ2tib0JFemxUZnJVMVE2OTJCTTYtMXI5ZzZfTGZiNTBESlBROG80MU84LTN4OFZTVDFERFN0TGJTRXdPaVEyZHQ2Y3U4SVp6a3VYODVLcFl4azNlZE01S1RVSFJrMU5zWE9POTNzek5pYXNKbkVlVXI5NEtJdkZMS2FGUTV2TWVPaEhJUXhIRQ?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "なぜヴィニシウスはブラジルで愛されないのか。 “国民的英雄”になれない理由【現地発】（SOCCER DIGEST Web）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VblJkTi1XX3BCR0ZxWHBZVloyc0F1cHRoZS14Nkc2ajZWdTIxd1NCOEJ0YjZiRXRTUHRqU3dtSG9MTEI3d3l4R0JTMnRsNlZjNXhnNWdXcWxhVUhUX1BsbFFFRFZqU0RNSUpFVEZpd0Jld3hXU0hFQlpMU01lbUU?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 09:32:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "「W杯ブラジル戦のミスを引きずっているのか」再び“冷遇”の恐怖…精彩を欠く日本代表MFに地元メディアが苦言「パフォーマンスが良くなっていない」（SOCCER DIGEST Web）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16bXk3STJwbzNIMzNPY2tQZmpnaE9CZnVRTThsOHFvTUw2UXk3blB1NXBRSnE0TV9ROENBR24tMENWT1B4bjItYWJ0OGxtWE5OSTlPYnlPckhnejB6dEFCQUxXUDJPaFhBT2Y0ZjhzbXVyZnVST1NQa1NrMWRYYzQ?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 08:08:37 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "「アルゼンチンみたいになる必要はない」識者はなぜそう断言したのか？日本代表が追求すべきものとは",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40QWNadzdlNldDMXI5cGhaSnpXbUF6T21kM05DOFNxYVR4T2ZGMTBLeHk3UmJUSjhBMEJwVjFpc0NEYTRYRS1EdDI5bWRPU1ZpSTh5OTFvZ3hXX0tiSHYtNEJaMGpRNm5DX19aWF9XZWIyRHA0VVJjS2FXc0Z0elE?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 07:29:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "FIFA World Cup 2026 - Group C - Brazil v Morocco",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb0FaVk5rb1BLZFI5TGdtdVZ5a0xadDVVRTlmUmZleTNRT21yY3ZDVmduZDUyZV9xS1NJVXFjZGszcFdXdGEzWUJSU19CS0llZWlWTFhaWUM0N0J6d2NmMmxRVXBhdEhlcFpOS0xHYzVqZ0hDdEYwOE1rbnI3cDZXUXJtR1ltdzJndFdBWV9fNGoyOEt5VmszLVNEUHM5VmM?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "Soccer Football - FIFA World Cup 2026 - Round of 16 - Mexico v England",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcHZRZS16ZGFtN0pUSVVMVkd6TVBIYVNDdzBRMXFmY2xIa2p6RzJLRFNPclp2dExHaUNZLU9LWHJmZ2JQQmNVWnJPRWJyNTJXbE10MlliVmtmT1E3X0tJSURvVTdSb3lwM2lvLWx2QU53Y083NTBydm9lMFdkZzNwZmFCaEZFWU5wLUVTWUlhZmN0end4SlFoSG0yRWtoajBB?oc=5",
+      "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    }
+  ],
+  "france": [
+    {
+      "title": "【2026年サッカー男子W杯】 スペインがフランスに完勝、決勝に進出",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtQmZRTGYyclpDNF94TEpWSGY4cFZMdkVtVHhZcExfa01lVHZ5R240NmY4VW04NGR2eUt0VnI0OTBvZnFsRlZoMW9DdDZtSGhzRHF6TDNZNGI2elVnemNz0gFkQVVfeXFMT1BTSnRMSGk1UFZaRzVRNUZVbTF4TXdMOEpVTHBoYWZBcmhDQWFOMFlidHA5LTFJQ3RPNUZFcFV6U2MxSnF1d0stWGNUMXhsRE91emZGUTR1bFo5anVyTU1FV0w3eA?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "source": "BBC"
+    },
+    {
+      "title": "FIFA World Cup 2026 - Semi Final - France v Spain",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd0YyTGlNeHVlT20ySUxiZFUxYnhtaEZjTUpQOGpxWDhFU0w5cUNHOWdITkVFYkJvSExKTEtIRjhaRWdod293bDRpT1N3TER5YV9iSjlZLXBObXJCaGVjS3plb3VINF9IeVl5OEJnQVdRcmR2N0JPODJGaS1wUXhBV1ZVRUxBYzlZNXJRTXBIOEw0dks0OFBwZllOQWZqalBC?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "【写真・1枚目】W杯決勝KOの90分前に閉会式が開催…トム・クルーズらが特別出演",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSmlaWmFqR1htenY3cXBiUzRETkEyYko1Vk5WRkoyMGNJMkNPSEgtVVQtd0h5dG9qYWJpUHpPdE5JVloySU9ELXp4dDVNc2RWcUNhV041cW1OX0RrX0Y4WUxTSkYyNWRnaFFSckJ1a2tEQ0FweXRtbWNIMktHazlIa3hhdmF2Tkh3NFV4c2I0MlRtUzFDb2sxdG5EcW9MUkV3emg1UmNSTmd0YlUzMXFYTHd4cklLaTNrakRhemxR?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "Argentina v France | Final | FIFA World Cup Qatar 2022™ | Penalty Shoot-Out をライブ 中継 | DAZN JP",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnRZMTVfQjFaTWpVT2xha2h5WFVobXRYNWFGMXJBT3FIbEpSUzViYWhCcVdpZlFySzh1RmxkQzV5NWRVTXdWd2xuSm0zaHNfUnQ2dGxQSklXZzg1ci0zX19fSDl0VTg5S0xCc2dXdVppR3dhclB1NVQ2QXJQcGlQaFcyZzh5VzFBOU9R?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 18:10:59 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "FIFAワールドカップ2026 準決勝「フランス×スペイン」7/15(水)早朝3:40～ 日本テレビ系で地上波生中継！",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6MnBPbndNSjZMZm9SN0VGaUc4LTV6TFB6ZWQxX1dtRVdteGRCa29yWmpMdTQyd2xTb21uQlk3YU14elNFUlBSYmswRXdPeFZ6Rk9aV3lRaXJ0MUktdUMxWkFtUENydzRpSVpYZ2ZycjhRcUFENGhHZ25kZVRhQQ?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "source": "日本テレビ"
+    },
+    {
+      "title": "【北中米W杯】スペイン、オヤルサバルPK＆ポロ弾で完勝し4大会ぶり決勝へ。フランスはエンバペ不発で3大会連続決勝進出ならず ｜フランスvsスペイン｜FIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ0EySFdFSHBZYWZYc1lTUjQ2Y05vVVpJdVU1ZDFnMDVON2YzeEw2WnNmOVNhYnhZa1RCNXpvMjVvcXJhdnFDeXZrQUJrMmo3cVJpcTdZU3h3ZmxMSjB3N2dMYXlkb0w0MmNJOVU0WVEwWnV0Y0xtSFNmV2xiYkxOeEJNZ3dfRXZsNTBhMlRhZXZ4MzBXOV8zM2NNRXVBYVlYVTJ5WXByRVhpX1JLY19JWk8xS1hEcVZiMEMtOXNrM3JCUjB4RkFVSHlqWmRnX2pqT0NxLVl4QVQ2Zw?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "The week in unusual pictures",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RSy1MbWw5MTZrNFd2TC04VGtpNGhsMHV4dFRqVWJnOEFNakxYOG1kMjhTSlZqSFNyVGZEVmVVdS1yU3RuQ3Q2eWVwYkpUMG82WmMySFFPQ2dMRFE2MFliRS1jdWprZF9nbk5jVF9HWVJKS0U?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "FIFA World Cup 2026 - Quarter Final - France v Morocco",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ3dkRkUwSlRlemZOMjRrcVByZjhWc0hFeUNzNUxGemMtbUVFMDd3M3YyNUFlSHk3TXJsYnBIVjB6Y1dZQmpybXcxRk9pY3VDUGV2a2Q2ME5KampncFZnNHdWOW9BMEhrMlNoVlYySjdqSC0wWDJaYUlNZkhVeHJCbFo0OWxJX0NoVE9hRklZd1dnamJnaExCTTFQTHMzU0Iy?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "ＦＩＦＡ ＷＯＲＬＤ ＣＵＰ ２０２６ 第３３日 イングランド６発 フランス破り３位",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mV3JiLTJ2aTVEa2dpNXdpTjdpVTIzV3dlbGV5aE9pbl9hZUtleUJlWTRqNDhwWTVvaUE0V1c4eURFUzBpTmJfUVFDdFRuU0hsT0tjeUlB?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 20:00:00 GMT",
+      "source": "岐阜新聞デジタル"
+    },
+    {
+      "title": "【2026年サッカー男子W杯】 イングランド、6-4でフランス破る　3位決定戦",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96THA4U0kzVDBSclNFLU5LczRzdkdaM3RoaUQ3eWdkczFtVFprN0RxTk1mNi10dkVzcEFUaTJTWnVDbUUwbmsyMkJkbGVIeGlkWmtUWXZYNzVTWGVmZ3o40gFkQVVfeXFMUFZuekZmR2lqdjVnaURjQ0cwNThST1BGMDd2MU1QYW9XWWpCUFZSZVp2NDVSbzh0aGVMOHBYVjlIOVlTTWUtd1BHWE95eHcwc1hSNXZvQk9vLUFEQlRCVGo4VTNaQg?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "BBC"
+    },
+    {
+      "title": "【試合結果】3位決定戦 フランス vs イングランド｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9USWY4Zlp6YkwtOV93WmtLRWplSC1qZmNmMUlyQVhSRkVPUE5TaXB2X0RhNnd6V0FfVTB0RFNmTTVBTElZWG5mWmZ1QTg0UjVIaHdiUmRrdWxxTHVkZkQ0RXpXRGJLZTNjYjB0dFpOdw?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "イングランドが前半だけで4ゴールの猛攻！サカ2発、フランスを圧倒し3位へ前進【サッカーW杯】（テレ東スポーツ）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc2U0VFpvX3FtekVhN01zckE2WGZQS2FBNHVKUDlYbXVlZGRuMTd2N3kxZkxNNjZRLTE5d3lWS0NvWVk4WndOYlVXTk55dEhPaC1PM0tST3ZqRUdJNG9QTzVvanRzbTkzMHAyRDVsVU82OTlmc1lqUFRmX1NXVUU?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "4-0からフランス猛反撃も…サカがハットトリックのイングランド、6-4で3位決定戦を制す!!",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yNV9hcEJ1WjFLcTNQUTlTWFY3Y0Z2blctR0JrblA2TlQ5RTg2SkFibk5mbVR2UkdCYlgzcVZKZ2hyMDJvcWJBMHJ4ZFctb1ZyZ2xKTDlWRG1ubVBKcEYxazRDOWNaVXI4UWhkRHY4NA?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "gekisaka.jp"
+    },
+    {
+      "title": "W杯 イングランドが3位に 仏エムバペは2点追加し通算10得点に",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40UUIxUTJLTktMSF9IM0VHNVVEb1ExMS1FZnJNbTVEODBGNGR0VXVGOURIWGZsYy1PRDlCSlNEanBSQjlEWENfSmdyZ3BHb05GaG5Nb08taWtsMEhKQ2JR?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "NHKニュース"
+    },
+    {
+      "title": "世界3位を懸けフランスとイングランドが激突！両国の意地がぶつかる最終戦【サッカーW杯】",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5aGVfVl9yR09nMTFJcE9Pa3lzVjFJNDBPRlVKNHBQLTN0TVZ5Y2xWcEVkRkV1YmVoaFNDZEhhODlfMTlwY2FUdElWNnRsUTRKMkhSOTI4ZDc2WG1NMTVsUkdGUUNrN2ljRDNTYmVtNA?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "tv-tokyo.co.jp"
+    }
+  ],
+  "germany": [
+    {
+      "title": "ドイツ、2038年or2042年ワールドカップ開催立候補へ！懸念される“大陸連盟持ち回り制”にDFB理事は「FIFAの規定次第」",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3eGM5VUFyQXZ2U3JmMFBCRzdYaTFxZEdYQmdLNDFmMXo4aGtoVmVnMm5hb3FKbEFUWUl5ZjV0Nl9tMzVva29KaDNXdFh3VDMzYTNrZjJiVG1yQWx2bHRCb1JSQklXWVJ2eWRISlp4Q2U0d2tVdlNCVU9URUdiRFU?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "ドイツの控えが得点王争い、監督「私が馬鹿だった」 The Athletic [サッカーワールドカップ（W杯）]",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWUUdzMzU4VktyZEhFd3VfR25FaWZjNUQ4UTl4M0RrazFUU3FEU0g4NjROQ045OVRPLWR3al9zUk9JQ0JzVWFPbTZYQVhua1d1dlJNZzNnTXFrcHRNNHBNcWRZNTZxNWc?oc=5",
+      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "ドイツ代表は「ワールドクラスではない」 衝撃の敗北でW杯敗退にドイツメディアは絶望「3大会連続の恥は偶然ではない」「耐えられない」（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11aE9XbTNXN1pKQ0pGRWUtWGFIWkhKUFJFbFpXSFUyMjd4OEpXRTkyRnZmTVJKcE9lTzB5aDRxbnJuTjZrSWsyenlRQ2l3MU04LXlYS2FUUGJUREVTMUtEY0VoUnNQZGdoTTZfYVBoWWhkelZ4MmhfX2tJOWtjMms?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "【試合結果】1回戦 ドイツ vs パラグアイ｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CMnJoYjl2UGd6VjNoRzRkZUpvM0tITVhQbGlHaDEtLVhndTVYQmphdTFTbnAwSENaOXI2SlB3LTNYQ1FfVWhIaUdjbU1NTFltTkdwT0VvcGVTeWJpYkotSnBOLWJpNmtINVZPZG1fWQ?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "Ｗ杯優勝４回のドイツ、今大会初のＰＫ戦でパラグアイに敗れる…決勝トーナメント１回戦で敗退",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiOEJBNnVHV01PZFlBYlFMOFRZRENKbV9FcmRuWmJ2WVdZenhNUzJrbHBWQmc3LVRIcjNGOFFpMmd3azJUVTkzMWdRRzhJalU4MmljTUZLWHo2QjVYaHZZRmRjT05RMzhfMnJFUWtjaENtTnRzdHRrSg?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "読売新聞"
+    },
+    {
+      "title": "W杯で悪夢！大国ドイツがまさかの屈辱敗退…「勝つ方法は50万通りあるのに」とクロップ批判",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9IQjBWVG15cWo1TGNWeUY5NlBqSXlmTUhRa2xrTWxpek1STUNDbmI0SjB5YmZ3aG4td08zaGotY1E?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "Qoly"
+    },
+    {
+      "title": "ドイツ代表の“不敗神話”が途絶える…ワールドカップでは5度目にしてPK戦初黒星",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oVzZZMTQ1Q213dUdJTGUwYndTQ1d5d1pwMWV2ei1aQjZMNG1BLVRfSUVFZURzaHA4bTFpdTV5X0tJRmZjZ29kTUhLSmQ1bGFYNnN4VmVfcGFVQk5WTlB3NmVzM0hwUHFEaDZCb3lwRQ?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "「ドイツの恥が完成した」ドイツ代表、PK戦の末に“衝撃”の敗戦 独紙は酷評と批判の嵐「ドイツサッカー界の悪夢」「屈辱的」",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NYTJDUEhPdTRxNzNDbG4tUFhYeHlQcTIxQlVuR25lRjRIX2d3ODVWbmtFc2dxMkFRMHdOaE56US1SQzhiR2s1eHBoUWxiajRTU1ZwbXUyTzFqSVY4czFXSm9SM3lfN0cyOFBrbVJZOWFUbVl4c2s3LTFuV3BhVVE?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "Faces of elimination: World Cup fans in their moment of loss",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU242d3Q1anNxLW02czJ0c2FaUlA4bFZwMGtSNlBBeWd2M3lqOWNmTnB3VjExd2FVRXpCMWlTZ25RRXdNQ2NYMzk0MzRjd0Rfbk5HWk5SR0o2VXRTNHZGVjItNGhSZXROWU9VZkJPamE0NnZOc0Z3b2xLWFV1dUF6dTJuNlZsNEZPY05heUtwN1FVX3c?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "【北中米W杯】低迷はスペインが原因？ ドイツ代表の近年の凋落について、元ドイツ代表フンメルス氏の見解｜ FIFAワールドカップ2026（DAZN News）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xdW8wbW9KcWoyQTI4eDlwZWhjM1VRRUppN1BaQ3VuSThtTW5FZThTLWI4RW5tNGVOZUJhcTNRRVhoZ05qbVJDOHUxYzJSd18wYjlOMVRrM2hYSEw1SlpQTUlFZnhoU1l3LUtHT3ltU1JncjlPY3BiSko4Zlpza3c?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "試合終了直後のユニフォーム変更：オリヴァー・バウマンがW杯でのFIFAの狂気を語る",
+      "link": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxNdE9BcGxpUkxDcHRCT1I4RjBmZzk4d09GV3VSNGh2dUtUZDBRMXFwdWF2d2xla2hRWkRJdjhyLXhHMUhCS082SHhmZUE3a0hvSjhoZEVSajBiaG1rOXN0QXg1ekF5NGlJeEtTNXpTclQ4Ul9wMXpKVkNCWlFNMHdWYTBTSlZnZWYtY1hUU1U0Wm91dndOTGItQ05NOEFEQ0JvT2xTell4Q255VTk0aFBzTVRjYXYtRG5KbzZPZFJ4cThrN1diLUdfcGM2SENwaDNIYnNSZThodC01ZGtZdzVCQUFoREVkRFBnRjZKckNzeUFGS0pRa3V0V1NkRE95dllwVy1nX3lJUnotZEpZVnhlQ1Z0a0VjOWhidnhDZS1HVFBRdEV6YTl6YndqR1ZOSmU0eVpMR05Ya3I1d0FRV01jeVJiTmtQN0lHc0s1a2g0bHNoNGdza0Vsd0QwNDlvYXdEeUhiMC1ReFdGUHc0OG1YTl9kaExxNnlfeTRESlZGT3FYNXViZkJtTjRkLXUzZ09TX2FfR2V5S2U5V1ZyVzAzVGMyTFlqRnlaWGZnbFRrVm1Gc1FuR3ljdDdDVzhjNk1jR2RhOVY2NmgzbW8tYTBuNFhSNktzOTd3UDFmXzJXcVZtcWFHR2tXZjdFMHE2YnIxWV83SVk0MHk5VHc1NFVwZXU1ME44SXFsSFVTU0c3bldIaU5mYUNFZGNETFo3Zmd0Y0x4cFkyVUtsWGtfTGllQkVXTGpfWmJpYTZuZjF2Z2hmUEZVaEV2bkVzeU9yUlAxNE0tdmF1NlBvUQ?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 09:08:49 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "「彼は申し訳なく思っていた」 オリヴァー・バウマンがワールドカップ落選をめぐるユリアン・ナーゲルスマン監督の謝罪を明かす",
+      "link": "https://news.google.com/rss/articles/CBMi6AZBVV95cUxPZTBWTXRIRzY4TlV3Q1FKWEx5S0l3U3hkX2lRNF9RZVBUckdyeEVRTm4tdDI4Ym1aRjBDMDgyV2pMRkx2SEFJN1BpemtpWW4wZjExY0Q0Y2Z2Mk5BTjlsVTQ4ZlpqRHRGMUJONWhxa09hSDNTSlNJX0ZCV2FleGNhWTBfZUxaV1RPOVhJelVtZVI4aVM0d3J0VkZQOXBzRW9xdFBEbGs4b3U4RlAzSy1HcDlrS1YzRjdVNnVOaEYyVktha2ViZEZvQnFTY0JXV0oxWldfQlBxVnNJZGhtZ2VMeVdIZm1Zcm9yTGVqXzhUdEJnSU1rb0gyTnptelBDQWFIanJlMDl6U1J5eV9pZlZELWpfT1RNd0djZmlWYVF4TzBCX1IyQWYxNjRzXzNsU3k4T01WVnBabGFucjRreEFtcUtNTWZEdmk3cjRDWkZoRnljMUdzSnFUYWdZR2xXdE1XNENpZHF3NnAyMFZLVVdjSlZmYTdIZzNETnV2dGZPTTJ0VGtCWWVTZS1TbmpYeVBOUG5wcHVIckZSRjNRQUU0N1NMWHhYZTVQUmhaT3NhUTBEeWFfQzVxdlpWWlRqZl9vVkkxUmNNQTBacmVvSHVDYXJHT3lGNDhsWUxMTktEbnUwcWFiUVlUVjU2NVlKaU5JYnJacjB4VEJCOEh0UTRYc1BuQ2dfSnRvSHZ3MjRGRFNkREY0RV9nZ0x2X2xGVnRJS2lvbjZ1SVpwUzIxSm9rT0JPNWlPOE9uTkl5U0lmQ056eXFWd1hkcWRSMV9vOU9wbWQ0ZXctaEZhNG9FWU1zdmtCcERwdU1EbUFPWWdiLVVqTzMtV29xZzZNQXAtbUpDUjFqN212TUhiX2xmRmF4T1psOURsVUE4dEhVcTRqRnotM1pKTTFzTzBMYnM3V1BUaG5Ra1R0U3FINnRGa1BGS2tqb3VFVGhhM1E1MHBCQzVoa2NnY0lrdlB5c1dqT3NYVXJZWEhRYXc1YnlmdDlnX3VMdXpDcnZTcm5ONktFWDItbk5YUmJqMk9HcEtQcW1xZFkzcHI2VnFUSmZac1JkMjlYd0JhWF9CdUsteGhQdmFja2RDcUFpRDRiaTRtNlllUVRHZDNrUHh4THVIcGpnNzk0UXFZcGVGRkFnYThFakFjS09mb1Jzcg?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 08:35:47 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "W杯直前で突然の控え降格…ドイツ代表GKバウマンが前監督との会話を明かす「綺麗に決着がついた」",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16OW5SZFZ2VnM0elRLVWs4OG1zbkNmeXpkZkhoc1NpbXJDOEVjaFlyaFQ1d0h0M2JDbVZOZU91cEcyX0wxalRJMTBMY182dUVkVXF0MGhpeTdtaENzRm9EcjV5WDN1dTY2WVltVVRKZkw?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 07:33:19 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "Best World Cup photos from Day 15",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzM19WZm52enFmaHNua0J4YXRNdEVZU2lTYk9PZXVnRE5FM2NjTUtFUXhJdFZRUTFoS21qNUsweURvRGxJN2xLODlqTTNRYXBjNzAzYzBuQlZUYW1DNENfTEpNVW5rSTluV19sclJ0ckJlSXJtYVZVOGx6RjU?oc=5",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "Switzerland v Ukraine | Round of 16 | 2006 FIFA World Cup Germany™ | Penalty Shoot-Out をライブ 中継 | DAZN JP",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQzlRNDFvSEdXaURuQ1Z5bFcxS0VyRGM4ZmZOS3BpT3BGSk9wVXpnR2VWM0VTVTlTOVQ0NWN6NEFOaExyRzFlb3g0QUdKdkdmbjhmWElWdThKQ05PNW5DMFIxQ1AtWTZuUEl5S3NGWTVNQ19VaC1rVG1EMTdUNHQxSDRHS01YMGoxZ05j?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 23:11:53 GMT",
+      "source": "DAZN"
+    }
+  ],
+  "spain": [
+    {
+      "title": "【W杯2026】新スター誕生からピッチ外のエピソードまで。忘れられない名珍場面12",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fV3hhY191YlJuM0s4NlRJaU5VbG8tUnlVcEgwQ0hrMGU1ZUdWYTZ0dm0xb3plSU1nOHpNREFRLXgtbGFsV19BXzF5RlZsN19CdExUUmlSdFBmdldpNkNkODkwRVpFZmk3eVAxZXZNT0lmYVNvOWExak1FR3FKZw?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "source": "ELLE"
+    },
+    {
+      "title": "【写真・1枚目】W杯決勝KOの90分前に閉会式が開催…トム・クルーズらが特別出演",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSmlaWmFqR1htenY3cXBiUzRETkEyYko1Vk5WRkoyMGNJMkNPSEgtVVQtd0h5dG9qYWJpUHpPdE5JVloySU9ELXp4dDVNc2RWcUNhV041cW1OX0RrX0Y4WUxTSkYyNWRnaFFSckJ1a2tEQ0FweXRtbWNIMktHazlIa3hhdmF2Tkh3NFV4c2I0MlRtUzFDb2sxdG5EcW9MUkV3emg1UmNSTmd0YlUzMXFYTHd4cklLaTNrakRhemxR?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "サッカー:ワールドカップに幻滅した岡田武史さん 救いはスペインの優勝",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aaTF5djBLSlJ4NmIzTjJUaUlvZ3FPV2tpNGFCRUVPNzVtelZjOTVGbWFZRllwbnU3ZkVaSjlETWVEMTRKbVROdEVCUHJ3azAzdllvVmpNcU16ci1IS0NMUW80RVNFUUNueFhfUQ?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 20:00:00 GMT",
+      "source": "日本経済新聞"
+    },
+    {
+      "title": "日本代表が求める「個」はスペインと何が違う？ 岩政大樹が「2050年に優勝と言うなら今こそ議論を」と話す理由【コラム】",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5IZGxkOTJkT1NOSm9saWFKZFpzNDRPbndERm5iSFlFSVhxdkZxQmZNVFEzWkJJTHA0R1pWYzlqMmV4WnZMdXBaaE9YZUlQU1BrNlBXa1VZZm5UWWRkZ2VubmtJNnR0N05PN2NySFJ4d3lGR0ZIRGcwUU5FRmFpM2M?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 09:10:02 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "「彼と契約しろ」W杯決勝でV弾のスペイン代表FWがヤンキー・スタジアムに降臨！ 見事な“ノーバン投球”にファン驚嘆「美しいフォームだ」「良いピッチングだ」（SOCCER DIGEST Web）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XV3U5blRqLWVnb3o5VUtoenBWUWptNThxREVIWjNQN3JqOXRmUVlpVXJsZ2pLdnhxdTNQNi1OcWdlSXlIalIzUWtobXdETTZURkdfbmZzRW5vbkhWWGlFRmVhQWdYWjFWbDVCWHk2dlVLQVlGczZQTnpYWk1TVGM?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 08:54:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "「野球を楽しみたい」 W杯決勝弾のフェラン・トーレスがヤンキースタジアム登場 背番号「7」で始球式",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4TVF4dWRhdjY1LWRsOXlTTEl0VHJVVl9QeWFJSXI5Y1NPMXhDeklCLUQwa0k5M1EwQUZWZnl5eEhlZnlVTW5zYUhJcVhjVU5mNndBUlRib1FxeGdnVzByTFdYa1FLOWpNM0Y5cXpOYXM?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 06:00:00 GMT",
+      "source": "theWORLD（ザ・ワールド）"
+    },
+    {
+      "title": "【2026年サッカー男子W杯】 優勝のスペイン代表、ファン200万人と王室が熱烈に歓迎",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ec3RWTlUzbDNIUWZEdGk0N3l0bkNPaTJWWmFlTHNPak1yUEE4X0hXeW04d1M2NHFEYlloQkJROVN3YzhRMmFib2NsQkEtaWRDbl9PNG5tSFNUek1yVU840gFkQVVfeXFMTWxfUExmY0VoTXROa0R1SFVmOGlzazhVZl9PdWZqVlR6UUFLYW51VHgtLU9GbXl4YmduUkxyRGt0QjBMSnFrb2JJNmdyOEk2b3NyU0JRX0Q0QTJfTTFKOUY3UW9iSA?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "source": "BBC"
+    },
+    {
+      "title": "【ワールドカップ】スペイン優勝ではっきりした日本が頂点に立つまでのかなり長い道のり",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbFpDakQ2a2RDMWUwSkh0bnkyMHBIckNVUGpYX1hkb0hCMDF0U2dnNjFuZWJ1Snk5STJkRVZjM3RGLVNrRGVTb1BYTzV5VFFXOVVSdXpkWG1UdHNFTXV3NXNHUDY5SHo2LVEtcnJ5R1JYZzNxU251Sk5sVjhtbnBYbg?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "source": "webスポルティーバ"
+    },
+    {
+      "title": "Fans flood Madrid to welcome Spain's World Cup victors",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOTRTQndxcGhWelRNVWJWaEFQZVlQMzN4a1RpVG1jRVI2NERkZGhwR3ZQYUdvSGRheHlIa1pIQV9EYUZFVlZMcG5lYXBHR21GYzBTWmhIRGFyMVdqVW5TdUdqSVY2ajN3RzFETUtBcEpOUmdnVy02alJwNGx5VkR0SkhLSTNJSEVQcjY0Y3pmVE5XMVI5TnlkMVp3?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "ビヨンセやヘイリーも！ 「FIFAワールドカップ2026」決勝戦に来場した豪華セレブ17組",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9meWNWbWZBbFBYdWlQVm9kRlJma0Vjdzl1dWZIZWxQcDlPb3dKVGJnbTF3d1g5Mk1yaDBHRlFKNENObUdaN25YSnRiUGtOeDBzNmxRbGxpcEFLTndkdkdmLTZITUREdUNFYWI2ZkxLN1Y2eXk1RlFiOEVEVQ?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "source": "ELLEgirl"
+    },
+    {
+      "title": "Latest photos from the 2026 World Cup",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQby00SEJQWm81SnI2QjZwMWNOVUFHMU5YLW9YNE1QVFpSU0Rsd3FfSUpndzdWaHppRm83VFNDRl8zUGNlWWZfNWJpZEs2V0U3X0k2OGJxcGRDQlVuSzlvXzlhdkxLVXk2LVI0LXAtTUV3SVNmQ202V1RXUEc2WFhsaEpKMHZWNzd0WjlzVGJLWXo2aHlaV2x3ZDBXVUNDOU5jZkE?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "フェラン・トーレス、ワールドカップ2026優勝後の物議を醸した「メイク・スペイン・グレート・アゲイン」キャップについて沈黙を破る",
+      "link": "https://news.google.com/rss/articles/CBMizwZBVV95cUxPelhyQjE0UFNkZlRuaUJONnZzbHF3UUNlZmxsSlR3WXFzTFlITFMzUXcyN05kSXJiOWwyNWxxaDVqVmdvNHhUdGtpVmdwRXhYT2pydGNRbXJHMTF5Ny1ScjA2Mmh4NFFvMGdUS1B6VnhfNVROUHpoWWl0ZU5IRld0dWg5Y1hlQjExZ00zWFoybVJTSUswcUFRX3RJVnIyakVkbThaU0NMNDh2ZERVMkZacmtIbmJVaGItUTZXN2pKUXV4TVVZbW8zOEhXeXYwQ0ZrN1BNVTF2UWt2ZW55YTN2bEFpNG1kQWVHZ0txcnNpQUdsMWJCMmI2X0hudEFTRU5zaURNcnRwNjVIZmlYdGc3YTkxdURvVElVR1FabkpDV1RHaHQwajA0dUNiTHZxWVBWR2ljMVBpa09WNmZnM2ZIWXRmZmFQRUc5UVhuZEZrcW1lWVpNczYzYm9ZTFc1M0l2UVJlTnBPNVkwaTBZTkRMaTVXZTRnVVRXVTdGellfa1JjZG9MVFZxc0Q1a3RWRld1Xy1nSm9iNzVSUFRnWkhmd1B2eFh3cGFWd0JXZW9MTUpqRkVDR3NPMUR3VS1xZDFBc2p4VHl4b3JmLWhGN0V0VVdDS1AxanBTWU9PQ0MzZUlwdXM0Vzh3YlhnbHozb2RQQkZxNUFXN25lRWo5R2xFQm5uWmRuQkdkSWNKVG5ZblR0V0JjcTFOVWdpLUQ5Q3B3cHExMGpfVW1xU2lqVG80WTBSR2FzWEFhRTlaSVJidURtWGdaY1JlR0RXRWtSQ0R5cWU2WF9CT1BXYTFwZTVzcFpuRnRPSkg3Rzl1V2lPTExhZ3dfb1ZDd2psb0h0eVo5MkdLVFcxVEYxMDFJNmJ0RTBkZlBvZTVzSGNCVlo2d2NWUjVHeDB3bkpPdGZKWGtVdXFER3NoTU5DYUtmb3NlQ3l6YmNGSnhVV1pTck1jODJTU3d5UXBwYkR6dFBqN1VuQ2xDNkdibXBrTmhGX3duNFlHT25oQUNjSUVLVGwtWTlkbkwzcnJLTy14UWFpbll1ejdUa2cxQ1o2aWQzUGRaQ3JIc0stWk5GLXhVYURhT0lqSmRZdjVMbnZFLTRCd2ZveDR5bFdnaWNJOHl3SU13?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 10:31:57 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "またしても悪癖……W杯決勝で暴走のアルゼンチン代表パレデスが再び問題行動 相手選手へ故意にボールを蹴りつける“非スポーツマン行為”で警告処分（theWORLD（ザ・ワールドWeb））",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Pel9sWllRanducG51dnZqMDYwS3dQQksyaUotQ1hUX2NuSEhMWnYtWEJPVWQzMTRsSmlBRERLa0NwTUZjNzVfQU4zXzZJUTVLTUxzbHRSX2gyVEloRHM5X2tuUVRtZVZXWWl4SnhwSDlYYTJuVWdoUmNiNVdEbms?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 03:30:45 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "FIFAワールドカップ2026決勝 スペイン代表vsアルゼンチン代表丨日程・放送予定・ライブ配信・選手一覧・見どころ",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ0VMd1dhZVdONjU4N0NRdzVxSzBDMW44RnU0VDdmeUdzdlRMMHJTZG1rTmg3cjRqRnpJQWRXRi1Nam9qOHBfMlJJdmF5NEtoVEl3RTFreldObHkyNVRqd05fSzM3ZTdGYlljVzBJMFdOSFR6MnpIclRxSl9QTXA2cXViQQ?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "source": "olympics.com"
+    },
+    {
+      "title": "スペイン政府、W杯決勝開催に自信「男女ともに世界王者」 モロッコ開催報道を受けFIFAとの協議継続へ",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FWDRyakhQMjRpdnJDaFFCTC1lVDYtdmZXaXdpdzdlcTc5bGdIU1o3VzJDRkMzMU5NTS1hS0VYQkxlbW5EUDNKTlkxRFBzc3c2NFdKbE1YOURBNnhJM2d6OWFibDdBckRvaUZ4RmE3ZzlHQ3ZBaGlDRk9STVhVWFE?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 10:53:29 GMT",
+      "source": "Yahoo!ニュース"
+    }
+  ],
+  "worldcup": [
+    {
+      "title": "【ホットピ！～HotTopic～】“サッカーの祭典”FIFAワールドカップ2026が幕を閉じる",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OZktNUlI4ZjNQZGxsV3BGNXVyaUNQT05hQVROZ3lQamQ5S1N3S0VkVWg2UGNJMWZVdjdySmJLLXFQdjVjcVIxOQ?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 05:28:44 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "ＦＩＦＡ女子ワールドカップ ブラジル２０２７まで１年 アディダスは女性マーケットを有望と捉える : WE Love 女子サッカーマガジン",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PbTJqYzdyTmhVUW0tVGpDVFFDcUJXQW1hS0tmUV9rR3pPa2ZaU3pLRl9telN5SExxM19NdVJUN09FekxKTE9LaS1lUXpjUHpHMjBsdjFGLXZkUDg?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 22:00:51 GMT",
+      "source": "targma.jp"
+    },
+    {
+      "title": "2026年FIFAワールドカップ｜W杯総括対談「アメリカサッカーの未来」",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZUmhjUUNGOUlhV21sa1c3ZW1DdVZqQW15VjBObGk4TFFMR0xHZXU2dTJUWHdxSlFkTUV0MnFkRmFJSi1kaDdLVUtBNms?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 18:31:59 GMT",
+      "source": "LALALA USA"
+    },
+    {
+      "title": "日本代表、FIFAランク20位ウルグアイと9月24 日に対戦【FIFAワールドカップ2026】",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5kZmRWMk9MOGdvSFRxYXZxV2ROLVdiMmdGN1hWdVl5WGE3czRockFmMnRHZW9zN1NaVFE1VkJjTXdUcGVxR2dlRVlXWXNONVdYWTFTX0hHcUNHVENMR3RwQy03SER5VVR4OUtsMk1rM2dlbGFNbkM2dXVJMA?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 08:40:00 GMT",
+      "source": "高校サッカードットコム"
+    },
+    {
+      "title": "【製品情報】2026 PANINI FIFA WORLD CUP WINNER STICKER POSTER",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQVF2b3NxUW00Q3VmVE9hcDBJQ3NYN0ktWFo0QVpZM0xmOFV1VHVDNzBKNTBMai05RF8yZE1TLW5NOHp0MTVDbkg3ZnlvUVpzV041c3hvS0EwZXozQ0lJZ1VCR1B0eGQ0RXNPRzFhYTRsRGd0YTROaTdqdzZpbm9ZbkJBZTdxSko0SXNkc3dhUWZxTGZ1T0VTN2VGLW5HTlA5V21BNnlQTmxrQVFqZ0xGWmZRTGdlTDgwdUU0UDVBOVY2UFh3Q0RXMjZmd21KX3pYYWtWWUZOUWs2eXdHbDU0aU1qTnY0T0hKX1pWcw?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 08:17:27 GMT",
+      "source": "Trading Card Journal"
+    },
+    {
+      "title": "「本当かわいい」堂安律の妻・明松美玖オフショット公開　久保建英や長友佑都も“いいね”で反応",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SNWNyOVUzXzFKV3F4YlcwakF4aEZZWFhmTXFDOXVEQWktaG0wdEpLeUFNZWd0TnpaVW4xTXJRMGI0amdCRmhSTHdBelNIVUlfbGxXS0F1Qmh2M1F1dGN0X1RKcWRXakEwVEVscDNn0gF2QVVfeXFMUEt3WmRHRTlMSDM3QWVENmp2ZG42SGRNM0pxbENuSU9nSS1VanRFLVdUeGR4aTY0VF9zLU5iekFHLWllRmNGQTNFa0F0U0lJVGxDQnhHTUlXYkdESGdYT1BBRFpRS1AyOWx0d2ltZzh4cXNjSW1wdw?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 04:54:39 GMT",
+      "source": "日刊スポーツ"
+    },
+    {
+      "title": "【広島】Ｗ杯日本代表GK大迫敬介が再合流　７月末に海外クラブへの移籍準備でチーム離脱",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WX2lFRDdoeDNlNk52dXZQY3BoUklDMVpkZlJzVEhMYW15S0lubVlxMmRLZHg4Z3FQS1AyOGh4el9KMjVlb2NTdlZtdkdpUVQ3RVIwMGc1OTJubklraVFidlN0UlBWaUFxazF5VUV30gF2QVVfeXFMT0ZKV3VhaWpfZ1JQVC1pd2d1a0ota0cxQU9sMUtWVmptUHZzeWpDY0k0a3lBdFh4aUxsX1JpUTV0U3ZOaWloR3d3a2k1bFNTR1drMW8xUTZKaWxWNTE5WXVkY2dEeExGbFliSk5iSVJmZ0JTZHBSdw?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 01:26:50 GMT",
+      "source": "日刊スポーツ"
+    },
+    {
+      "title": "サッカー＝ＦＩＦＡ、トランプ氏への支持要請否定 頓挫のＷ杯計画巡り",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55YU5ZeUExUXNocjN2aGRVZVVLel9tNU9hLUZzVnlHaVk3RDlMY1N1U3dwSGNRVFRRdzJzNU9TLTh3clpTb2J1Y0JVNHVZM2JPd2hkWUhTYkxLWUZHV0FtSmxZeTFBQ3o1V2VwN01yT1o3SVMwWWtVWGRrcUlFdw?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 23:49:44 GMT",
+      "source": "ロイター"
+    },
+    {
+      "title": "FIFAが“約束の1.5億円” を未払いか W杯開催都市が支払い求める… 現地報道",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTRE5qY3U4WnBQYmduS0xmeFNzUEFUV0w2LTdrdWNTM0ZJY25jVHdVNDR3TF9ub1hRd0dOU0ZmVTM1ZWIwMHR3Nk9feGZTa1R2QURCS2tJeHNHVXhDVXl1MGZCcw?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 13:59:15 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "｢日本一丸での共感 、共鳴、共闘を…｣サッカー日本代表の森保一監督、メッセージ花火が打ち上がる！ 北中米W杯の応援に感謝",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Rd0tQWGZtUmlLd0hhZ01oZVJ0Y2o0TmRnVFNla3FFOGt0blpUbEVFMFNjOVZWR1JKVDZUbVFJWkRMUmVLbHZSM3dzaGNXYmFaV0I0OXJad19sOW5NZTgwVURhRQ?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 07:53:52 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "FIFAが声明 投資計画「別の方法で進めるべきだった」 謝罪も会長への支持確認",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTaEVibUFsSXNHc0RNRlBBT1pUUlZCQ3lCNGdMZ2gzWFpPSzJSRDZtdDdrQWUzbXRJendabFRHYW9rUXZ6SkhIcWtXV2pVNFpHQ2NIM280X0U1ajIzamtHVGFOVTJjeWZ0Rm43SXVBbnk1NWtXR29hQ2N3?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 13:28:12 GMT",
+      "source": "テレ朝NEWS"
+    },
+    {
+      "title": "【FOXA FY2026決算】フォックス、FIFAワールドカップ効果で過去最高の171.3億ドル収入、第4四半期は市場予想を大幅に上回る",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zaW1QeHUwLXRBdjNpQUtRTlJUM2JCR0xGRkllRUx6VzZMMlFLRll1dU1CRjU2Z2dRWXJQQUhKeHc5RmJiTmp4QTNreEw0QlB1dTl1ZDRpVUU3Y3ZCVEQ5Ql82WEU3cnNkU2dVVGpMR0Z4SnpJ?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 13:25:00 GMT",
+      "source": "BigGo ファイナンス"
+    },
+    {
+      "title": "「サッカー界のピカソ」 メッシを指揮官が絶賛！ W杯後初先発で2ゴール1アシストの圧巻パフォーマンス（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PbUhfTzIyUUduekFialdOSXhNVzZJaXNUWVhnbWhPNG41dmhjeXB4M1RqeERWbjUwc004Ukl6YjRCT3dfQkFjYWRYR1hJMnROSmxvOG9VSjJjWlFRSWFsWXVKTGZtN0hfVzl5TXpzNG14WXNycVZTTnlPYmQxN0k?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 12:07:55 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "7月15日はアルゼンチンで『サッカー代表チームの日』に…北中米W杯準決勝でイングランドを撃破",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wSDAwSFNDUDlUVzZ0WXZ0cW9rSWdHcVM0VDNiSGZLWVVDNUFJUjJvY1ljMDFjUnFncWR2STRwclhTbDY5bkNpUHVfRGJNd3pyTHN4ZHJEbHlJbnV5eG8wYWJMWTBFREY3VjdpT1BEWXl1YW9MVFJ0NHBCY0s?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 11:54:28 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "スペイン政府、W杯決勝開催に自信「男女ともに世界王者」 モロッコ開催報道を受けFIFAとの協議継続へ",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5aWpjd2FoUWoxLWMwQVJvWi1td3BMTTVaN1VFMGpGcWhkUk4tWnU5Rmo4TXIyclllZEd6c0dNaUd3Q1dNc2NqLTRKSFMxbmZnMlVITGlZUUhOTW9TSVZwWGllRQ?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 10:53:29 GMT",
+      "source": "フットボールチャンネル"
+    }
+  ]
 }
