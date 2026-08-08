@@ -43,12 +43,6 @@
       "source": "長崎新聞ホームページ"
     },
     {
-      "title": "長友佑都が現役続行を決断、その理由とは…「子供たちからなんでワールドカップ負けたんだとプレッシャーも（笑）」",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NYlpVOHNKaXF0N2V2bExKNlk1cENia2RDV1psVTNVLTFtcUlDLU5GZ2Rzd3JvYkp4WDRWRURWRmNJZTJGQ1ZTSXdzNHRZYmY5SUxKUHN6UEgtMlgwUkVmY1ZodTJYLXlFN255UDg0b21PcnpxQUVBLUZFQXoxVGs?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 09:45:00 GMT",
-      "source": "Yahoo!ニュース"
-    },
-    {
       "title": "「『お前座れ』と…」「なぜか僕の部屋に来た」日本代表DFが明かした“W杯秘話”。先輩２人に真顔で伝えられた言葉「浮かれているように見えたのかな（笑）」",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyajgwYXlXeW93dE84ZjkxYVVUMHc0WmVZc0JNOFlvdTZwMml1MXB6LXVaRDVkSlNzbmhsTXk2RkpDa3FtYlU2QlhxZ0VpU010aXpuRmtqbEY3SGZ1MTRROVhQYWRvYkxqczY2Z0Vn?oc=5",
       "pubDate": "Sat, 08 Aug 2026 09:30:58 GMT",
@@ -77,6 +71,12 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1dLX1pxRVZ2clZJbDUzNnBKU0xGVHhtQ1lxbzhHZGhFWDV5YWhjTWJZVmdDbGhvb2pUemRsXzg2UTQ3ZGNRTk00U0Fud3VjNVgzOGpaNzNIY2s3a2NYdGlQOXY4X3BicTBLTlcxQlk0SGJiVURZZWZYWDhGbDFWdGx4Tjg1ZFowaWJJNi1n?oc=5",
       "pubDate": "Sat, 08 Aug 2026 07:00:00 GMT",
       "source": "olympics.com"
+    },
+    {
+      "title": "【東京】長友佑都、40歳シーズンも現役続行を決意　東京と再契約へ",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5INTk2cnpUZlZYMG5IeHlTRVE3Vm1kRDhpLWx2ZUlaQ0dSUTNZN2tremczb0ZJUm9lWWkyS2h3cExDOEpITmd4OVZKNWtzSkUzdmhtdWNxYmlYSXRYQXRTWXc0MHR6LWl1ZG1pNE530gF2QVVfeXFMUGlaUFhhcnVnYl9mU1Q4QnVlRklvTlJGZmdzd1Y0R1lmMUFQd24zM0VQVVhjeXNuNlRGSjJ1QlZHVmVUM1lEUlprTVpCYlZUeWNndjNFa0FYMm82eDBrWlBOV1AzT29VcjZpWWprdmQ4VTIyanZudw?oc=5",
+      "pubDate": "Sat, 08 Aug 2026 06:20:00 GMT",
+      "source": "日刊スポーツ"
     },
     {
       "title": "韓国サッカー協会に性接待疑惑 日本人審判も対象か",
@@ -126,7 +126,7 @@
       "title": "FIFAワールドカップ2026 TOP",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUUtNUQyY2FYaW9ucFVjZUZ6eUlYSjF2Y3ZPazVta29TWVFCT2hneUwwdFVDSF9FaWh3NklJQjI0T2dya2RvQ0puZkJXVmlDUEZvZXNJeHFtMXp5c2dXT09NWjd5eEdIYWNTQ3EzMTRXRTd1cUt5NlVqNloyOHpVSGNFU0RSbXE2?oc=5",
       "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
-      "source": "jfa.jp"
+      "source": "JFA"
     },
     {
       "title": "FIFA World Cup 2026 - Group A - South Africa v South Korea",
@@ -464,7 +464,7 @@
       "title": "【ホットピ！～HotTopic～】“サッカーの祭典”FIFAワールドカップ2026が幕を閉じる",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OZktNUlI4ZjNQZGxsV3BGNXVyaUNQT05hQVROZ3lQamQ5S1N3S0VkVWg2UGNJMWZVdjdySmJLLXFQdjVjcVIxOQ?oc=5",
       "pubDate": "Wed, 29 Jul 2026 07:00:00 GMT",
-      "source": "jfa.jp"
+      "source": "JFA"
     },
     {
       "title": "2026年FIFAワールドカップ｜W杯総括対談「アメリカサッカーの未来」",
@@ -545,9 +545,9 @@
       "source": "Yahoo!ニュース"
     },
     {
-      "title": "アステカ・スタジアムの所有者は、2026年ワールドカップ開催により4700万ドル以上の損失を被る。",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWnBQcmV2WEx0cEV1RllBY2t6bGNiRUd4N3VndUFiZk5BdnhHeno2NUhvMndDbFlQTHM5WThDNWVxTzh6UnFsdEIyYWdkeTZZR3ZEZ0JOUEJpeHhpZnNIbHh1YzNBYV9pRW52M1R4aGoxb2h2VXVXSzFpd1ZrOTZZOUxObHI?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 07:51:05 GMT",
+      "title": "インドネシアのファン：「FIFAワールドカップまで待っていてください。私たちの強さがわかるはずです」",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMVYzU1d5OW54c1pBZTVPOE1JVjVqQ0pzaXZHUHRINzMyQlRmQXVsSG5uLXJwM3NhSlJpbEZBWjlMTk9QWTB4NERjaXROQnlTSTRqM3E3eHZ2eU9wX29LQXdJeF85UXdkUnBwYmxlek1xT2J2aG9sYjZ0QnRLT0VHYlpiYlh0NHc4Z19KWm5xeWlRMmxQRkE?oc=5",
+      "pubDate": "Sat, 08 Aug 2026 07:01:42 GMT",
       "source": "Vietnam.vn"
     }
   ]
