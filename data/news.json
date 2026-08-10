@@ -43,12 +43,6 @@
       "source": "サッカーダイジェストWeb"
     },
     {
-      "title": "高卒から“成り上がり”で五大リーグへ「あとはつかむだけ」 7年で得た自信…26歳が見据える未来（FOOTBALL ZONE）",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VUEN4NTdBQ0Q4d09qYzVZSV9nTS1CbTRWSWZUU3MtSEVBUWVqdzEtQUU5LU92VnZHTktsS1ZWUnlsa1dpUjZGeE9EVnpwWF9fYVg4WXBlUWpETEJNT2x1YS1GSjlSMmJobGNxN2JRZFg4MWxRdUt5TE9venBrdUU?oc=5",
-      "pubDate": "Sun, 09 Aug 2026 19:50:00 GMT",
-      "source": "Yahoo!ニュース"
-    },
-    {
       "title": "ええっ？！Ｗ杯帰国後、日本代表２人が訪れた下町の銭湯が！ 別々に…利用客も驚き 入浴料５５０円",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yZVNOdG02VnFYaGxoLUZZcVBpbWdUVmx4RzdndmRLZG1QSk1mcjdsQ2hFOFY2ZUNZbjNRQm5xZ2RiNXZWMUdxR2N3dFJxdkFWMnVQeWs4OUljQkZfVDMxdENrVTBEU210TVE?oc=5",
       "pubDate": "Sun, 09 Aug 2026 11:53:16 GMT",
@@ -89,6 +83,12 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRUhTeDVfSllKMkRrUmloQzlwakUtcm1vQmwwR0M2QXFRc1hvNzVabHZqZUtTZnhncmpOYXFNcE9yTHJBR3BnV1BJSXlEX1l0dU5IWU55aERGQ0RjQVFDYVpqMklmYWUtQy1xQnNwR3kwajcxdlV6cmhDQ3g5Y1NTT0NfWEdxMHVMY0h6Um81dldLRzJxNmZDcjlUbk1YcFpfZUx4WkNsbDFYdmo2SFUw?oc=5",
       "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT",
       "source": "Goal.com"
+    },
+    {
+      "title": "【ハイライト】男子バスケットボール国際試合 日本vsモンゴル",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE04a01nRlZPQTJaTEJwdWk5R2tPQTVCaE9NN1lkbFhLbG55QUNPUm5KaTVzbnpvOEpURDlkaXY5eUkxMzZ0RFVoUDJLbw?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 13:31:43 GMT",
+      "source": "TVer"
     }
   ],
   "brazil": [
@@ -144,7 +144,7 @@
       "title": "FIFAワールドカップ2026 TOP",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUUtNUQyY2FYaW9ucFVjZUZ6eUlYSjF2Y3ZPazVta29TWVFCT2hneUwwdFVDSF9FaWh3NklJQjI0T2dya2RvQ0puZkJXVmlDUEZvZXNJeHFtMXp5c2dXT09NWjd5eEdIYWNTQ3EzMTRXRTd1cUt5NlVqNloyOHpVSGNFU0RSbXE2?oc=5",
       "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
-      "source": "jfa.jp"
+      "source": "JFA"
     },
     {
       "title": "FIFA World Cup 2026 - Group A - South Africa v South Korea",
@@ -378,7 +378,7 @@
       "title": "【W杯2026】新スター誕生からピッチ外のエピソードまで。忘れられない名珍場面12",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fV3hhY191YlJuM0s4NlRJaU5VbG8tUnlVcEgwQ0hrMGU1ZUdWYTZ0dm0xb3plSU1nOHpNREFRLXgtbGFsV19BXzF5RlZsN19CdExUUmlSdFBmdldpNkNkODkwRVpFZmk3eVAxZXZNT0lmYVNvOWExak1FR3FKZw?oc=5",
       "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
-      "source": "elle.com"
+      "source": "ELLE"
     },
     {
       "title": "【写真・1枚目】W杯決勝KOの90分前に閉会式が開催…トム・クルーズらが特別出演",
@@ -464,7 +464,7 @@
       "title": "【ホットピ！～HotTopic～】“サッカーの祭典”FIFAワールドカップ2026が幕を閉じる",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OZktNUlI4ZjNQZGxsV3BGNXVyaUNQT05hQVROZ3lQamQ5S1N3S0VkVWg2UGNJMWZVdjdySmJLLXFQdjVjcVIxOQ?oc=5",
       "pubDate": "Wed, 29 Jul 2026 07:00:00 GMT",
-      "source": "jfa.jp"
+      "source": "JFA"
     },
     {
       "title": "【製品情報】2026 PANINI FIFA WORLD CUP WINNER STICKER POSTER",
