@@ -19,12 +19,6 @@
       "source": "NHKニュース"
     },
     {
-      "title": "失意から1か月超…「W杯で見たかった」 森保ジャパン27歳の意外な一面に衝撃「代表で封印？」相次ぐ反響（THE ANSWER）",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SaWhibEFYMDF5bkQ5YzBtTUg0RFNmRVlkLXZRWG5RWm1rLVZhSGJ3bC1BQl80eGFEQmw0aDNNQzNwVXNDY3NEOFJJSTl2UW1reDRNRHg3aFRMV2VZMk5FZUhlamlidWRyUlJ5WVVpaTV4UXJ3cFk1UUdESFU3Mms?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 21:33:00 GMT",
-      "source": "Yahoo!ニュース"
-    },
-    {
       "title": "日本には“個”が足りない… 松井大輔がW杯2026×映画『ブルーロック』を徹底分析！",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0T0l4WWphbjZpQlQwWXBZSWE3SUNYX2Nka2EyWUlqbWVaa1hqbEdyRWg3azNXN1dNaWZyWm4yNEpHMjdMdUpyMkhmajFzT0U?oc=5",
       "pubDate": "Thu, 13 Aug 2026 21:01:04 GMT",
@@ -40,7 +34,7 @@
       "title": "ホッケーの町・奥出雲から世界へ W杯日本代表・渡部純選手「すべてはふるさとのために」活躍誓う（島根）",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RTDdycmRwTzk5VmMwQmM5N2Q1V3I5SkNPNUdJZXpWQUF0YjFjMGwwVjVwa0E0WDE5MnpIeXF3c05TaDhnZjJLV1QzN0VxQQ?oc=5",
       "pubDate": "Thu, 13 Aug 2026 09:35:00 GMT",
-      "source": "fnn.jp"
+      "source": "FNNプライムオンライン"
     },
     {
       "title": "電通、W杯2026日本代表戦の観戦実態を統合分析——リアルタイムTV視聴者は4試合計6849万人超",
@@ -89,6 +83,12 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YV2toaXBZWW9fbTE0Wkcycl9taGI5NUlocjhxZ3IyVS1sZHNoVkRLa2xBZDNaTjBFYW10NmRES3dySVNraXJVS3l5MS1kSThGRXdlUjZ3WmRkazlFT0g1UjA0ODBERGM?oc=5",
       "pubDate": "Fri, 15 May 2026 06:40:44 GMT",
       "source": "JFA"
+    },
+    {
+      "title": "「ごく自然なこと」日本代表の森保監督が”現役続行の長友佑都”にエール",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iU1BJYzFlOW0xbUxZbUl5LVhQYzhiXzZrQ0t1Z0UzZlU0LWZNc012elpfUGdXdFlXcTVXOXBJYjltajBkMDZ2eU8xa2tqUDR1d1NvX2NlU0R4VDJNRmJsTmhFVmJxRGdmQnoyaGFn?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 13:46:16 GMT",
+      "source": "au Webポータル"
     }
   ],
   "brazil": [
@@ -147,12 +147,6 @@
       "source": "朝日新聞"
     },
     {
-      "title": "【ワールドカップ】ブラジル戦で露呈したサッカー日本代表の限界点「感動をありがとう」は勝負の本質を曖昧にする",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ0h4SWV4dXgtbzk2Y2hJbXN4MlluQ05oVzdvaDJpRU9hRnh5MjN5OHl5cVdadFBIX1ZBNUtzT0c4MkdDX3dsNFJXS1FHRnNWeUczRllZeDlubEM1aDJsTEE0YnhkZ2xZVThtaFlhZ19TLVU4cHBrRVZFTVZ1bnVqSg?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
-      "source": "webスポルティーバ"
-    },
-    {
       "title": "FIFAワールドカップ2026 TOP",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUUtNUQyY2FYaW9ucFVjZUZ6eUlYSjF2Y3ZPazVta29TWVFCT2hneUwwdFVDSF9FaWh3NklJQjI0T2dya2RvQ0puZkJXVmlDUEZvZXNJeHFtMXp5c2dXT09NWjd5eEdIYWNTQ3EzMTRXRTd1cUt5NlVqNloyOHpVSGNFU0RSbXE2?oc=5",
       "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
@@ -171,16 +165,22 @@
       "source": "中日新聞Web"
     },
     {
+      "title": "FIFA World Cup 2026 - Group C - Brazil v Morocco",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb0FaVk5rb1BLZFI5TGdtdVZ5a0xadDVVRTlmUmZleTNRT21yY3ZDVmduZDUyZV9xS1NJVXFjZGszcFdXdGEzWUJSU19CS0llZWlWTFhaWUM0N0J6d2NmMmxRVXBhdEhlcFpOS0xHYzVqZ0hDdEYwOE1rbnI3cDZXUXJtR1ltdzJndFdBWV9fNGoyOEt5VmszLVNEUHM5VmM?oc=5",
+      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
+      "source": "ロイター"
+    },
+    {
       "title": "【試合結果】2回戦 ブラジル vs ノルウェー｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsdXgwbnJBOFlLYUpTbVpkTkhoVm1yazVOV2hNbE5VU1pTVktKbFFjdERWV0t6TThEdEdUbHpBeWx5V3Azbkh0c2lOUngxUHp6WlJLeFoteUlzdUVJUGZnV2F1TXpoV19wWjN2WENCVQ?oc=5",
       "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT",
       "source": "tv-tokyo.co.jp"
     },
     {
-      "title": "【FIFAワールドカップ】7月6日の試合速報・結果 ブラジルvsノルウェー、メキシコvsイングランド",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWHJ5VDJTRldfNDcyUjdHc2R0MWE2Q0R2QmNfbERnRzlramctNURZVlJGYmVwZFdnN05KbEhmVHMtSWpCODl1aW9DRUJvUXc4NlJXVDRNZTB3VDY0THNyQ3pObWpLZlBrZlRPN0NjR01aSVQ3OXJYQmFpMTdqTWt5QWg0QkxrUQ?oc=5",
-      "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT",
-      "source": "olympics.com"
+      "title": "30日(火)は日本対ブラジル！「FIFA ワールドカップ 2026」 決勝トーナメントの放送試合について",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SdTVlbWxVbHFhODNlSkpONUQ2Z2tPVURCelREQkhnODdzWHpfT2JtczdvbmZoVnVpa1FmdXlSMnllMDNfZnZ2QS1BMEVRNzk3NURYZGpCTHVhaHlPYzFsNTBmdmpfNmZudEE?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "source": "PR TIMES"
     }
   ],
   "france": [
@@ -316,7 +316,7 @@
       "title": "W杯で悪夢！大国ドイツがまさかの屈辱敗退…「勝つ方法は50万通りあるのに」とクロップ批判",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9IQjBWVG15cWo1TGNWeUY5NlBqSXlmTUhRa2xrTWxpek1STUNDbmI0SjB5YmZ3aG4td08zaGotY1E?oc=5",
       "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
-      "source": "Qoly"
+      "source": "qoly.jp"
     },
     {
       "title": "ドイツ代表の“不敗神話”が途絶える…ワールドカップでは5度目にしてPK戦初黒星",
@@ -467,6 +467,12 @@
       "source": "JFA"
     },
     {
+      "title": "「2026 FIFAワールドカップ総括〜観客の熱狂」",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42TU1wdlVOYkgwbDhtdmdjS2pzNWpsVGtVX1VDdFZYeHVHdWVObVJJM3RncHA4SjJTdDNhMmNhaEt5eElwNWJ4bTR2SGVWLTcwb2FxTGE0LWozME16Z1VfM2lUbFJNZw?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "source": "GAZOO Racing"
+    },
+    {
       "title": "ジャンニ・インファンティーノ会長、売却計画の失敗を受けてFIFA会長職維持へ再び急進的なワールドカップ改革を検討か",
       "link": "https://news.google.com/rss/articles/CBMisgZBVV95cUxQM2xaa1ROUnJXTjloQVoycW9ORGRxUUVFcDhaemFmdWpCNDZFMkFOTk4wY29nZWtZSkg5TW8xQTcxUFM4NjRQaFd5QnIzLWZwSFVlVG9LNGxqQzQyU2VSZmMza09TT0Yya0lxS1l5LUhkSkVjRE1PNUxwb0tzYU0wblBRbWFyUTF6aEd3NXY2QTZXdmN3QTV3VGFNOTFJVlZsbFRHTGdtVnhXYU5TZS1LR3R4WHFEanlMWDZLOWJpc0N5cUZOcGU2dG9mZXBTS05kNWFxUEExS2d3aVl2eGxFb1hXNjJOZmViNWhsd0xMSmphOXY1dnRvVmdlWjg3UXBkSkZjSG16Q1I4RWtXaGcza3NSWExWVkpiSlBCY3dMMHB4SGNSaG5LMVl4RFNnbVFJajliOVR4VDFjd0kwVHhiZXVCVzVkZFdqU0ZkZ1JOcGJYVFltdHp4UmdiWEl1c1J5eEhJQXdfczAxRnZ0UzA3Z2laWDhLUDRET2ZlTHgzaWw0Zi1mR3hWZkFmcERWaFZKTTA4bHNpQWFNc3BkMURnMFBVWC1pekptSTRyMkE5ZFdDU1VIdF9SUEtiSVV5RXF6WXJCMGZXR09mMG4zYmhTUDgySUpuajVLSlFIRlNFQm1JQzJlbFFaaTV3TGw5NDBLRWJKVmo5SkE1QzdXd3V6bnVOczhSWFY2b1NoWmhYUkRJdzdSTURrM2oxRUNsSHdGUV9TQWl1a2hIXzFacXd6UmZUMWxhZWdKTWRzbW5xeHpaaTNJVHZzSDdXSjF2RFJRRmg2LVkwZnBGcWphYUQtN1dETFFPQ1A3dzRZV25zSDRwZ1JKOVhUbDRzMEJTemlSRWREelV5RTEycWQxQmxMb1ZaekFZRzdVdUJrMUMzS1ZSYUZPSnhRaG9iRTlETk82WVppUllJOG9ES2Fuc0FuVmNjVVZDSlA2SU03cWpHVmhwNmFrUTQzOEUyc2NtZVdLR3BDTmxSem5wbzVpQ2xHM0tpXzNBRklwa3hrejFQUEZKUGIxM1dybjJhVVdPeGotTVNRWWVSOXZxdW9uWHpfZ28zQktiNXZoYjVHNEVCSDlfUQ?oc=5",
       "pubDate": "Wed, 12 Aug 2026 12:39:25 GMT",
@@ -485,12 +491,6 @@
       "source": "Trading Card Journal"
     },
     {
-      "title": "U-17ワールドカップ概要発表 日本初戦は南米王者…決勝はドイツ、スペイン撃破の会場（FOOTBALL ZONE）",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiTU1JUVlGejRxVWdFNzVTLXdXUklXMnQ0SW1QcEF6czBuMnFkZ0pzdUJQVmdsQUotLXJoTlpoUGdDX2FNY1BRTENPQTdSMkliYnlUUDc1QTN3UTg5QzUtc2pVWDV2SEQ4RC00cHlHUEFJTXdPYXo3czVud1dUQUU?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 07:10:00 GMT",
-      "source": "Yahoo!ニュース"
-    },
-    {
       "title": "FIFAワールドカップ2026決勝",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONS1jcDMxZE5XZS1NczNKX3ZfN196NlltQ2RodThmQUVvNjItR201RmNNcFlQTldjZnFwZ285NzZYWlRWU25iR1Bsb053TlQzclJUcEZGZ01uRy1nYzVRdkVqQ2hDUmZEX0JCZFBkenp1aEhxV1p2V3Z5TFhZbjY0eA?oc=5",
       "pubDate": "Thu, 16 Jul 2026 19:20:59 GMT",
@@ -507,12 +507,6 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uUFFhVzFSdlNha1JrNWFVUTBiNUtnY0x1V0VoeWJsRllGSE1UelJ1TlVBMTc4OE9wSlJ3Q0RMMko3c0JEMEhHYkRiYkRkZm5HWXBqTWNTV0ttM2tDc21Nb2tIN3NJOWNVYXViczZsbw?oc=5",
       "pubDate": "Thu, 13 Aug 2026 22:00:00 GMT",
       "source": "MONOist"
-    },
-    {
-      "title": "内田篤人のFOOTBALL TIME #273 : FIFAワールドカップ裏話SP",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcWJKNVB2OC1FQ1VEc0FRUXdybFN0RGlWaG54UjdZRXJTbFhwcm9BZkFiWGNvNGQwcE1hSjBVaHFBTG1qRUlvOW4xczQ4MFdUTjE1NTlVWlU5a3BXaXBOMkcyY0RPNFRRUk9oN2x1N21MRThaSV9panV1T3hyZFZhektUdWNmTzZfTk95dDJqYkVMQ3Rub21tQlJyWQ?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 18:08:57 GMT",
-      "source": "DAZN"
     },
     {
       "title": "電通、W杯2026日本代表戦の観戦実態を統合分析——リアルタイムTV視聴者は4試合計6849万人超",
@@ -549,6 +543,12 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45TVJESlVRcWxnV1o0eVBFV0NMVEl5eTlieHVEN3JzQ1h2dXZBNmFKbjlzekFNemdLOVBNNnAxM1hlczA4SzZYczVjZngyMUNiRjl3aHRqMHk4Yll3RXFVblFDTktteUxudkE?oc=5",
       "pubDate": "Mon, 27 Jul 2026 07:00:00 GMT",
       "source": "PR TIMES"
+    },
+    {
+      "title": "FIFAワールドカップ日本代表メンバーの2026/27最新所属クラブチームは？",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU3dwOU1DaE9uWEVJZ2Eyc2cwM1NLMG9DazAtOUc0Z21CNEFBbS16cmp6UHJUMng3MG54cEJDMGE4LVY0d194V3RaSmZhY1ZTckoyLU0wOWhpSFFtRnFkekJ6YXdZLXRORkxNNHY3MzFJUVBTSUFudllwbVVaS2FHRHpvNEg4c21GTVJlN1QteWpfWlRLeHhrQVdJaVZwaXhzZzFjTktKWmR1aTNSSmxHSjFOWVdWTmlvZzlyOWlQeWV2WHhfd3c?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 07:07:23 GMT",
+      "source": "DAZN"
     }
   ]
 }
