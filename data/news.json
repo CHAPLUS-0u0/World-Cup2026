@@ -1,12 +1,6 @@
 {
   "japan": [
     {
-      "title": "日程・結果│FIFAワールドカップ2026｜SAMURAI BLUE｜日本代表｜JFA.jp",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSdTY4TGFXUkZnS3NMaXF5ZmxNcFpDWUlRaUlwWGdjYUNoc2txc0JnbTJMSzJ0SXdZZ1Q1TnRPN3AxSjFVX0oxTTd6VHZrVzdmNENHRGU5VG9OVXJRY0ZYaVlQY3N2ellreVJ1cWZB?oc=5",
-      "pubDate": "Wed, 20 May 2026 04:12:32 GMT",
-      "source": "jfa.jp"
-    },
-    {
       "title": "日本代表チーム「FIBA バスケットボールワールドカップ 2027 アジア地区予選 Window4」直前合宿に狩野富成選手が追加招集",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nb3JmcHE0ZUxCa3RzZThJaXlacEdDQ3RfNWxxd0ltTklTRmRGX1phMXg3NElLRDJ2cGFKN2U5Y1BVU2NhY3RGVm5QblQ4RnZaSGZWRjc5endYZw?oc=5",
       "pubDate": "Tue, 11 Aug 2026 09:38:59 GMT",
@@ -83,6 +77,12 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdjZPYlZDejJaclZvMkhnLU90d0FZM1pwNktSalJQSHRZbHM2ZEYyMHZVWDkwQTNaYkRRazNQeHlYbnJhV1M3VTV0cVZGZTRkNEJIaDhLQWhRLWdNMEJGNWNqR1J1YTNvX2QxMDNpaFI0eF9rWERYeUlJMUp5aVZKV1RrUQ?oc=5",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "source": "olympics.com"
+    },
+    {
+      "title": "【FIFAワールドカップ2026】日本代表の決勝トーナメント日程・放送スケジュール・キックオフ時間・対戦カード・会場",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQMnRYZ1RQYUdoXzNhalBWWEw5R2dsbzdPSHhEV2JUZ0hJUHkzdDlyRUt0OGEyTWFVcDlqWW8zN0F1RmszRG9JRnZYQjFiTlllUV9vNXhnSjBOU2ZUb0g3Y255ZERoQWZxdVZCcWlSR2V1SVZFX0MzYUNkMFVwY0hwRzlhanJ1Qkp1X0V4SVFnaFJBZktkOTdkUXRhNDZZanVIbkF4QzBhbExLR01xejg2Z1JBUkxnQ0NCR0ZwZHNCRUcyXzE4N1loRlBaSVNqV3ZDanBzVGpZY01PVlRGVnBJMUJ6cEhIaV92Wkh6bmQ4T1RPUzJQYnJUQVUwNnd5S28?oc=5",
+      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "source": "DAZN"
     },
     {
       "title": "最高額は誰に？ W杯日本代表、最新の市場価値ランキング7位。2026年に急落…深刻な得点力不足に陥ったレフティー",
@@ -482,7 +482,7 @@
       "title": "【製品情報】2026 PANINI FIFA WORLD CUP WINNER STICKER POSTER",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQVF2b3NxUW00Q3VmVE9hcDBJQ3NYN0ktWFo0QVpZM0xmOFV1VHVDNzBKNTBMai05RF8yZE1TLW5NOHp0MTVDbkg3ZnlvUVpzV041c3hvS0EwZXozQ0lJZ1VCR1B0eGQ0RXNPRzFhYTRsRGd0YTROaTdqdzZpbm9ZbkJBZTdxSko0SXNkc3dhUWZxTGZ1T0VTN2VGLW5HTlA5V21BNnlQTmxrQVFqZ0xGWmZRTGdlTDgwdUU0UDVBOVY2UFh3Q0RXMjZmd21KX3pYYWtWWUZOUWs2eXdHbDU0aU1qTnY0T0hKX1pWcw?oc=5",
       "pubDate": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "Trading Card Journal"
+      "source": "tradingcardjournal.com"
     },
     {
       "title": "FIFAワールドカップ2026決勝",
@@ -500,7 +500,7 @@
       "title": "SAMURAI BLUE Project for FIFA World Cup 2026 TM「ONE CREATURE」無数の個性、ひとつの生きもの。 画像（ 10",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zblEweEU3NXhERENEOUVPZ3FJdXJ6LXl1djNhRlBVaWRTTVJYTkVnTEc4Ti0wa0RacEl3TmdjTlN4QUp1WEhlelIzT1NucGZ2X1JCSmszdC1wbUdKcElIQm03TFZXZkxyZkt2dkt4MGZyNExZaWx4bw?oc=5",
       "pubDate": "Thu, 06 Aug 2026 15:29:08 GMT",
-      "source": "ぴあエンタメ情報"
+      "source": "lp.p.pia.jp"
     },
     {
       "title": "驚異的な閉会式とハーフタイムショーが歴史を刻む",
@@ -533,9 +533,9 @@
       "source": "DAZN"
     },
     {
-      "title": "最も人が入ったのは？ Jリーグ、2026/27シーズン開幕節の観客数ランキング6位～10位（フットボールチャンネル）",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nQ1B5clctMkhRODJDTTBuYmYzZEUxZV9CdFFya0RRb0xaa0YxYTlwX1V6TEVKeUczWk0tYm8yNGFYTEtDSDhrOGxMalYxbzgxR3h3SHcwTnYtaE9UMjdTR01OMkFZR1dGMC1CQVA5XzR6UklzMTlqUzYxbGFNaDQ?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 11:50:50 GMT",
+      "title": "最も人が入ったのは？ Jリーグ、2026/27シーズン開幕節の観客数ランキング1～5位（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOakJXVmZ1TXV0a1dsM3NYQ1hINTBWVWxiaXg2VkllSVl6TThOVUJOWXdQbzBYOVo3R3NTVnRCR0tVTklKN1RfWDRKcnRMdFhQZERVN0MwMGhRaWJYRHdJM3pMUXV4Qk9FM2hteUNDTTN1TW9DdWNUOWNlZXE2dTA?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 09:50:20 GMT",
       "source": "Yahoo!ニュース"
     },
     {
