@@ -55,6 +55,12 @@
       "source": "Yahoo!ニュース"
     },
     {
+      "title": "【W杯2026】サッカー日本代表、決勝トーナメント第1戦の「ブラジル」はどんな相手？ W杯優勝は史上最多の5回【サムライブルーとの直近5試合の対戦成績あり】",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ucUVzQXVGQ0NYb1d3NjJ1QzR3MFBBbkhWOUJuNmFDXzJNSGFNR1lhRFpWUEdGT0VQUzlaeEs0TTNGc0FnVEIwcHgzeXM3RTZTdmlQMDhORkJiN3pBY2xlakZiT2tjWUU?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 16:09:12 GMT",
+      "source": "山陽新聞"
+    },
+    {
       "title": "サッカー日本代表 板倉滉 独1部・メンヘングラートバッハ復帰",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KSEFZeUdPUGdHN2w3X0hFTXpqV2R2WnptazhCNV83TjN5dEpwR3NsQnoyc09lRTItOFVMa1cwU1NHa1RBOUtxY0xFLS1mWHVQTXcxY3IzaFlRSEFLMEhV?oc=5",
       "pubDate": "Thu, 20 Aug 2026 13:27:07 GMT",
@@ -83,12 +89,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vN0RFWTUxVUJpdlQzQk5EV2xZQ0hKU0hWTXR3ZjNTbDZ5eEY2QnRrOV9WLS1YeTg3QlNDeEgxUF9YeFV0OS13R1ZaalhNR0VVUGpRb0J6QWY3cHAx?oc=5",
       "pubDate": "Thu, 20 Aug 2026 10:00:49 GMT",
       "source": "Fujitsu Sports"
-    },
-    {
-      "title": "バスケ女子日本代表のW杯出場メンバー12名を発表…4大会連続14度目の出場、山本麻衣は現地合流へ",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhdndhOWFsbzNxcEZ4dzQ5cTdzVUlValRXV25ocWJ2ZUIwX1BJN1Y2aG1iS2w0cHV3VkNCcUxnQTBpd3VDT3pHaTFtNVotbGxVV3I5YVViVzVaNE1yRTM0TWtaTWFUaEVV?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 09:50:43 GMT",
-      "source": "バスケットボールキング"
     }
   ],
   "brazil": [
@@ -233,12 +233,6 @@
       "source": "DAZN"
     },
     {
-      "title": "準決勝 フランス対スペイン",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHXzAtX2J4S0MwUTZVNnNmSDhhbFN0NzNvTmtmUXNlTTktaHFLQVN2c3YtNXQwc0JwNElvQ1duRkVzbVBGSk9FQk5QbFNuRDBxdHItZVkwMXprajdpdkY4WC10OW0xakREc05GNkZR?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 20:21:20 GMT",
-      "source": "web.nhk"
-    },
-    {
       "title": "セネガル代表、ヴィエラ氏の新監督就任を発表 初の代表チーム指揮、アフリカ杯予選へ新体制（フットボールチャンネル）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4SElObGZYbXFiWXdoX2thMDgxVW5SQzhla2MzeXJtSzQ5VU5xdUduT2VaeDVLSmlId0Z5VkJFR2tyZllEYlRGY0l2RDFGMUhhRFdubmlOaUtrdzE1T1Mwd2JiWHVmbm5HMm9Ka1REZW93bm9ibzMxUEE0dkcyQTA?oc=5",
       "pubDate": "Thu, 20 Aug 2026 20:35:00 GMT",
@@ -273,6 +267,12 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RQTkycENwd2Y5bUVVTW9CSEEzcG1PTTJEU1hmZVRPdVkySHVkdlpvcWhveDk0S19UNGpQVnFYeWVqSU5PUkZSWnBDa2VuTkNoUk44aW1BbjJCc1JQQTJRUkJETEpFODQ2MHJaUzlrOA?oc=5",
       "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
       "source": "tv-tokyo.co.jp"
+    },
+    {
+      "title": "【2026年サッカー男子W杯】 イングランド、6-4でフランス破る　3位決定戦",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96THA4U0kzVDBSclNFLU5LczRzdkdaM3RoaUQ3eWdkczFtVFprN0RxTk1mNi10dkVzcEFUaTJTWnVDbUUwbmsyMkJkbGVIeGlkWmtUWXZYNzVTWGVmZ3o40gFkQVVfeXFMUFZuekZmR2lqdjVnaURjQ0cwNThST1BGMDd2MU1QYW9XWWpCUFZSZVp2NDVSbzh0aGVMOHBYVjlIOVlTTWUtd1BHWE95eHcwc1hSNXZvQk9vLUFEQlRCVGo4VTNaQg?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "BBC"
     }
   ],
   "germany": [
