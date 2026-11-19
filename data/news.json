@@ -1,8 +1,554 @@
 {
-  "japan": [],
-  "brazil": [],
-  "france": [],
-  "germany": [],
-  "spain": [],
-  "worldcup": []
+  "japan": [
+    {
+      "title": "日程・結果│FIFAワールドカップ2026｜SAMURAI BLUE｜日本代表｜JFA.jp",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSdTY4TGFXUkZnS3NMaXF5ZmxNcFpDWUlRaUlwWGdjYUNoc2txc0JnbTJMSzJ0SXdZZ1Q1TnRPN3AxSjFVX0oxTTd6VHZrVzdmNENHRGU5VG9OVXJRY0ZYaVlQY3N2ellreVJ1cWZB?oc=5",
+      "pubDate": "Wed, 20 May 2026 04:12:32 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "【国際親善試合】日本代表、本気のブラジル代表を破り、ワールドカップの雪辱を果たす（MEGABRASIL）",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVTY1bkQ2cVQtWFlNcnJIU3UtQXpHdWZzR3BMTjkyeUx4emxkVFR3STdXNmxxTUR2VlRucENwVHk1VFpoQnU4dUdURXdTNmU0cjl5a1NyNW5RRE9JTTM3VUdIRjVrNzZIOHp2X09CQ2RfaG1xWGlpSjkxdDFIWHZJdHMwVUtVNFFFRHE4Nkx3?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 22:17:26 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "DAZN、本日開幕「U-17ワールドカップ」全104試合を無料ライブ配信！“アジア王者”日本代表戦は柿谷曜一朗氏らが解説",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObGtleUZFeXNIQ3F4R1JCdE00MjVEUFU3UEthRnZQelBGNmQ4WFFTWnZCV1R1YUpjZlNUMGFpQ2RQV2IzZVBUdTFvS2FHSldLUGdoTDBzcERQb0o3dkVZeHotMGFmaHhkVjZGYmhfWE1uUU5pN1ZITE1LNmc3Q21PS2o0Z0dXc3hnb3ZKNnVCaUZROXZsdVhZTFRYVHVvUdIBowFBVV95cUxPbHZTRVFzRlM5aXBDdmZiRVhwNEt4b2h3WGJYbVExb19vY3hqTE1kcUNrYmRTa1lnOVlqLUx6MXIxc3JYNUNYSFZ4UmNzMFZKUTBvaUFaTVBXLWdac05JcUxsT3BTUlg3VVBTT21FSVZBMkljX1p6X2QxaVN6b255VjhHbUFVUnVYazJoWVctWFpIVlduSkZJdXYtMUh0dnoyYUdB?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 21:33:41 GMT",
+      "source": "ｄメニューニュース"
+    },
+    {
+      "title": "【動画】森保監督「８年間、幸せな時間」 最後の指揮終え帰国 サッカー日本代表",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04eFI2WmlYc2JJc3FHMEU4bEpJMG8xZTZQbjJpdFFfUmthd0F0c2pVSE5TcDNBQU5TZFFaVm14M1labkVaN3puMHg4Wkg0UE81aThrQQ?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 11:58:18 GMT",
+      "source": "Nippon.com"
+    },
+    {
+      "title": "日本vsパラグアイ 試合ハイライト|国際親善試合 2026.11.17",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCT1JHOWVaTVpwMHI1d3JoXzhRNlRuQUdtWTc0eTM0YXBJc1ZINVh3UnRNUXpLZ2dmd3NtaExkNDJzU21VTjdlWC1QRHNZdFR5elowM1pQang?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 09:45:22 GMT",
+      "source": "ABEMA"
+    },
+    {
+      "title": "FIFA U17ワールドカップ2026カタール｜結果速報・日本代表・順位・成績一覧",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92c2ZvLWRhWTdGZXAtaVlwZ092ZjBGdVpGeGNrS2w3UDdhWVJkTTM3QUdqQzlOaXRKSFNsNVhFV0o2bUtMc1kzSWFPWExsOG93Rmp0VlloWHE3LWJuZzI1dXNqakpWcXVZaTZnQV9CUDVaMVM5SEdiTkN3?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 06:54:00 GMT",
+      "source": "Olympic Channel"
+    },
+    {
+      "title": "サッカー最新FIFAランキング1位〜100位。サッカー日本代表の順位は？（2026年11月18日付）",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCNzZHWUQ4c1lHX1VPVU1wLUJzNHd4VkNkMzAyREdHQTF3RG1wY2RXb2o4WkR0YjdVN1lyOW5vemtzdllyTW9zLVdYbDZ2ZlhTeTIwQkk1RW1pbUdWUUtBREFvZw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 22:35:00 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "日本代表、森保体制8年間でFIFAランキングが44位もアップ。上昇幅は驚異の世界7位（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yRGpuS1lWWnZTY0lXOXpRWFB5U3cxUHVCUHhqV3hITTZkdWtJRVotQ2dKRkJnRTdhWU1WVFVUeHdHVXVuZ1FIM3JHcHZnNTh3TEktQnJhbzZ5YnY5TWhhTHFVbmtoSjZsSG5oWjNNVWRqdFYwc1lBMVJpLXZrWjg?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 22:11:13 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "サッカー日本代表 森保監督ラストマッチを勝利で飾れず 福田師王のA代表初ゴールで反撃もW杯16強パラグアイに敗戦｜テレ東スポーツ：テレ東",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OZWVhTjlQMWF3SG5yT1JSLUM3OWt5Q2EtWk1BRl9NQ2VMaWZ4WWFMSGoxRlR5dnk2bDBhWFZwS29VQzRfUVpOVHQzdkN1VW0yTFAzN084RHJZOWZFTFBXWjE5UkxrWVVIeFI4LWFoSdIBekFVX3lxTE5tb2ZDcHNEYkxQaWV2RHE3dFhPeUZvRHQzXzRlai1TYUM3SFUzRmRQY2lxSjlFMlBaWW92dm5lMzBtNEZWd1E0SVpQa1ZZcEhwQlM3RFAzc0V0NXlPRHo4cHlQVVBFQW5vZ3BVNkxoMjd6V0VJRFh2QUhn?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 15:28:04 GMT",
+      "source": "テレ東スポーツ"
+    },
+    {
+      "title": "サッカー日本代表【詳報】森保ジャパン最終戦は福田師王の代表初ゴールで追い上げも１－２でパラグアイに敗戦…森保監督「幸せな時間過ごせた」",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoWUdxd056TF9mT2Z4Y3pVdUJZUXRTR1dRTHNlSE1mUGRPcU05NWhsbWlVQ2poWW9JNjY0Qi1aTk1rZkdNMExzTjdDMTRDN2lvMkVuT0p1anpIQVJaOXJkZS1vQUNyVTBYdlBsdVlCOUx1QlpkWmxMcw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 11:00:00 GMT",
+      "source": "読売新聞"
+    },
+    {
+      "title": "ドワーフサッカーワールドカップ in モロッコが11月20日に開幕！日本選抜が初出場！",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Wc29tTEJTNkNhOXQyVEtkcVp4R25MLVlLMGxkOV9IRHBzRktIQXlWUTdfeUpaWkJ1b2RTSXprTDhkcy00SkJxMw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 04:39:08 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "「自分が何もできなかった悔しさ」日本代表・後藤啓介がW杯で味わった現実。次世代を引っ張る覚悟を胸に、森保ジャパン最終戦へ【コラム】",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfNFJYVlp6WVBjYi1ycHBIOFc4OUYtVy1FMFJlYWRjNkN6TDZsLTV4cmlZTm02SDNuX01YNEhfN182SzI3elB2aFNJRlFwZ21FSXZXSVpnb05OZm1Delh3RmtDYzE?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 02:50:18 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "日本代表・大岩監督 A代表専念 兼任はロス五輪予選＆本大会のみ 監督代行は羽田コーチ",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcUdiTl9JOGIxbERDNkcyLXhYV0xZQkN2YkE4ZXM1SE1wS1JTQngxaUdqZVpNQUZUbWhCX3BaNC1LQkdQM0hlVWZHbkZyLU1aWjYzODE5cGU3R3liNTlaTWg4azdXZ2xncW9iSERhay1ubVYwemVaTjFGUHctQXFpVzFWTzhDNXF0eF9KQw?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 16:00:00 GMT",
+      "source": "スポニチ Sponichi Annex"
+    },
+    {
+      "title": "『AFCアワード2026』が開催、日本勢は4部門を制覇…佐藤龍之介や町田・黒田剛監督らが受賞",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVYWh0YXRtV2hFaF9rbHZldlJYU2RQc0V3d3hINlRySnhTbXJDOTFORDVJMEhzYlBWV2FHZDVXSlR1a0ZFc0ZYTm1Nb0sxNDU5QkFDZjV3dWNUZ0Qybmw0MUppRzdMQVFFU3o3QkdtM1BVeUxxMzln?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 14:24:35 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "バスケットボール男子日本代表vsレバノン【11/27開催】丨日程・放送予定・ライブ配信・日本代表・選手一覧・見どころ／FIBAバスケットボールワールドカップ2027アジア地区予選WINDOW5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMXlJUkdZQ0FIU1Bvb2s5b1NFS0t5bWp0N3ViNGZUb1laS1RVTldHTVl3dlJTa2Fhd0dsdUY2MVZQTjU1bkhiVlhjZGl6WFBnRkRWcTFXVzBROU1IalpSbFhGN19aRVF4ZWUxc3V2QU1vc2hYZ0RzdWpyem5KNzhBaFFkRXJVd3lYTlBXeUFpVzNDT3JtaFB5Rg?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 10:00:00 GMT",
+      "source": "Olympics"
+    }
+  ],
+  "brazil": [
+    {
+      "title": "日程・結果│FIFAワールドカップ2026｜SAMURAI BLUE｜日本代表｜JFA.jp",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSdTY4TGFXUkZnS3NMaXF5ZmxNcFpDWUlRaUlwWGdjYUNoc2txc0JnbTJMSzJ0SXdZZ1Q1TnRPN3AxSjFVX0oxTTd6VHZrVzdmNENHRGU5VG9OVXJRY0ZYaVlQY3N2ellreVJ1cWZB?oc=5",
+      "pubDate": "Wed, 20 May 2026 04:12:32 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "【国際親善試合】日本代表、本気のブラジル代表を破り、ワールドカップの雪辱を果たす（MEGABRASIL）",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVTY1bkQ2cVQtWFlNcnJIU3UtQXpHdWZzR3BMTjkyeUx4emxkVFR3STdXNmxxTUR2VlRucENwVHk1VFpoQnU4dUdURXdTNmU0cjl5a1NyNW5RRE9JTTM3VUdIRjVrNzZIOHp2X09CQ2RfaG1xWGlpSjkxdDFIWHZJdHMwVUtVNFFFRHE4Nkx3?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 22:17:26 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "FIFA U-17ワールドカップの知られざる5つの事実：ロナウジーニョから歴史的大勝まで",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSm1lZHFFYklrZFBJeDZnS0tmVWxTS28yMy1DN2RNbi1HbXpuY1p0ZmtFU0N3OVNWSktGWVpjWHBPVXU3OXZWNVkzaFQ0cmZlazNHTW9VYmxOWGpMWTdqaW1YcktFOGljSnJLY0RlYU41M1lJUDZ2Q0xjaFhUbFlDQXl5a0JxdTBpVG5mWVlJcl9VUE9KTzY1cjRfcFhlRTVxcGxraTVaUmotTkdtM1JCcm5TeGNsQl9GUHRZSWFrZ2xNS0hBRWFBVjhCVTBDY1RoZHprOU5zRGQwMG43TF9xMHF0QVJ5UVpweTdn?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 16:49:56 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "日本vsパラグアイ 試合ハイライト|国際親善試合 2026.11.17",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCT1JHOWVaTVpwMHI1d3JoXzhRNlRuQUdtWTc0eTM0YXBJc1ZINVh3UnRNUXpLZ2dmd3NtaExkNDJzU21VTjdlWC1QRHNZdFR5elowM1pQang?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 09:45:22 GMT",
+      "source": "ABEMA"
+    },
+    {
+      "title": "最新FIFAランキングが発表、日本代表は17位で2026年終了へ TOP10が変動、モロッコが5位浮上 日本に敗北のブラジルは7位転落",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPUnR3bkZmaG9MNVNPcVZGby1lZDMwRHBQb0hId0JsNGJaYTJIUnFlZDFQeW1hSEZJZnAyTzR2dGhaMzZYOEh0eEN2YXJKWmVLV29QLVBtOXRHNUY4dHBXa0M2LVk?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 05:36:15 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "【Match Report】SAMURAI BLUE、ブラジルに先制するも1-2で逆転負け。5度目の挑戦もラウンド32突破はならず",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jbGhsMXJhalRONUg4U0F4Q2JsSGtob19vcERVN09VQ09NY3hBbGlFd1BrR1FxSVpHTW10bC0tczFYeGR0TkRybjZZU1lncER4Z1RtaGhxck8?oc=5",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "サッカー日本代表 森保監督ラストマッチを勝利で飾れず 福田師王のA代表初ゴールで反撃もW杯16強パラグアイに敗戦｜テレ東スポーツ：テレ東",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OZWVhTjlQMWF3SG5yT1JSLUM3OWt5Q2EtWk1BRl9NQ2VMaWZ4WWFMSGoxRlR5dnk2bDBhWFZwS29VQzRfUVpOVHQzdkN1VW0yTFAzN084RHJZOWZFTFBXWjE5UkxrWVVIeFI4LWFoSdIBekFVX3lxTE5tb2ZDcHNEYkxQaWV2RHE3dFhPeUZvRHQzXzRlai1TYUM3SFUzRmRQY2lxSjlFMlBaWW92dm5lMzBtNEZWd1E0SVpQa1ZZcEhwQlM3RFAzc0V0NXlPRHo4cHlQVVBFQW5vZ3BVNkxoMjd6V0VJRFh2QUhn?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 15:28:04 GMT",
+      "source": "テレ東スポーツ"
+    },
+    {
+      "title": "「絶好調」「本当に見事」なんと“50／52”を達成！ブラジル撃破に大貢献した日本代表選手を英メディアが絶賛！「守備でもトップ級の貢献」",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tV1VJTXdPZUFIanFUd1RMN0NXTWNBTWl2X3hqMW9RY1pEZFpDT2M4TUczVzFycFVCUVU5SDBxM3JZRUJNSG0tUVRrbFJhMFdHM2N5dWVZLWVCdU04QkJaWWtSMXZselphTnJTaGpn?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 10:44:00 GMT",
+      "source": "au Webポータル"
+    },
+    {
+      "title": "【森保ジャパン8年間の総括】ドイツ、スペイン、ブラジル撃破もW杯8強届かず…森保一監督が日本代表に残した功績と課題",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRW8tQVE3OExMdlA2QjV2dWh5S2FRTEU4V3RZdVdSZVdKYnFiMUdoMTN5VW1jSHh4RWxiYktKNUVRWHFMRFVmRVdTVzk4dGs5bGU4eDZmUzQtQnR2WHBwaXIzYkNSa0tSU1ZfZG9HVVNGZ3p1T3FGWHJrWnFIR1FFeVI0THJtejI1?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:47:40 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "【森保ジャパン8年間の総括】ドイツ、スペイン、ブラジル撃破もW杯8強届かず…森保一監督が日本代表に残した功績と課題",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZEltSTY2OWxUNHFxay1pV1ltakt1UDkwclM3YXZkczlwUlVjRURLNlpaSlVadXd6bzlYN0s3UXNwNFp6TDlkT3pMWmstR1d0dDZUdzMzN19CeFF5SEw1cmVLcjM0bG03OFBqbnR6TVpUel9oUlpTMHZ6YW1XLUs4eUxOZm93UUx1dkExdWY0NldCeWZ4SENDNHllUGJDeEdvNG9JQmtkUXdpdw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:39:20 GMT",
+      "source": "Sporting News JP"
+    },
+    {
+      "title": "数的同数でブラジルに挑んだ町田浩樹。ハイラインを支えた左利きCBが語る「まだまだ」の理由",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BUkdvYy01Q1FxRkRXQVVHbHdwQ2RQc1d1TWhWVUEyVmRsMEl0RUpQSzdUeXgteG8tTWxydXJjOG5LRW5wNlYtVTgxaWxJOVVrem1CSDQ5MnQ?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:31:21 GMT",
+      "source": "超ワールドサッカー！"
+    },
+    {
+      "title": "「本当に凄まじい」まさかの敗戦に唖然…ブラジル人記者が脱帽した日本代表戦士は？「素晴らしいプレーを連発していた」",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UVW1LRzJiRUMxSDg2OGdmNUVGMWZSdnFqOTBGaE95ZDJleElzVUF5T05MM0ZqNjVad0s1emNZZk92bVd4Q2c3LUYyVElWMTZacUNETDBQR0t4cXJIOXp0RTdHVGZ6X3IyZzRfR0JId3BGMTFNSHNsZ2RnRW5NWlE?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 08:36:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "日本戦で退場→超絶レジェンドの敵将不在…36歳シンガポール指揮官が苦笑い「残念か？そうだが、眠れなくなるほどではない」",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EN1NLRmJZNUZGaVZ4WjZucGt5Zk9MV0c5eElpUXExdnN5bHNHSFY1MmM1SGRxbk45SWJqMTBJaGFyR250MldNdkZMSEFKV1I1cWVsOEY1YmpETDZCQjg3NWxTbDhzdWlJQk5KaXM5OXQ2NzVHSk5RUGVDS3kwX3M?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 03:44:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "サッカー日本代表 前回W杯の対戦を活かしてブラジルに雪辱 「過去から成長しよう」4バック採用が勝利の鍵に（テレ東スポーツ）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NUGJJVk0zd0tmaFVfSHpCdzVqS1VFN09YT3VSV1I3X1pRQ1dXenc3TlhXdnJCaU5fOFpwQklrOTR5MzRNRHlnTXRLcW13SFB0bk0wWHU4MGZmTlplWTVGNGhETnNOUzk0NU9YMGJ3RU9nTWIxY3BPUDc5M2FHN2M?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 03:31:08 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "森保監督がブラジルコーチと「言い争ってる」 “激しい剣幕”で対峙に「めっちゃ怒ってる」（FOOTBALL ZONE）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Uc0lRSzFueEluUEdxQTdrdy1pUTczRGhRZVFUYVRwSlU4UVlFMzd1VFp1WjdtOWNHSkRseDVmZTN2eXY2ekk5MHU1UlZremJ5SklOZTRtaV8xR2VlVk5CNlRFeURjcElIUzZRb1hZRkVsSFUwZzExYWVUM0xxVjA?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 02:10:00 GMT",
+      "source": "Yahoo!ニュース"
+    }
+  ],
+  "france": [
+    {
+      "title": "ワールドカップフランス 対 クロアチア",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lMENNdExHWUg0U2Z5cjBybFdDTW8yc05ZYjRJMXBHVVRHQlpmQnEwYks0R1pRN3hvVElYRDlISHpCQkY0TVRUdVRTV3o4dXVlLW1sZ0ctbjd6b1ozVXdIeA?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "エムバペ不発 フランス代表3大会連続決勝進出ならず スペインに0-2で完敗 3位決定戦へ【サッカーW杯】｜テレ東スポーツ：テレ東",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15SU5USHlWcVF5cW1wSzQybTdGVkREbXJHTmdkRlZ0bHNaY2tyam1hbTRBYjlVYndfLU1EcExGMXE0Rzk4bmd6UUdRbHdlRTJ1Sm1waDV3c0R2NUxzNy1paUZtbnNUeGFSaGowYzNHMNIBekFVX3lxTE43SGcwYVFmb1p5ZlNBcDMzOHhoQ1pLa2VFaFBYckdjZDJCSUhaZm9OcHFDQUticHpMQnlNVHFEZ0dtLWxmMjNDSGRYQkRFc1kxOE42MFJMajFDblIxNm5wV0k0UzR1QUJRUFh5ZTdrX1JZMzUyZ0FVd0dR?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "source": "テレ東スポーツ"
+    },
+    {
+      "title": "ワールドカップフランス 対 アルゼンチン",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqb2hvelA2NEZnOGhGcFRGd3kyblV3Q2VVeUJ4N3IxZ1NaUFMtaWxha1Q2QUZXd0xpRmpSVmlfNS1uYjR4OEJSN1pBd3BBek1pVmVJdWZ2YnhnRm9CYjZJMA?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "【試合結果】準決勝 フランス vs スペイン｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NaGNjY3J0NEhVaXZqVWRMNURwb1FwR1c5d2xpRko0QkRhQmo1OFcwTjRGekNGeTVPV2JYZWpoazc2ZVBXaEZ2R0ZaYkRER2VHUDBBQlVveDl2TnBnZy1IX2ZQQWdkWXJWZm5na3BFOA?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "source": "テレビ東京"
+    },
+    {
+      "title": "準決勝 フランス対スペイン",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHXzAtX2J4S0MwUTZVNnNmSDhhbFN0NzNvTmtmUXNlTTktaHFLQVN2c3YtNXQwc0JwNElvQ1duRkVzbVBGSk9FQk5QbFNuRDBxdHItZVkwMXprajdpdkY4WC10OW0xakREc05GNkZR?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 20:21:20 GMT",
+      "source": "NHK ONE"
+    },
+    {
+      "title": "フランスU-17代表は、2026年ワールドカップの初戦でハイチに快勝した。",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSndmQUlCUDl1NFVuSWpsTFdoR0FIbGliV0Q4Smdod0JNQ3pvZzZReWZVVHZCeWJTREN1UXhwaHFscE4tdGNIR2VwS3lxZXFnTFgteXhuU2s0LS0xa19CdXBhLXpBYWlvY0laSEdaUWl4alM0bDJjNXpmdE1HOGJ1VzFjSVZlM3ZOdkNWV1ppQ2l3Rkw2N3RV?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 16:17:37 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "フランス vs ハイチ : グループD 第1節 をライブ 中継 | DAZN JP",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRVZSdlhockV0NlUwN2VJTXRjd2JkTVBCVDk0VHB1ckg3d0FQdExGWHhLWmJaUVdjLVRxVkk5QlJ2UTA5eURnN2tXU3luNkh2NjJUNUljSGVzemszTjJXU3VKSVdCQXJaNUxtTkY5T2JIRGs0S09fR08zbVVFb0c5TmhDT0dYV1FzUGRrdg?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 13:00:00 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "「Kリーグユースが中心」韓国を分析したウガンダ··· ワールドカップ初戦の相手から「フランスを破った」ダークホース",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5id2huQkNlRnlqakVlekt0QzJjeS1BV2h1eFUwYnVsalpWdFdJVnpOcTJFZjFIOUJicDVzWlNNclpib29WM2ZoR1pSdVltSmJrYmZwRzdJZnJCSFpmUzZUNEE0eV9kdi1ZLThja1BLTUlVOFhvV3FpdGJR?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 08:18:34 GMT",
+      "source": "스타뉴스"
+    },
+    {
+      "title": "ウルグアイ vs フランス : グループD 第3節 【FIFA U17 World Cup】",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6LTNJZmNhRS00dmNvSkhyNEtlRnhVVnU2Z243eHdTVU5QcWJrYWhBMmxzTkNVUlFnaXJLRXh0NU8xU3gzVkxYcVZxcnF6WXA2R0dDQWZDbDQ1WnRSNHhfUVNkWnFqT2FEVUs1bjRLaVhqZw?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 07:19:45 GMT",
+      "source": "ABEMA"
+    },
+    {
+      "title": "フランスサッカー連盟の会長がFIFA会長選に参戦し、インファンティーノ氏に挑戦する。",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNckE5WnN3QU5tS2ZSODhxTTR5bWM3azdqWkYtTGk1dlFqNDhudGt6QktaQjNwNVdVcUdNM1R2Sk1GZDdEeE5qcmlUNWVoMzBxamNfRlJCc0swTWtWT1ZRX3NIdGZqdzB4ckY3c24xakRRVHdOd3ltQmlSa3hUbDd2aXppaF9qbmpMai1YdUVHOTV5Wlg4VTJwR3FzUXFnaWtucGYzWjVKRzBVWGxUbzdjbWpnMGxBZw?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 04:55:20 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "FIFAワールドカップ2026 TOP",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ3ZQMUNfeGtDdVJ5TGxQc1dfMFBkOGRJWDVDZ1VUdE5iS1daQVhlYXg2bVctR09hMm9zN0V5bWlfWWhveGhFZF80TzVIMjVMNEF0UXRGcHU0WE02cUxLaVpGTExUdEs0WVYtd082enhMV093QUNwMzBmcnZrTnNwUzd0VHAzZ2ZaRXc?oc=5",
+      "pubDate": "Thu, 14 May 2026 03:57:36 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "FIFAワールドカップ2026決勝丨ハーフタイムショー出演者は？日本時間何時から？",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGQzNmJqVjVkSzFua3J3Z0tWZEhTVUx2cGV3cVplZzJEZUdWYXR0NWFsYjRCTVVibE95S2tCTGFFSm8yeTVxWHR2TUVwbTFyWDZjOTBQb3d3ZVA2elN6R3lBcmpOQmZYRHFSLUM1U1YxYmVUOXRGM0RxZjVwWXVETGlKalVneS05SUtnTV9hYVVnQUUta0pabg?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "source": "Olympics"
+    },
+    {
+      "title": "【試合結果】3位決定戦 フランス vs イングランド｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9USWY4Zlp6YkwtOV93WmtLRWplSC1qZmNmMUlyQVhSRkVPUE5TaXB2X0RhNnd6V0FfVTB0RFNmTTVBTElZWG5mWmZ1QTg0UjVIaHdiUmRrdWxxTHVkZkQ0RXpXRGJLZTNjYjB0dFpOdw?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "テレビ東京"
+    },
+    {
+      "title": "FIFAワールドカップ2026はどこでみられる？無料視聴方法は？",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYmZuWXUyay0wUmt4bGhsMkVDd1dCNjhzSERyTE5GY2NPU3c5S0Z3dFV2VG9CX2tIcFVNTkNBeWZKajlyc2xxUmpjS1k4WHlCWlcwa3lDeGE3RG5uZTVCTXFTblQ0QkFQXzZnd0U0UlY1MDBrTk5lbkxQeHg5dDRSa24zMndGdUtoYUdoMVpoaG9ualZSSXFlZmtGUGlyakYwZU01dWVBLV9zTlhnem9HSFdMaFVjdy05Y2lGVF9hY095cmZsczdTWnhpMA?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "フランス、スペインがベスト4進出！準決勝は欧州頂上決戦 優勝候補対決 “事実上の決勝戦” が実現！【サッカーW杯】｜テレ東スポーツ：テレ東",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kbF9sbUxJeG5Xc3RvZXAza1dmYjlMN3dnTlBINWdqbmdFQ3FOT183eDdYVUNXaUUxeUJvWmVTNXg0cm1PS09sR2pmdzdQVU9ZUFN5dGZvLUJrX3ZFX25GWGJPSUtvRDBxd18zSFpjd9IBekFVX3lxTE1oQ3BuRU10NXdicGVUbmhmSVNSQ3dxTmN0VFhOYUtLb0hCb2p0eTcyRjdpQzlvQUJPc1hNcUw4aXBJQkpTZGlHYXdtZG91ZF92ZVBFbzNsSWF0a0RoNkN3YXlCOHBrN0NsUjZrdWVKLWEyM3YtenczTEF3?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
+      "source": "テレ東スポーツ"
+    }
+  ],
+  "germany": [
+    {
+      "title": "フィンケ監督「オーストリアキャンプ、ワールドカップ、ドイツ代表」から現代サッカーを説く",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43aktBTTM4Rk5MWF9DaUZ1V083bUNvMVYyb09uZGNQNjdTaGRCM0xIZzdaWTRJM1d2TFh4NEozMVFhUTJfdU9aeWRvME1wTmp1SzlIT2xRUGJ3cHBEMjYyeU95bw?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 22:43:53 GMT",
+      "source": "urawa-reds.co.jp"
+    },
+    {
+      "title": "【出場チーム】ドイツ代表｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54Yk9NelRwM3ZFbkdoNmlaZEE5alRxcGh0V0tPZjVMakVoWmRKMnNIbU5sWW54bmhieU83clhtOTdJWGJmWG1oUk9Rd3o5RW1ZNWd1UDdjWjQ5WGIwZktrbmVFaWFIRTVUbnJGQ0Y0TQ?oc=5",
+      "pubDate": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "source": "www.tv-tokyo.co.jp"
+    },
+    {
+      "title": "【試合結果】1回戦 ドイツ vs パラグアイ｜FIFAワールドカップ（サッカーW杯）2026 北中米大会",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CMnJoYjl2UGd6VjNoRzRkZUpvM0tITVhQbGlHaDEtLVhndTVYQmphdTFTbnAwSENaOXI2SlB3LTNYQ1FfVWhIaUdjbU1NTFltTkdwT0VvcGVTeWJpYkotSnBOLWJpNmtINVZPZG1fWQ?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "テレビ東京"
+    },
+    {
+      "title": "【FIFAワールドカップ2026】ドイツ代表｜メンバー・GL試合日程・放送スケジュール",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTE1TX19tUDlUUE1Edl9pODEydzJNYzR3THFUM1FmLXpwYU81dlotcEZpRjF5Z1hUOXBuX1liaDVXeVVyV0F2aTZMMjZ4OHJ2Mk9WWFBTU1o2QlYwaUZEdkdqNDFoeHZsa1FwN0c3OTN1d0UxVzVPcm5kX1pWQWJ5VlhoblVqSkZQTml4elctcGdfM29Lc2I3T18zMmt1a3VoT3c4d29jSGdyZmxxTTZmVUNobXVHYWotcHQxR1hXYzNxenV2S05CeHZSZ3dlQzNyVUxsVUdB?oc=5",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "ワールドカップドイツ 対 スウェーデン",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SbjFUWUJlS3RHS0J3MUNjYk5TWE5WUnEwMzVQMVJSaDRUTTVMSDNiY3RVamRFRWZuanhUc3g4NmYxTlBqdDF6LTlvcnFVRm9Db0xqTkpaMms2TnA4a2FuSA?oc=5",
+      "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "【森保ジャパン8年間の総括】ドイツ、スペイン、ブラジル撃破もW杯8強届かず…森保一監督が日本代表に残した功績と課題",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DZEQ5M0pwNW5Ka0RRUXNXX3lOZ1FNbm1jTXJOMnB6Mnlsak10bEIxZjAyWjVMRnVlQWNlVW5YMFhSc3NDajRKYUlCQ2Z4ZnI0c3lQbnRzdVdGcWdNWDdFODE0MW5zLXdIZlZuQWZ4YXU4eGtOQTIwVU1ia0txdEE?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:47:40 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "ドイツ代表がアディダスとの72年の歴史に幕…… オランダに5-0の歴史的大勝も、伝統の3本線をまとった最後の一戦に 2027年からナイキへ変更（theWORLD（ザ・ワールドWeb））",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tQ2xqdHBrNzFaNnNobm5HeUxBY1czSzZVSk1ybnpvVENSWjJjM2hBOHlVejFxRTI4aEM5OTNSemRnNTlNZzRvbXJaNzNNWlhySFFmYmVhT25GbmxmbkU4Tmo3WVd0RkhwWU9sU1U3dGVhTEVTczJvWHM3ZjEwQzg?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:02:55 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "“かつての本拠地”でドイツ代表初ゴール！ 5得点の口火を切った24歳WG「信じられない気分」",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01SzI5WEF0TktjMThma25Zck4ycm54ejhiLUVyekNjVmNOa0EtZ2szOUk0Wkk2eHRrWmViNkpfYVBfWkM5N1UwdzFxX3FCak53X1ZGZ3JyMDA0RDNyam5oUmpId1U0Rkx3ekFwOExkRU4?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 06:55:43 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "クロップ・ドイツがオランダ相手に5発完勝！ 2得点のヴィルツは自信を口に「僕らは大きな進歩を遂げた」",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PNDhSWkVHUjVha1YyUVBoM2VkdkVFLWM4NHI4YkN2Z255eTdnQTdhSlFENkhDNHVOcGNRNTloZEFGN1N2MnpGYmpjU1YtYVFUYllqVVlXeExScHJ0M2htQkh1a1dBbFVjNHp6eC1BOEM?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 06:25:09 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "パラグアイ代表の監督は何者？ 北中米W杯でドイツ代表を倒した名将！ 今日、日本代表と対戦（フットボールチャンネル）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YREIzUGV0QlpGMDJHaWFEUUljZHZ4S1ZPclFuR0xVRmlfR0gwQ0lSVXRWdFg1aHpaOUpMWmhuNkZsMmdTSHNvcFBQRkc2b0JPQUtUVmZnU1ktR2pBc00xTTdfU1ZQeERLSnEySXlFbVdiWi1IU3BITE10QTU3N2c?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 01:40:37 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "ドイツ代表、北中米W杯のメンバー発表！ キミッヒやムシアラら26名…40歳GKノイアーが2年ぶり復帰",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ESFdlUE5LeVRIdVNNV1BlaVRrUDA0bTFLM3Bud0o3dmJic1l1RjFESVh2aXVUWC1CUktlSF9XLVB5VG5CRldCUzR3SGxWbl9Xbml3ZWU0WTZ4LXdaTElQSGlOdXpCQjZyWHNQN1ZUaw?oc=5",
+      "pubDate": "Thu, 21 May 2026 07:00:00 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "ドイツ対オランダ戦後、グアルディオラが絶賛「世界最高の一人！」",
+      "link": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxNdTlJZ0VlTWZxTGRpcEtBbW9JRGtMNnBhTnhUbS1YUW1ja2F1Snp2NDctQjEzVjBUSHVrcVlUcklnNXR2Vk5GdGYwRmZGMjA1N05qN1ZnckpjQnQxQy1BMGxvYmhQa2pQSEQ4MkQ4MkhZeHVMSHR1Q3FUR2o1dWFPNVg5YnIyOVVNMG9NMzlRaFNTajRReUszbFZwMmlFUi03NExUR3BaR0lIRXJHTU9TTlkzNExtaGZYbm1BZHkyMEo4c200cHhKY2NsVlVCSHNVZ0NUeC1MZ0JrM0JNTUQyVm9LenNkYkJMM0FWb3M3enRuNnJyV2k5bnlaTG15QUVWdTBOMk40cVB2ZkJGX1NNa0NVb1p5UVFZa1M0NTlrYU1IdVR6NVo2ZWc3MG5yMmJ4cGxhd25MVWVJVzVheklURW0waDBsS29kbWtvdmI1OVY4V1laMnBkNTFMMzVkN29LYXNQTmJuMXkyZUpZQnF3M0Y2S1BWTklmY3BacEpHdWpuZlVGaUtDNWhTYm9DUnlydm5zZ0dFdTN3dlhYU2txcjNGd09Rd2dQQ0lJd3BWSmEzek9NTHBncW1mMVBlcGNJVVFONXYzUjdudzRCYVdlZlloamJ3TWJyc0VBNjNtTVhEN3lsd1Vlb2d2TWpQNEE1NkZGV3VjbUV3MU93WkZqODh6RmxVaEVWVEhr?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 18:46:57 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "1次リーグ・グループE エクアドル対ドイツ",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56VU9ZRFVoc1lGalZtRk0zZFkzNUI1cUdNLXdnWFBjTHp0ekF3VGIwS1FiY3U2Qlo3M3YzVnRub3B1YWVyM0RMRTgwWkV4dmkwMnA3NEVsd1hPaEhIeS1DZEZwdGhWdEVHYTByOXh3?oc=5",
+      "pubDate": "Thu, 18 Jun 2026 20:14:29 GMT",
+      "source": "NHK ONE"
+    },
+    {
+      "title": "ドイツ対パラグアイ（ベスト32） 試合詳細 - サッカーFIFAワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CRDZnOW4wck42WU14TEM3eHdWeEVzbTh2a0l5ODBhU3d0LWhLY0NZbUhudXhoNW9wOTdVQ09ROHM5WDVhcUZacXhxMDViOXVpVHowTjUyRHBERXdCT1luS0p3?oc=5",
+      "pubDate": "Thu, 14 May 2026 03:34:35 GMT",
+      "source": "朝日新聞"
+    },
+    {
+      "title": "ドイツ vs キュラソー 試合速報｜FIFA ワールドカップ2026",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLW1lVW9QbGNlY0x0VjRWOEc1Z19DU1p0MnJEbFlrcnUtVW1PcU55aWkzU1hHTERQU0JqaV9ZZlRDMVRuZDMyLXRVTDZ4VFRQa0FjTzExN2VEc2JFeEZ6YjRLRUJMLUpsWU95R0taX3lUZ3hHSEl5cmlURXBvWUloWVBMMTFocE9UVVBMV2lXVHROYkRON1E?oc=5",
+      "pubDate": "Thu, 11 Jun 2026 09:51:24 GMT",
+      "source": "Reuters"
+    }
+  ],
+  "spain": [
+    {
+      "title": "アメリカメディアが2030年ワールドカップのパワーランキングを発表 首位には変わらずスペインが選ばれる",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TYVlwa01QaHAtQmlUcV9OVk90ZHJyNXpiYW5MMk1ncjRwY09BYXhDNFNVcFVfc0JnRWE4cUtBM3NiSGlDQVJWNjVIVVdheG4yVEtwMGViWUxVV2pyYTJZ?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 21:30:15 GMT",
+      "source": "ライブドアニュース"
+    },
+    {
+      "title": "アメリカメディアが2030年ワールドカップのパワーランキングを発表 首位には変わらずスペインが選ばれる",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tdkJUaUpHTGF4N0QtWXBJR2g2WUZBaGFLT3pqemhsRmdhWmh6RWdMdTFHakNPVmVxcGMwdko1QW9TNnI3UWUzdGttWjJJSmJwbk5hTDBKOUtBdmhCYlZUZ1doMA?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 21:30:00 GMT",
+      "source": "Excite エキサイト"
+    },
+    {
+      "title": "スペインサッカー連盟会長「2030年W杯決勝はスペインでしか開催できず、スペインで開催される」モロッコとの争いの中で主張",
+      "link": "https://news.google.com/rss/articles/CBMi4wZBVV95cUxOOEU4OGN4dG4wazV6N0Z2QldyOVVBSkVXeWxLaDVxUDRVc0c2QnYyYzNiVU40N21qWXFfdWw5dnVsYWhQVUltUlYwb1EyS2pLNzNLV2lMV1NlY1Q0R2x6dEs2SjZlRnlNVTdYN3hSX0RRSW9TVDJwQzBvTmk1TnFYT29RTjROb29HVVpLQUJsRFZOOTE2NHFLZ0JWLVdMcjFLb3BackNYMnowUHFJYXBxY25JN0ZvZlZvc3MzV19QMmQzVHF2eFl0N2h2cjlkNEFUbEhlNGxTczFqNW5KeG1wZFRSUXcyNUJUTkE2YzJpM1B2VUllbm5HNzNnMUdpM213S0s3YzM1NThJYTlfS0pYSHhRTDFLZ2ZRcTk1a3laczhtRkNXWmFUVmlEODNrenEtSFZrbURYQVR6UWZ6dDVVSFdYQVlZUGJKem5NS1RGTmlTcXRtTElPMHpiNHVkRWJwRThvT3pqZk1vQ3JhaWUwM2c3a3dPZkFKWGhDTVRJXy1keDlmSi1vSS1jTlg0NkFBTHZEZXluRXk0QlM2ajFJNnFpcUYwbGdiVVB1R0VGVmVONGZLZ3F5X0tOTy05T3NRNzdEbHo5aVZrcWgybTZoM1g5TlpFQ0FvUXZadDl3YTV1T0MwUXlGUXVuMjA2aXRlMlVqdjhEdXl1U1VPLTlyTER0dDZUenVTV0UzZEd1ejhWd0hrRkVwUmJzTW5yX1g3WUp6WUxrZkJPeVBkaS1wZ1RySUdZVlVfeHNhMzRVMjhzeVJ2ZE5jUXMzYlZCUm1WQzJBVWRoaXltd21PcGRUNWFEQy1lTjRnaFo0SDFCUzNKaUJTWkIwdlNFb2JEclphNVVXX0xsUXNodmtMOThkV0ZxUVluRk54N1Q3eV9ZY2FCaGNjUUpxTEdfT3JNNXY5TTVrYnlJY0M0UVk5NjVaWG1hYzRMSW5uMVhza2ZPbGVxQ0RkMkxTU2p2TTRVNVdadDdJczd6elhTWDRvQklMQmpDVF9DSGxhVml1dXM5ZzI1VWtnbWdYUmNrQk5DR0xVbTVlM29CS1Z1b3F0OTc3YlZVMXREa0tzRWhYckFvRWMtODIzcnViU240SHhEUlB2b1NTLWFQVXZMeGg3Z1NtM1RHS0lsU0x5VDJhVG56LWRQWkE?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 18:16:55 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "元スペイン代表マタが現役引退　2010年Ｗ杯優勝メンバー、23年にはJ1神戸にも所属",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lejliNUFRMGEyMFBMV2FtVE81V3hzNDdTUlBnNmZhMTNDQ1VhcFZxWU5KUkxaOVR4R29UeklHU0swNW9YS3ZDcnQwRHRKRWZtMUxyVGtzMzJTWHFEVlNXc2VhX05xYkpvYVlwUHZrMHh6Yl9LWlHSAX5BVV95cUxQWjFFR3JsMGFFMURROTIxZnBmQjRISTdaU1ROY3lOckNXSGlYbjJCcG1yODNjcVRsYnoybmhlNFc1SHcxVlptdXlEWGp0VUZNNVdCa20tN3Zxa3JtcWk3bVBPZjdIa0NFQ2tkNm51SVRZcklZTmI5U2FzdjFtMnc?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 11:45:31 GMT",
+      "source": "日刊スポーツ"
+    },
+    {
+      "title": "神戸でもプレーした元スペイン代表MFフアン・マタが現役引退「ありがとう、フットボール」",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53OVpVYS1vRU1BT3pjYzJTU3paTWxhUVhKQy02VllsWjBSejQ2VGxyVVJDcEdBMEtXVWg1VUtfZG1FajhpOEtVUUg4MjBCbmw2V0xrRnlDeG91aXpHRHpPTnRESG5FWXRfSWpB?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 11:32:00 GMT",
+      "source": "ゲキサカ"
+    },
+    {
+      "title": "元スペイン代表MFフアン・マタが38歳で現役引退…W杯やCLを制覇、かつて神戸にも在籍",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5OEhId1ZaMmNLc0NpbGR0ZG9NYzBwU0xkeEFtaGJRR0Jwc0JoNUMxNHd3YWU2NjhRTHZtU3ViM1ZqZE5RN1J3UlliVG9zc3hRSDRZRDNWOWtnWGk1S3N1LWZJZWVpbWJqWmxKajF6bHM?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 10:20:10 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "FIFAワールドカップ2026の準決勝は地上波テレビ中継あり？BS・CS含むテレビ放送予定",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRGdkYXJPS3QydU4zN09RUXJxb1F4dk05N1hpbXdOX2VLelhnZjlaS2hKMVdJZGlzSWpSaUI3SldHUXktR3ZIYXM1VnY1TG9QZDdqWVM4Mjh5RG12TEtRb3B2U1B6R3QxR0ZaX3JrOERjT1JNaDdudnV5TFRjT0FTU2doUEl0ZFFhQmprelpVVHBGYzZLQTBFNzAxR3d4Szh6dnItUEtYbFJSV0Rkcnh1ZXoxeG5fcmlldzM4a0ZxSjJxTjJFN1dSdE1KUVA4X3daSTRYbXo5bU4xQnRI?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "【日本代表】年代別スペイン代表経験の東京FWゴメス、ラスト采配迎える森保監督を「知ってます」（日刊スポーツ）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UeFQ0QnV0aG96b0RHbTh5S1NJV3Y1Z3Qxc2ZERVBtdnY4N3IxcnREcjZEQVZaOVd4QzFydC02ckNDdUZlX2VwSXZOcExseURhdUowb2UwNUFXQUNqbUpiZzhlQlNLbm5xZUR3VkVEMElNaWQ4M2VtOGRSX1JWMU0?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 10:00:01 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "【森保ジャパン8年間の総括】ドイツ、スペイン、ブラジル撃破もW杯8強届かず…森保一監督が日本代表に残した功績と課題",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DZEQ5M0pwNW5Ka0RRUXNXX3lOZ1FNbm1jTXJOMnB6Mnlsak10bEIxZjAyWjVMRnVlQWNlVW5YMFhSc3NDajRKYUlCQ2Z4ZnI0c3lQbnRzdVdGcWdNWDdFODE0MW5zLXdIZlZuQWZ4YXU4eGtOQTIwVU1ia0txdEE?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:47:40 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "【森保ジャパン8年間の総括】ドイツ、スペイン、ブラジル撃破もW杯8強届かず…森保一監督が日本代表に残した功績と課題",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZEltSTY2OWxUNHFxay1pV1ltakt1UDkwclM3YXZkczlwUlVjRURLNlpaSlVadXd6bzlYN0s3UXNwNFp6TDlkT3pMWmstR1d0dDZUdzMzN19CeFF5SEw1cmVLcjM0bG03OFBqbnR6TVpUel9oUlpTMHZ6YW1XLUs4eUxOZm93UUx1dkExdWY0NldCeWZ4SENDNHllUGJDeEdvNG9JQmtkUXdpdw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:39:20 GMT",
+      "source": "Sporting News JP"
+    },
+    {
+      "title": "初の海外挑戦で苦境も、スペイン戦で掴んだ手応え。U-21日本代表の10番・佐藤龍之介が実感する成長【現地発】",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wNE9xeVJIYXJYeVR2Qkx1dEk5dHp2enpERmJlNXVWd2x1Y19DaUM5LUE2aXlmakN4VmJOWnF4YzZNOXpFa2JkZ0t6aE5Lam85SS1SNy03V3Qzc1RyNmI1QmRxTlk4cEhQZ3RiUmZ3?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 03:29:31 GMT",
+      "source": "au Webポータル"
+    },
+    {
+      "title": "Latest photos from the 2026 World Cup",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV2NpN1pNX2g1b1JyNzNTbzI2Vm80MnhOcXRxUWpIaDZzckxxZWhFSnVjWlZDcDc1WWwxVjJVWUFELVg3a3NUR1Mzb2VsWWc3WjM0MVlaTE5MMkxDQ2t3bFhCYzZzRnd4RE9TREhrUjhJNHhkUmxFUE5FZTB5a3lkV3RHcDdDYXB5a3E1dDYwNlJLY2tBME9LbkNsU19MWU9sS095N2dybw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 01:30:15 GMT",
+      "source": "Reuters"
+    },
+    {
+      "title": "FIFAランキング最新版｜男子サッカー｜サッカー日本代表｜FIFAワールドカップ2026【11月18日更新】",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9taVM2YlRkUkFESzduc1ZwSVhJUURtQlpadUJ4YXluZHNoZG82M0pLdjVNcXN1Mm5VQmlOZmxmQzhkMm5NbjA2c0ZnQzlYeTgwQnEwajY0OURtcFRxSGNVOFlpNWlRekFpcm5DQ2VuLTN6MGE5TzJB?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 08:45:13 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "「スペインで決勝が行われないならW杯から撤退する」 次期首相候補フェイホー氏が2030年大会で強硬姿勢「男子と女子のサッカーで世界一」 モロッコとの開催地争いに一石（theWORLD（ザ・ワールドWeb））",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13azFjZmY4aWRyU0xtNE42N1E1MzJWT3NDQ0JGUGtzLUJOT3NXTTQydVEySjQ3OVRhVkFaaGNoTUZTd2NuQVJnaHlZWlY3eTVnY01kVmllbnhkSGpYdmltQ3pqdHdQNjJmUFVOcTNzRGtXcmtRT1hvaWV6S09hUE0?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 04:00:48 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "「スペインで決勝が行われないならW杯から撤退する」 次期首相候補フェイホー氏が2030年大会で強硬姿勢「男子と女子のサッカーで世界一」 モロッコとの開催地争いに一石",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJRUlCdEVHSUg4Z2VIUzNNNFJmYk9oVWRhNGZKdjdhMW5yZmIyOUVKaTlUWFZOMlJuVG9MQlFRRE9nSFB0UkV4WnBoNjdvTEhNQ3kwTFQ1VGFHdXZ2b19Z?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 04:00:10 GMT",
+      "source": "ライブドアニュース"
+    }
+  ],
+  "worldcup": [
+    {
+      "title": "日程・結果│FIFAワールドカップ2026｜SAMURAI BLUE｜日本代表｜JFA.jp",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSdTY4TGFXUkZnS3NMaXF5ZmxNcFpDWUlRaUlwWGdjYUNoc2txc0JnbTJMSzJ0SXdZZ1Q1TnRPN3AxSjFVX0oxTTd6VHZrVzdmNENHRGU5VG9OVXJRY0ZYaVlQY3N2ellreVJ1cWZB?oc=5",
+      "pubDate": "Wed, 20 May 2026 04:12:32 GMT",
+      "source": "JFA"
+    },
+    {
+      "title": "FIFA U-17ワールドカップの知られざる5つの事実：ロナウジーニョから歴史的大勝まで",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSm1lZHFFYklrZFBJeDZnS0tmVWxTS28yMy1DN2RNbi1HbXpuY1p0ZmtFU0N3OVNWSktGWVpjWHBPVXU3OXZWNVkzaFQ0cmZlazNHTW9VYmxOWGpMWTdqaW1YcktFOGljSnJLY0RlYU41M1lJUDZ2Q0xjaFhUbFlDQXl5a0JxdTBpVG5mWVlJcl9VUE9KTzY1cjRfcFhlRTVxcGxraTVaUmotTkdtM1JCcm5TeGNsQl9GUHRZSWFrZ2xNS0hBRWFBVjhCVTBDY1RoZHprOU5zRGQwMG43TF9xMHF0QVJ5UVpweTdn?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 16:49:56 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "サッカー日本代表 FIFAワールドカップ2026 「最高の景色」への挑戦 ONE CREATURE 2nd Leg こうのすシネマ(鴻巣)の上映時間・上映スケジュール",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kTUUwaXg0TUMwR2VhWjd4N09hN3AyTXdIV1lHdGRRd1dkYTZqVWIwSER4bjdyZzhQRzc1bmdFMFRqSHh5b3ZOUXFHZHhjX3lYeHhvdmVCVjBVdzFuYXp0bFd3?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 08:53:35 GMT",
+      "source": "MOVIE WALKER PRESS"
+    },
+    {
+      "title": "サッカー日本代表 FIFAワールドカップ2026 「最高の景色」への挑戦 ONE CREATURE 2nd Leg シネポート(都城)の上映時間・上映スケジュール",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LZXMzakJBMHkxdEtISnNhakh4MWlhYXI0bF92WjYwOFFLM1dMZTROTVhHSE8zM1ktYTMxWGp2NXFzMnJiS2hXa2tfWC0zS1FQdkIwYkpLWi1DOGcyLWp0RXBB?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 08:44:53 GMT",
+      "source": "MOVIE WALKER PRESS"
+    },
+    {
+      "title": "FIFA U17ワールドカップ2026カタール｜結果速報・日本代表・順位・成績一覧",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92c2ZvLWRhWTdGZXAtaVlwZ092ZjBGdVpGeGNrS2w3UDdhWVJkTTM3QUdqQzlOaXRKSFNsNVhFV0o2bUtMc1kzSWFPWExsOG93Rmp0VlloWHE3LWJuZzI1dXNqakpWcXVZaTZnQV9CUDVaMVM5SEdiTkN3?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 06:54:00 GMT",
+      "source": "Olympic Channel"
+    },
+    {
+      "title": "U-17ワールドカップ2026の試合日程・結果・順位表・組み合わせ",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYUxjZTRUU3RfSlFrSkZIR1p0SU9CbFJVOWVPWFFLTmFYOVl3UWxKcVN3eFNubHFXN25VTHgyb2dXR2NHb1hkNmdqZUQxNWVuVFRCekNmTXY0ZVEtSWM5WFhJUTZtME15VUx3Y1RFaENmNVNTS0JZb0t0SVlITUoxenNCeWxKWldBa3UweHMtajNkRi0xaEpTRWFQZng0WnNqekhSYnpoVVNWeF93d1pCWGRYQ3I0enItbEgtd25NUnNjZw?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "source": "Goal.com"
+    },
+    {
+      "title": "サッカー最新FIFAランキング1位〜100位。サッカー日本代表の順位は？（2026年11月18日付）",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCNzZHWUQ4c1lHX1VPVU1wLUJzNHd4VkNkMzAyREdHQTF3RG1wY2RXb2o4WkR0YjdVN1lyOW5vemtzdllyTW9zLVdYbDZ2ZlhTeTIwQkk1RW1pbUdWUUtBREFvZw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 22:35:00 GMT",
+      "source": "フットボールチャンネル"
+    },
+    {
+      "title": "ベトナムU-17代表チームは、2026年ワールドカップの初戦に向けて準備万端だ。",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQWVmclJEXzQ3ZThaUDJpMElBRXU5cGtDYldjOUxEdnFiUUtLc1o5WURvcldQb25vR1g1MHg5WWtOOUtzTWhfS1lRT3NBWjd4anJlem52c214TGhSazdxU3JvMDVmZW9fQXlnUUNZNDhJd2JXdzRtaGlYMkp3aEs2NEs5ZjJtOVBYM3VOcA?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 18:56:33 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "フランスU-17代表は、2026年ワールドカップの初戦でハイチに快勝した。",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSndmQUlCUDl1NFVuSWpsTFdoR0FIbGliV0Q4Smdod0JNQ3pvZzZReWZVVHZCeWJTREN1UXhwaHFscE4tdGNIR2VwS3lxZXFnTFgteXhuU2s0LS0xa19CdXBhLXpBYWlvY0laSEdaUWl4alM0bDJjNXpmdE1HOGJ1VzFjSVZlM3ZOdkNWV1ppQ2l3Rkw2N3RV?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 16:17:37 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "アルゼンチン vs オーストラリア : グループC 第1節 をライブ 中継 | DAZN JP",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjRVQkNKNjRNal80cnJ3UXNQS0JZeDFieHh5OUdkUFozQkRjd1puQTNsOWRCOEJyWXZPa3VvWlpzckxTd3cxTjZKeEg2Ni1UN0xQNUl0TXByYUdaV0lwdEdjVEFDd2o1TmY0NG4xOWxmRm5WN2E2UWpoTWtVbXZ1WXVvMXJZS2JEbHRRNQ?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 16:00:00 GMT",
+      "source": "DAZN"
+    },
+    {
+      "title": "『AFCアワード2026』が開催、日本勢は4部門を制覇…佐藤龍之介や町田・黒田剛監督らが受賞",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVYWh0YXRtV2hFaF9rbHZldlJYU2RQc0V3d3hINlRySnhTbXJDOTFORDVJMEhzYlBWV2FHZDVXSlR1a0ZFc0ZYTm1Nb0sxNDU5QkFDZjV3dWNUZ0Qybmw0MUppRzdMQVFFU3o3QkdtM1BVeUxxMzln?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 14:24:35 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "ファンは2026年ワールドカップに出場するベトナムU-17代表チームの試合をどこで生観戦できますか？",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOGZxWXYxNU4wSkNHSFI4RUZFUnJlaXNoLWRkNnpGRzdnSmVWa1kwaHRzODZSeWxIS0o0ZTM2UWstMFcxM3o1MC05bW5GN0hvWjlPdExZLVJiOGlyY0tmYUsyUC1tSDN0NGxUMVBWQnFLTTdnaldvTVhXV2ZlSElkbk52R3VPdFFrR3BtUnR1RUszQVhta0tkSC1n?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 14:19:17 GMT",
+      "source": "Vietnam.vn"
+    },
+    {
+      "title": "【サッカーU-17W杯】19日に開幕 48チームが頂点目指す 日本はコロンビア、セルビア、ホンジュラスと同組 21日が初戦",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nM3NKNWx2NnY0NnVRWDI4VmxjQWlMb3lieHpZNF8tRUIwZjVPQkFZMUFnOGx1VEJla21jSHZUY0JpNHpZTkFrOVBiM1BZSjYybU41anVPWWtSQUhWWmExdEVaMGQ3cG9rVjNxLVBtSmxzbFR3bnpXWFNyMXU2Q2M?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 09:00:00 GMT",
+      "source": "Yahoo!ニュース"
+    },
+    {
+      "title": "FIFAランキング最新版｜男子サッカー｜サッカー日本代表｜FIFAワールドカップ2026【11月19日更新】",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Yd2dYV0I0WWtKeUFhc0ZmY1Y5dm9tN0tPcU56RnFQekZPRFc3QXFoYXJ6WXZhbkl4LXhrandvNEsyNE1rdFRUMlgteFNvNW9QaWNkeDdPYkRfQ1c5N1JYVUtKcUtJZkltNzlrbE9jdUpTcGotWUVN?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 07:47:36 GMT",
+      "source": "サッカーキング"
+    },
+    {
+      "title": "W杯で注目されたハイドレーションブレイク、2030年大会でも継続採用か",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSOXhwRzc2SjRLLUUzbEhaeGxSVG5KYk9INnRDUmdKRE5oTUJoUmNsb0VTSnB2OWsxeHZUQXVTUklNQ2g0enRQWHpBbC1USnZ2QjltM0lSZjY0TEpWTGNZSV9PMGVHdVNHbW9aLWV6Zw?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 06:04:01 GMT",
+      "source": "サッカーキング"
+    }
+  ]
 }
